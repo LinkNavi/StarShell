@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 76,
                             "functionName": "fill",
                             "line": 19,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 52,
                             "functionName": "preferredWidth",
                             "line": 41,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 21,
+                            "durationMicroseconds": 20,
                             "functionName": "number",
                             "line": 52,
                             "message": "Cannot access value for name index"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 35,
+                            "durationMicroseconds": 34,
                             "functionName": "active",
                             "line": 53,
                             "message": "Cannot access value for name panel"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 25,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 64,
                             "functionName": "height",
                             "line": 71,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 41,
                             "functionName": "radius",
                             "line": 78,
                             "message": "Cannot load property radius from (component in /home/kirby/Programming/StarShell/idk/src/Main.qml)::parent with type QQuickItem."
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 28,
                             "functionName": "centerIn",
                             "line": 90,
                             "message": ""
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 128,
+                            "durationMicroseconds": 129,
                             "functionName": "text",
                             "line": 107,
                             "message": ""
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 31,
                             "functionName": "centerIn",
                             "line": 106,
                             "message": ""
