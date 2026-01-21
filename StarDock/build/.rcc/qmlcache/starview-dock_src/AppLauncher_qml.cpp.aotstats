@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 12,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 166,
                             "functionName": "flags",
                             "line": 12,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 266,
+                            "durationMicroseconds": 308,
                             "functionName": "onCompleted",
                             "line": 15,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 78,
                             "functionName": "onActivated",
                             "line": 23,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 49,
+                            "durationMicroseconds": 41,
                             "functionName": "fill",
                             "line": 28,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 70,
+                            "durationMicroseconds": 72,
                             "functionName": "onClicked",
                             "line": 33,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 32,
                             "functionName": "fill",
                             "line": 32,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 29,
                             "functionName": "centerIn",
                             "line": 40,
                             "message": ""
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 60,
                             "functionName": "text",
                             "line": 82,
                             "message": "Cannot load property text from (component in /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml)::parent with type QQuickItem."
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 44,
                             "functionName": "horizontalAlignment",
                             "line": 84,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 44,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 36,
                             "functionName": "verticalAlignment",
                             "line": 85,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 80,
                             "functionName": "color",
                             "line": 90,
                             "message": "Cannot load property hovered from (component in /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml)::parent with type QQuickItem."
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 63,
+                            "durationMicroseconds": 38,
                             "functionName": "color",
                             "line": 108,
                             "message": "Cannot access value for name searchField"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 289,
+                            "durationMicroseconds": 262,
                             "functionName": "onCompleted",
                             "line": 120,
                             "message": "Cannot access value for name dockController"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 24,
                             "functionName": "width",
                             "line": 142,
                             "message": "Cannot access value for name appGrid"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 33,
-                            "durationMicroseconds": 21,
+                            "durationMicroseconds": 17,
                             "functionName": "height",
                             "line": 143,
                             "message": "Cannot access value for name appGrid"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 36,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 134,
                             "functionName": "color",
                             "line": 149,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 0,
                             "column": 43,
-                            "durationMicroseconds": 40,
+                            "durationMicroseconds": 35,
                             "functionName": "fill",
                             "line": 146,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 51,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 31,
                             "functionName": "centerIn",
                             "line": 156,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 49,
+                            "durationMicroseconds": 40,
                             "functionName": "alignment",
                             "line": 161,
                             "message": ""
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 49,
-                            "durationMicroseconds": 299,
+                            "durationMicroseconds": 504,
                             "functionName": "source",
                             "line": 171,
                             "message": "Cannot access value for name dockController"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 51,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 75,
                             "functionName": "fillMode",
                             "line": 172,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 41,
                             "functionName": "centerIn",
                             "line": 168,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 51,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 48,
                             "functionName": "text",
                             "line": 177,
                             "message": "Cannot access value for name model"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 54,
-                            "durationMicroseconds": 58,
+                            "durationMicroseconds": 74,
                             "functionName": "visible",
                             "line": 181,
                             "message": "Cannot load property status from (component in /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml)::parent with type QQuickItem."
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 63,
-                            "durationMicroseconds": 35,
+                            "durationMicroseconds": 38,
                             "functionName": "centerIn",
                             "line": 176,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 43,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 32,
                             "functionName": "text",
                             "line": 190,
                             "message": "Cannot access value for name model"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 44,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 50,
                             "functionName": "elide",
                             "line": 193,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 58,
-                            "durationMicroseconds": 35,
+                            "durationMicroseconds": 37,
                             "functionName": "horizontalAlignment",
                             "line": 194,
                             "message": ""
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 52,
                             "functionName": "wrapMode",
                             "line": 195,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 41,
                             "functionName": "alignment",
                             "line": 188,
                             "message": ""
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 41,
                             "functionName": "cursorShape",
                             "line": 204,
                             "message": ""
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 260,
+                            "durationMicroseconds": 296,
                             "functionName": "onClicked",
                             "line": 206,
                             "message": "Cannot access value for name dockController"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 0,
                             "column": 47,
-                            "durationMicroseconds": 36,
+                            "durationMicroseconds": 38,
                             "functionName": "fill",
                             "line": 202,
                             "message": ""

@@ -3,9 +3,6 @@
 #include <QTextStream>
 #include <QDebug>
 
-Config::Config(QObject *parent) : QObject(parent) {
-    loadConfig();
-}
 
 void Config::loadConfig() {
     // Try to load from standard config locations

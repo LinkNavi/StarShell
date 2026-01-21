@@ -23,7 +23,7 @@ exclusive_zone = 90  # Reserved space at screen edge
 
 [appearance]
 # Colors (hex format with alpha)
-background_color = "#1a1a2e"
+background_color = "#00ff00"
 background_opacity = 0.85
 border_color = "#45475a"
 border_width = 1

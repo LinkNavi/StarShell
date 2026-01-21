@@ -66,7 +66,10 @@ class Config : public QObject {
     Q_PROPERTY(QString separatorColor READ separatorColor NOTIFY configChanged)
     
 public:
- 
+    explicit Config(QObject *parent = nullptr) : QObject(parent) {
+        loadConfig();
+    }
+    
     // Dock getters
     QString position() const { return m_position; }
     int dockHeight() const { return m_dockHeight; }

@@ -9,14 +9,14 @@
                         "access": "public",
                         "index": 1,
                         "isConst": true,
-                        "lineNumber": 115,
+                        "lineNumber": 118,
                         "name": "getEasingType",
                         "returnType": "QString"
                     },
                     {
                         "access": "public",
                         "index": 2,
-                        "lineNumber": 146,
+                        "lineNumber": 149,
                         "name": "reload",
                         "returnType": "void"
                     }
@@ -554,7 +554,7 @@
                     {
                         "access": "public",
                         "index": 0,
-                        "lineNumber": 152,
+                        "lineNumber": 155,
                         "name": "configChanged",
                         "returnType": "void"
                     }
