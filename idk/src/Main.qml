@@ -1,25 +1,20 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import org.kde.layershell 1.0 as LayerShell
 
 ApplicationWindow {
     id: panel
     
-    width: Screen.width
-    height: 40
-    visible: true
+    // Don't set size, don't set LayerShell properties here
+    // Everything is configured in C++ main()
+    // DON'T show visible by default - C++ will show it after configuration
+    visible: false
     color: "transparent"
     flags: Qt.FramelessWindowHint
     
     property int currentWorkspace: 1
     
-    LayerShell.Window.layer: LayerShell.Window.LayerTop
-    LayerShell.Window.anchors: LayerShell.Window.AnchorTop | 
-                               LayerShell.Window.AnchorLeft | 
-                               LayerShell.Window.AnchorRight
-    LayerShell.Window.exclusionZone: 40
-    
+    // Background
     Rectangle {
         anchors.fill: parent
         color: "#1e1e2e"
@@ -34,11 +29,13 @@ ApplicationWindow {
         }
     }
     
+    // Content
     RowLayout {
         anchors.fill: parent
         anchors.margins: 5
         spacing: 20
         
+        // LEFT: Workspace buttons
         Item {
             Layout.fillHeight: true
             Layout.preferredWidth: workspaceRow.width
@@ -63,6 +60,7 @@ ApplicationWindow {
             }
         }
         
+        // CENTER: Title
         Item {
             Layout.fillWidth: true
             Layout.fillHeight: true
@@ -98,6 +96,7 @@ ApplicationWindow {
             }
         }
         
+        // RIGHT: Clock
         Item {
             Layout.fillHeight: true
             Layout.preferredWidth: clockText.width + 20
