@@ -1,0 +1,7 @@
+module StarViewPanel
+typeinfo starview-panel.qmltypes
+prefer :/StarViewPanel/
+Main 1.0 src/Main.qml
+WorkspaceButton 1.0 src/WorkspaceButton.qml
+depends QtQuick
+

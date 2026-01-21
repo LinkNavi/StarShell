@@ -1,0 +1,11 @@
+--bare
+-I
+/home/link/Programming/StarShell/Bar/build
+-I
+/usr/lib/qt6/qml
+--resource
+/home/link/Programming/StarShell/Bar/build/.qt/rcc/qmake_StarViewPanel.qrc
+--resource
+/home/link/Programming/StarShell/Bar/build/.qt/rcc/starview-panel_raw_qml_0.qrc
+/home/link/Programming/StarShell/Bar/src/Main.qml
+/home/link/Programming/StarShell/Bar/src/WorkspaceButton.qml
