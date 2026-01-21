@@ -114,7 +114,14 @@ ApplicationWindow {
                 running: true
                 repeat: true
                 onTriggered: clockText.text = Qt.formatTime(new Date(), "hh:mm")
-            }
+	}
+
+	Item {
+		Rectangle {
+
+		}
+	}
+
         }
     }
     

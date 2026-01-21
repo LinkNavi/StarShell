@@ -184,10 +184,24 @@ CMakeFiles/starview-dock.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/starview-dock.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/link/Programming/StarShell/StarDock/src/main.cpp -o CMakeFiles/starview-dock.dir/src/main.cpp.s
 
+CMakeFiles/starview-dock.dir/src/toml.c.o: CMakeFiles/starview-dock.dir/flags.make
+CMakeFiles/starview-dock.dir/src/toml.c.o: /home/link/Programming/StarShell/StarDock/src/toml.c
+CMakeFiles/starview-dock.dir/src/toml.c.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/starview-dock.dir/src/toml.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/src/toml.c.o -MF CMakeFiles/starview-dock.dir/src/toml.c.o.d -o CMakeFiles/starview-dock.dir/src/toml.c.o -c /home/link/Programming/StarShell/StarDock/src/toml.c
+
+CMakeFiles/starview-dock.dir/src/toml.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/starview-dock.dir/src/toml.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/link/Programming/StarShell/StarDock/src/toml.c > CMakeFiles/starview-dock.dir/src/toml.c.i
+
+CMakeFiles/starview-dock.dir/src/toml.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/starview-dock.dir/src/toml.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/link/Programming/StarShell/StarDock/src/toml.c -o CMakeFiles/starview-dock.dir/src/toml.c.s
+
 CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o: /home/link/Programming/StarShell/StarDock/src/DesktopFileParser.cpp
 CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o -MF CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o.d -o CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o -c /home/link/Programming/StarShell/StarDock/src/DesktopFileParser.cpp
 
 CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.s: cmake_force
 CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o: /home/link/Programming/StarShell/StarDock/src/WindowTracker.cpp
 CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o -MF CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o.d -o CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o -c /home/link/Programming/StarShell/StarDock/src/WindowTracker.cpp
 
 CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.s: cmake_force
 CMakeFiles/starview-dock.dir/src/Config.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/src/Config.cpp.o: /home/link/Programming/StarShell/StarDock/src/Config.cpp
 CMakeFiles/starview-dock.dir/src/Config.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/starview-dock.dir/src/Config.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/starview-dock.dir/src/Config.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/src/Config.cpp.o -MF CMakeFiles/starview-dock.dir/src/Config.cpp.o.d -o CMakeFiles/starview-dock.dir/src/Config.cpp.o -c /home/link/Programming/StarShell/StarDock/src/Config.cpp
 
 CMakeFiles/starview-dock.dir/src/Config.cpp.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/starview-dock.dir/src/Config.cpp.s: cmake_force
 CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o: starview-dock_qmltyperegistrations.cpp
 CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o -MF CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o.d -o CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o -c /home/link/Programming/StarShell/StarDock/build/starview-dock_qmltyperegistrations.cpp
 
 CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.s: cmake_for
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o: .qt/rcc/qrc_qmake_StarViewDock.cpp
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o -MF CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o.d -o CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o -c /home/link/Programming/StarShell/StarDock/build/.qt/rcc/qrc_qmake_StarViewDock.cpp
 
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.i: cmake_force
@@ -257,7 +271,7 @@ CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.s: cmake_f
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o: .rcc/qmlcache/starview-dock_qmlcache_loader.cpp
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o -MF CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o.d -o CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o -c /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp
 
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.i: cmake_force
@@ -271,7 +285,7 @@ CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.c
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o: .rcc/qmlcache/starview-dock_src/Main_qml.cpp
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o -MF CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o.d -o CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o -c /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp
 
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.i: cmake_force
@@ -285,7 +299,7 @@ CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o: .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o -MF CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o.d -o CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o -c /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp
 
 CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.i: cmake_force
@@ -299,7 +313,7 @@ CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_q
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o: CMakeFiles/starview-dock.dir/flags.make
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o: .qt/rcc/qrc_starview-dock_raw_qml_0.cpp
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o: CMakeFiles/starview-dock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o -MF CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o.d -o CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o -c /home/link/Programming/StarShell/StarDock/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp
 
 CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.i: cmake_force
@@ -314,6 +328,7 @@ CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.s: cm
 starview__dock_OBJECTS = \
 "CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/starview-dock.dir/src/main.cpp.o" \
+"CMakeFiles/starview-dock.dir/src/toml.c.o" \
 "CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o" \
 "CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o" \
 "CMakeFiles/starview-dock.dir/src/Config.cpp.o" \
@@ -329,6 +344,7 @@ starview__dock_EXTERNAL_OBJECTS =
 
 starview-dock: CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o
 starview-dock: CMakeFiles/starview-dock.dir/src/main.cpp.o
+starview-dock: CMakeFiles/starview-dock.dir/src/toml.c.o
 starview-dock: CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o
 starview-dock: CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o
 starview-dock: CMakeFiles/starview-dock.dir/src/Config.cpp.o
@@ -350,7 +366,7 @@ starview-dock: /usr/lib/libGLX.so
 starview-dock: /usr/lib/libOpenGL.so
 starview-dock: /usr/lib/libQt6Core.so.6.10.1
 starview-dock: CMakeFiles/starview-dock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable starview-dock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable starview-dock"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/starview-dock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

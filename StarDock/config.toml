@@ -87,7 +87,7 @@ right_click_action = "menu"  # "menu", "focus", "none"
 middle_click_action = "close"  # "close", "minimize", "none"
 
 # Tooltips
-tooltips_enabled = true
+tooltips_enabled = false
 tooltip_delay_ms = 500
 
 # Keyboard shortcuts

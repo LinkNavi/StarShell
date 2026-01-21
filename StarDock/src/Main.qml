@@ -134,7 +134,7 @@ ApplicationWindow {
                         }
                     }
                     
-                    layer.enabled: launcherButton.isHovered
+                    layer.enabled: launcherButton.isHovered 
                     layer.effect: MultiEffect {
                         shadowEnabled: true
                         shadowColor: "#89b4fa"

@@ -363,4 +363,5 @@ CMakeFiles/starview-dock.dir/src/Config.cpp.o: \
  /usr/include/qt6/QtCore/QStandardPaths \
  /usr/include/qt6/QtCore/qstandardpaths.h \
  /usr/include/qt6/QtCore/QTextStream \
- /usr/include/qt6/QtCore/qtextstream.h
+ /usr/include/qt6/QtCore/qtextstream.h \
+ /home/link/Programming/StarShell/StarDock/include/toml.h

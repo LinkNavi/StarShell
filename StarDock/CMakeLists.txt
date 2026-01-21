@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(starview-dock VERSION 1.0 LANGUAGES CXX)
+project(starview-dock VERSION 1.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
@@ -17,6 +17,7 @@ qt_add_executable(starview-dock
     include/WindowTracker.h
     include/Config.h
     src/main.cpp
+    src/toml.c
     src/DesktopFileParser.cpp
     src/WindowTracker.cpp
     src/Config.cpp

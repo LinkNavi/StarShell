@@ -4,6 +4,7 @@ starview-dock: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o \
   CMakeFiles/starview-dock.dir/src/main.cpp.o \
+  CMakeFiles/starview-dock.dir/src/toml.c.o \
   CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o \
   CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o \
   CMakeFiles/starview-dock.dir/src/Config.cpp.o \
@@ -125,6 +126,8 @@ starview-dock: \
 CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o:
 
 CMakeFiles/starview-dock.dir/src/main.cpp.o:
+
+CMakeFiles/starview-dock.dir/src/toml.c.o:
 
 CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o:
 

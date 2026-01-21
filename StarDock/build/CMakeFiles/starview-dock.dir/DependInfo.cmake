@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/link/Programming/StarShell/StarDock/src/toml.c" "CMakeFiles/starview-dock.dir/src/toml.c.o" "gcc" "CMakeFiles/starview-dock.dir/src/toml.c.o.d"
   "" "starview-dock_autogen/timestamp" "custom" "starview-dock_autogen/deps"
   "/home/link/Programming/StarShell/StarDock/build/.qt/rcc/qrc_qmake_StarViewDock.cpp" "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o" "gcc" "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o.d"
   "/home/link/Programming/StarShell/StarDock/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp" "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o" "gcc" "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o.d"

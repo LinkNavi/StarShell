@@ -553,6 +553,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/toml.o: src/toml.c.o
+.PHONY : src/toml.o
+
+# target to build an object file
+src/toml.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/toml.c.o
+.PHONY : src/toml.c.o
+
+src/toml.i: src/toml.c.i
+.PHONY : src/toml.i
+
+# target to preprocess a source file
+src/toml.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/toml.c.i
+.PHONY : src/toml.c.i
+
+src/toml.s: src/toml.c.s
+.PHONY : src/toml.s
+
+# target to generate assembly for a file
+src/toml.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/toml.c.s
+.PHONY : src/toml.c.s
+
 starview-dock_autogen/mocs_compilation.o: starview-dock_autogen/mocs_compilation.cpp.o
 .PHONY : starview-dock_autogen/mocs_compilation.o
 
@@ -653,6 +677,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/toml.o"
+	@echo "... src/toml.i"
+	@echo "... src/toml.s"
 	@echo "... starview-dock_autogen/mocs_compilation.o"
 	@echo "... starview-dock_autogen/mocs_compilation.i"
 	@echo "... starview-dock_autogen/mocs_compilation.s"

@@ -28,6 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o.d"
   "CMakeFiles/starview-dock.dir/src/main.cpp.o"
   "CMakeFiles/starview-dock.dir/src/main.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/src/toml.c.o"
+  "CMakeFiles/starview-dock.dir/src/toml.c.o.d"
   "CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o"
@@ -45,6 +47,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/starview-dock.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
