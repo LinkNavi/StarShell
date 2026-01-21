@@ -1014,7 +1014,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/home/link/Programming/StarShell/Bar/build/starview-panel_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "starview-panel_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/link/Programming/StarShell/Bar/src/ipc_handler.h",
+			"MU",
+			"UVLADIE3JM/moc_ipc_handler.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/link/Programming/StarShell/Bar/build/starview-panel_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/link/Programming/StarShell/Bar/build/starview-panel_autogen/mocs_compilation.cpp",
@@ -1097,6 +1105,11 @@
 	"SETTINGS_FILE" : "/home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/link/Programming/StarShell/Bar/src/ipc_handler.cpp",
+			"MU",
+			null
+		],
 		[ "/home/link/Programming/StarShell/Bar/src/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

@@ -1,7 +1,6 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import org.kde.layershell 1.0 as LayerShell
 
 ApplicationWindow {
     id: panel
@@ -11,14 +10,6 @@ ApplicationWindow {
     height: 40
     color: "transparent"
     flags: Qt.FramelessWindowHint
-    
-    // Configure LayerShell DIRECTLY in QML
-    LayerShell.Window.layer: LayerShell.Window.LayerTop
-    LayerShell.Window.anchors: LayerShell.Window.AnchorTop | 
-                               LayerShell.Window.AnchorLeft | 
-                               LayerShell.Window.AnchorRight
-    LayerShell.Window.exclusionZone: 40
-    LayerShell.Window.keyboardInteractivity: LayerShell.Window.KeyboardInteractivityNone
     
     property int currentWorkspace: 1
     
@@ -61,7 +52,7 @@ ApplicationWindow {
                         active: panel.currentWorkspace === (index + 1)
                         onClicked: {
                             panel.currentWorkspace = number
-                            console.log("Switched to workspace", number)
+                            ipcHandler.switchWorkspace(number)
                         }
                     }
                 }
@@ -127,10 +118,17 @@ ApplicationWindow {
         }
     }
     
+    // IPC handler connection
+    Connections {
+        target: ipcHandler
+        function onWorkspaceChanged(ws) {
+            panel.currentWorkspace = ws
+            console.log("Workspace changed to:", ws)
+        }
+    }
+    
     Component.onCompleted: {
-        console.log("Panel loaded successfully!")
-        console.log("Layer:", LayerShell.Window.layer)
-        console.log("Anchors:", LayerShell.Window.anchors)
-        console.log("Exclusive zone:", LayerShell.Window.exclusiveZone)
+        console.log("Panel loaded!")
+        ipcHandler.connect()
     }
 }

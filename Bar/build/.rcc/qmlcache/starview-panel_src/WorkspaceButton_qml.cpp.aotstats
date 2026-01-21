@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 252,
+                            "durationMicroseconds": 263,
                             "functionName": "onActiveChanged",
                             "line": 95,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 84,
+                            "durationMicroseconds": 88,
                             "functionName": "width",
                             "line": 17,
                             "message": ""
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 71,
+                            "durationMicroseconds": 90,
                             "functionName": "height",
                             "line": 18,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 53,
                             "functionName": "radius",
                             "line": 19,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 29,
+                            "durationMicroseconds": 28,
                             "functionName": "opacity",
                             "line": 20,
                             "message": "Cannot access value for name active"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 49,
                             "functionName": "type",
                             "line": 29,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 51,
                             "functionName": "running",
                             "line": 33,
                             "message": "Cannot access value for name active"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 61,
                             "functionName": "loops",
                             "line": 34,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 82,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 36,
                             "functionName": "type",
                             "line": 35,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 82,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 34,
                             "functionName": "type",
                             "line": 36,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 154,
                             "functionName": "width",
                             "line": 43,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 88,
                             "functionName": "height",
                             "line": 44,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 17,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 51,
                             "functionName": "radius",
                             "line": 45,
                             "message": ""
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 75,
-                            "durationMicroseconds": 37,
+                            "durationMicroseconds": 38,
                             "functionName": "type",
                             "line": 52,
                             "message": ""
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 41,
                             "functionName": "centerIn",
                             "line": 64,
                             "message": ""
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 48,
                             "functionName": "cursorShape",
                             "line": 76,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 47,
+                            "durationMicroseconds": 50,
                             "functionName": "onEntered",
                             "line": 78,
                             "message": "Cannot access value for name active"
@@ -216,7 +216,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 43,
                             "functionName": "onExited",
                             "line": 85,
                             "message": "Cannot access value for name active"
@@ -224,7 +224,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 68,
+                            "durationMicroseconds": 69,
                             "functionName": "onPressed",
                             "line": 90,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 21,
-                            "durationMicroseconds": 28,
+                            "durationMicroseconds": 27,
                             "functionName": "onReleased",
                             "line": 91,
                             "message": "Cannot access value for name active"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 60,
+                            "durationMicroseconds": 59,
                             "functionName": "onClicked",
                             "line": 92,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 32,
                             "functionName": "fill",
                             "line": 74,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 0,
                             "column": 100,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 38,
                             "functionName": "type",
                             "line": 106,
                             "message": ""

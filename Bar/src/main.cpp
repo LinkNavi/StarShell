@@ -1,9 +1,9 @@
-// main.cpp - Configure BEFORE window is created
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQuickWindow>
 #include <QQmlContext>
 #include <LayerShellQt/Window>
+#include "ipc_handler.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,9 +11,14 @@ int main(int argc, char *argv[])
     
     QGuiApplication app(argc, argv);
     
+    // Create IPC handler
+    IpcHandler ipcHandler;
+    
     QQmlApplicationEngine engine;
     
-    // Set up a callback BEFORE loading QML
+    // Expose IPC handler to QML
+    engine.rootContext()->setContextProperty("ipcHandler", &ipcHandler);
+    
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
         &app, [](QObject *obj, const QUrl &) {
             if (!obj) return;
@@ -23,14 +28,12 @@ int main(int argc, char *argv[])
             
             qDebug() << "Window created, configuring LayerShell...";
             
-            // Get LayerShell interface
             auto layer = LayerShellQt::Window::get(window);
             if (!layer) {
                 qCritical() << "Failed to get LayerShellQt interface!";
                 return;
             }
             
-            // Configure layer shell
             layer->setLayer(LayerShellQt::Window::LayerTop);
             layer->setAnchors(static_cast<LayerShellQt::Window::Anchors>(
                 LayerShellQt::Window::AnchorTop | 
@@ -40,15 +43,10 @@ int main(int argc, char *argv[])
             layer->setExclusiveZone(40);
             layer->setKeyboardInteractivity(LayerShellQt::Window::KeyboardInteractivityNone);
             
-            qDebug() << "LayerShell configured: TOP layer, anchors=" 
-                     << (int)layer->anchors() << ", exclusive=" << layer->exclusionZone();
-            
-            // NOW show the window
             window->show();
-            qDebug() << "Window shown!";
+            qDebug() << "Panel ready!";
         }, Qt::QueuedConnection);
     
-    // Load QML - window not shown yet
     engine.load(QUrl(QStringLiteral("qrc:/StarViewPanel/src/Main.qml")));
     
     if (engine.rootObjects().isEmpty()) {

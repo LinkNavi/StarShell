@@ -775,7 +775,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   ".rcc/qmlcache/starview-panel_qml_loader_file_list.rsp"
   ".qt/starview-panel_qml.cmake"
   ".qt/starview-panel_res.cmake"
-  ".qt/deploy_qml_app_starview_panel_fc1260848b.cmake"
   ".qt/QtDeployTargets.cmake"
   ".qt/deploy_qml_imports/starview_panel.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"

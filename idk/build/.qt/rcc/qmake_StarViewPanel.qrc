@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/StarViewPanel">
-    <file alias="qmldir">/home/kirby/Programming/StarShell/idk/build/StarViewPanel/qmldir</file>
-  </qresource>
-</RCC>
-

@@ -20,6 +20,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o.d"
   "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o"
   "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o.d"
+  "CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o"
+  "CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o.d"
   "CMakeFiles/starview-panel.dir/src/main.cpp.o"
   "CMakeFiles/starview-panel.dir/src/main.cpp.o.d"
   "CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o"

@@ -4,6 +4,7 @@ starview-panel: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o \
   CMakeFiles/starview-panel.dir/src/main.cpp.o \
+  CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o \
   CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o \
   CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o \
   CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o \
@@ -122,6 +123,8 @@ starview-panel: \
 CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o:
 
 CMakeFiles/starview-panel.dir/src/main.cpp.o:
+
+CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o:
 
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o:
 

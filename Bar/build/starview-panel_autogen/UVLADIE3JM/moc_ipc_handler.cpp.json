@@ -1,0 +1,112 @@
+{
+    "classes": [
+        {
+            "className": "IpcHandler",
+            "lineNumber": 8,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 8,
+                    "lineNumber": 15,
+                    "name": "connect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ws",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 9,
+                    "lineNumber": 16,
+                    "name": "switchWorkspace",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "IpcHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ws",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 19,
+                    "name": "workspaceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 20,
+                    "name": "connected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 21,
+                    "name": "disconnected",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "lineNumber": 24,
+                    "name": "onConnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "lineNumber": 25,
+                    "name": "onDisconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "lineNumber": 26,
+                    "name": "onReadyRead",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QLocalSocket::LocalSocketError"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 27,
+                    "name": "onError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "lineNumber": 28,
+                    "name": "tryReconnect",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ipc_handler.h",
+    "outputRevision": 69
+}

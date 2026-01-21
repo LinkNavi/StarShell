@@ -971,8 +971,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi"
-      binary: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi"
+      source: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw"
+      binary: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -982,13 +982,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi'
+        Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e09cc/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e09cc.dir/build.make CMakeFiles/cmTC_e09cc.dir/build
-        make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi'
-        Building CXX object CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6733/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d6733.dir/build.make CMakeFiles/cmTC_d6733.dir/build
+        make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw'
+        Building CXX object CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -996,8 +996,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260103 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e09cc.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e09cc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc4WkUMk.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6733.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d6733.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccg6lbql.s
         GNU C++17 (GCC) version 15.2.1 20260103 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260103, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1014,14 +1014,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 26247f000d0c5f9b837c76e00a033f94
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e09cc.dir/'
-         as -v --64 -o CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc4WkUMk.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6733.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg6lbql.s
         GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_e09cc
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e09cc.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d6733
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6733.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -1032,14 +1032,14 @@ events:
         gcc version 15.2.1 20260103 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e09cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e09cc.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2tA3k9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e09cc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6733' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6733.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceMvtpi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d6733 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260103
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2tA3k9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e09cc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceMvtpi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d6733 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.45.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e09cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e09cc.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e09cc
-        make[1]: Leaving directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6733' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6733.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d6733
+        make[1]: Leaving directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw'
         
       exitCode: 0
   -
@@ -1080,13 +1080,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi']
+        ignore line: [Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e09cc/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e09cc.dir/build.make CMakeFiles/cmTC_e09cc.dir/build]
-        ignore line: [make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-HQQkfi']
-        ignore line: [Building CXX object CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6733/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d6733.dir/build.make CMakeFiles/cmTC_d6733.dir/build]
+        ignore line: [make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-Hlr8dw']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1094,8 +1094,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260103 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e09cc.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e09cc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc4WkUMk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6733.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d6733.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccg6lbql.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20260103 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260103  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1112,14 +1112,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 26247f000d0c5f9b837c76e00a033f94]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e09cc.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc4WkUMk.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6733.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg6lbql.s]
         ignore line: [GNU assembler version 2.45.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.45.1]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_e09cc]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e09cc.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d6733]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6733.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -1130,13 +1130,13 @@ events:
         ignore line: [gcc version 15.2.1 20260103 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e09cc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e09cc.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2tA3k9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e09cc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6733' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d6733.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceMvtpi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d6733 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc2tA3k9.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cceMvtpi.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1151,7 +1151,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e09cc] ==> ignore
+          arg [cmTC_d6733] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1163,7 +1163,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1174,7 +1174,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260103]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2tA3k9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_e09cc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_e09cc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceMvtpi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d6733 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d6733.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1214,12 +1214,12 @@ events:
       - "/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/usr/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:186 (include)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-tw7qdG"
-      binary: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-tw7qdG"
+      source: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-UDg7hB"
+      binary: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-UDg7hB"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1229,17 +1229,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-tw7qdG'
+        Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-UDg7hB'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1039e/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_1039e.dir/build.make CMakeFiles/cmTC_1039e.dir/build
-        make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-tw7qdG'
-        Building CXX object CMakeFiles/cmTC_1039e.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_1039e.dir/src.cxx.o -c /home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-tw7qdG/src.cxx
-        Linking CXX executable cmTC_1039e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1039e.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_1039e.dir/src.cxx.o -o cmTC_1039e
-        make[1]: Leaving directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-tw7qdG'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ebb02/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ebb02.dir/build.make CMakeFiles/cmTC_ebb02.dir/build
+        make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-UDg7hB'
+        Building CXX object CMakeFiles/cmTC_ebb02.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_ebb02.dir/src.cxx.o -c /home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-UDg7hB/src.cxx
+        Linking CXX executable cmTC_ebb02
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebb02.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ebb02.dir/src.cxx.o -o cmTC_ebb02
+        make[1]: Leaving directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-UDg7hB'
         
       exitCode: 0
   -
@@ -1254,12 +1254,12 @@ events:
       - "/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:52 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-vCiXNb"
-      binary: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-vCiXNb"
+      source: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-OHGSqy"
+      binary: "/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-OHGSqy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1269,17 +1269,17 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-vCiXNb'
+        Change Dir: '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-OHGSqy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68499/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_68499.dir/build.make CMakeFiles/cmTC_68499.dir/build
-        make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-vCiXNb'
-        Building CXX object CMakeFiles/cmTC_68499.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_68499.dir/src.cxx.o -c /home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-vCiXNb/src.cxx
-        Linking CXX executable cmTC_68499
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68499.dir/link.txt --verbose=1
-        /usr/bin/c++ CMakeFiles/cmTC_68499.dir/src.cxx.o -o cmTC_68499
-        make[1]: Leaving directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-vCiXNb'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3c7b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e3c7b.dir/build.make CMakeFiles/cmTC_e3c7b.dir/build
+        make[1]: Entering directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-OHGSqy'
+        Building CXX object CMakeFiles/cmTC_e3c7b.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_e3c7b.dir/src.cxx.o -c /home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-OHGSqy/src.cxx
+        Linking CXX executable cmTC_e3c7b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3c7b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_e3c7b.dir/src.cxx.o -o cmTC_e3c7b
+        make[1]: Leaving directory '/home/link/Programming/StarShell/Bar/build/CMakeFiles/CMakeScratch/TryCompile-OHGSqy'
         
       exitCode: 0
   -
@@ -1289,7 +1289,7 @@ events:
       - "/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:43 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:52 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6CoreTools"
     configs:
       -
@@ -1415,7 +1415,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -1539,7 +1539,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
     description: "Path to a file."
@@ -1633,7 +1633,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_GLX_INCLUDE_DIR"
     description: "Path to a file."
@@ -1724,7 +1724,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_EGL_INCLUDE_DIR"
     description: "Path to a file."
@@ -1815,7 +1815,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_GLES2_INCLUDE_DIR"
     description: "Path to a file."
@@ -1906,7 +1906,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_GLES3_INCLUDE_DIR"
     description: "Path to a file."
@@ -1997,7 +1997,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_xmesa_INCLUDE_DIR"
     description: "Path to a file."
@@ -2104,7 +2104,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
     description: "Path to a file."
@@ -2195,7 +2195,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "OPENGL_opengl_LIBRARY"
     description: "Path to a library."
@@ -2286,7 +2286,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "OPENGL_glx_LIBRARY"
     description: "Path to a library."
@@ -2414,7 +2414,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "OPENGL_egl_LIBRARY"
     description: "Path to a library."
@@ -2542,7 +2542,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "OPENGL_gles2_LIBRARY"
     description: "Path to a library."
@@ -2633,7 +2633,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "OPENGL_gles3_LIBRARY"
     description: "Path to a library."
@@ -2748,7 +2748,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
     description: "Path to a library."
@@ -2841,7 +2841,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -2932,7 +2932,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -3008,7 +3008,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -3087,7 +3087,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:37 (_qt_internal_find_third_party_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -3164,7 +3164,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:44 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6GuiTools"
     configs:
       -
@@ -3298,7 +3298,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:52 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6DBusTools"
     configs:
       -
@@ -3429,7 +3429,7 @@ events:
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:52 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6DBus"
     configs:
       -
@@ -3531,7 +3531,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -3638,7 +3638,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlTools"
     configs:
       -
@@ -3767,7 +3767,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QuickTools"
     configs:
       -
@@ -3903,7 +3903,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlIntegration"
     configs:
       -
@@ -3999,7 +3999,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6Network"
     configs:
       -
@@ -4100,7 +4100,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlCompilerPlusPrivateTools"
     configs:
       -
@@ -4291,7 +4291,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6Concurrent"
     configs:
       -
@@ -4395,7 +4395,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6ExamplesAssetDownloaderPrivate"
     configs:
       -
@@ -4494,7 +4494,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlAssetDownloader"
     configs:
       -
@@ -4593,7 +4593,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6Qml"
     configs:
       -
@@ -4908,7 +4908,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlModels"
     configs:
       -
@@ -5012,7 +5012,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlWorkerScript"
     configs:
       -
@@ -5111,7 +5111,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6QmlMeta"
     configs:
       -
@@ -5210,7 +5210,7 @@ events:
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "/usr/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:50 (include)"
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6OpenGL"
     configs:
       -
@@ -5312,7 +5312,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/usr/lib/cmake/Qt6/Qt6Config.cmake:247 (find_package)"
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6Quick"
     configs:
       -
@@ -5828,7 +5828,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:8 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
     name: "Qt6"
     components:
       -
@@ -5845,6 +5845,10 @@ events:
         found: false
       -
         name: "Qml"
+        required: true
+        found: false
+      -
+        name: "Network"
         required: true
         found: false
     configs:
@@ -7587,7 +7591,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "LayerShellQt"
     configs:
       -

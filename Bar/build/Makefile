@@ -502,6 +502,30 @@ build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.s
 
+src/ipc_handler.o: src/ipc_handler.cpp.o
+.PHONY : src/ipc_handler.o
+
+# target to build an object file
+src/ipc_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o
+.PHONY : src/ipc_handler.cpp.o
+
+src/ipc_handler.i: src/ipc_handler.cpp.i
+.PHONY : src/ipc_handler.i
+
+# target to preprocess a source file
+src/ipc_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.i
+.PHONY : src/ipc_handler.cpp.i
+
+src/ipc_handler.s: src/ipc_handler.cpp.s
+.PHONY : src/ipc_handler.s
+
+# target to generate assembly for a file
+src/ipc_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.s
+.PHONY : src/ipc_handler.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -618,6 +642,9 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.s"
+	@echo "... src/ipc_handler.o"
+	@echo "... src/ipc_handler.i"
+	@echo "... src/ipc_handler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

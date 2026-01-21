@@ -184,10 +184,24 @@ CMakeFiles/starview-panel.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/starview-panel.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/link/Programming/StarShell/Bar/src/main.cpp -o CMakeFiles/starview-panel.dir/src/main.cpp.s
 
+CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o: CMakeFiles/starview-panel.dir/flags.make
+CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o: /home/link/Programming/StarShell/Bar/src/ipc_handler.cpp
+CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o -MF CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o.d -o CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o -c /home/link/Programming/StarShell/Bar/src/ipc_handler.cpp
+
+CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/link/Programming/StarShell/Bar/src/ipc_handler.cpp > CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.i
+
+CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/link/Programming/StarShell/Bar/src/ipc_handler.cpp -o CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.s
+
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o: CMakeFiles/starview-panel.dir/flags.make
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o: starview-panel_qmltyperegistrations.cpp
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o -MF CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o.d -o CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o -c /home/link/Programming/StarShell/Bar/build/starview-panel_qmltyperegistrations.cpp
 
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.s: cmake_f
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o: CMakeFiles/starview-panel.dir/flags.make
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o: .qt/rcc/qrc_qmake_StarViewPanel.cpp
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o -MF CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o.d -o CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o -c /home/link/Programming/StarShell/Bar/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp
 
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.s: cmake
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o: CMakeFiles/starview-panel.dir/flags.make
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o: .rcc/qmlcache/starview-panel_qmlcache_loader.cpp
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o -MF CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o.d -o CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o -c /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp
 
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o: CMakeFiles/starview-panel.dir/flags.make
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o: .rcc/qmlcache/starview-panel_src/Main_qml.cpp
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o -MF CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o.d -o CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o -c /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp
 
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cp
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o: CMakeFiles/starview-panel.dir/flags.make
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o: .rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o -MF CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o.d -o CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o -c /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp
 
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.i: cmake_force
@@ -257,7 +271,7 @@ CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceBu
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o: CMakeFiles/starview-panel.dir/flags.make
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o: .qt/rcc/qrc_starview-panel_raw_qml_0.cpp
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o: CMakeFiles/starview-panel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o -MF CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o.d -o CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o -c /home/link/Programming/StarShell/Bar/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp
 
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.i: cmake_force
@@ -272,6 +286,7 @@ CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.s: 
 starview__panel_OBJECTS = \
 "CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/starview-panel.dir/src/main.cpp.o" \
+"CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o" \
 "CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o" \
 "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o" \
 "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o" \
@@ -284,6 +299,7 @@ starview__panel_EXTERNAL_OBJECTS =
 
 starview-panel: CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o
 starview-panel: CMakeFiles/starview-panel.dir/src/main.cpp.o
+starview-panel: CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o
 starview-panel: CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o
 starview-panel: CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o
 starview-panel: CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o
@@ -302,7 +318,7 @@ starview-panel: /usr/lib/libGLX.so
 starview-panel: /usr/lib/libOpenGL.so
 starview-panel: /usr/lib/libQt6Core.so.6.10.1
 starview-panel: CMakeFiles/starview-panel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable starview-panel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable starview-panel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/starview-panel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
