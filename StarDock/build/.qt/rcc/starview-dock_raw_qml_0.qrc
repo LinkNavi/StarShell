@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/StarViewDock/">
     <file alias="src/Main.qml">/home/link/Programming/StarShell/StarDock/src/Main.qml</file>
+    <file alias="src/AppLauncher.qml">/home/link/Programming/StarShell/StarDock/src/AppLauncher.qml</file>
   </qresource>
 </RCC>
 

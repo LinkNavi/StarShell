@@ -8,5 +8,6 @@
 --resource
 /home/link/Programming/StarShell/StarDock/build/.qt/rcc/starview-dock_raw_qml_0.qrc
 /home/link/Programming/StarShell/StarDock/src/Main.qml
+/home/link/Programming/StarShell/StarDock/src/AppLauncher.qml
 --json
 /home/link/Programming/StarShell/StarDock/build/starview-dock_qmllint.json

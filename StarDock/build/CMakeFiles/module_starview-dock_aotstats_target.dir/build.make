@@ -69,9 +69,23 @@ include CMakeFiles/module_starview-dock_aotstats_target.dir/progress.make
 CMakeFiles/module_starview-dock_aotstats_target: .rcc/qmlcache/module_starview-dock.aotstats
 
 .rcc/qmlcache/module_starview-dock.aotstats: .rcc/qmlcache/starview-dock_src/Main_qml.cpp.aotstats
+.rcc/qmlcache/module_starview-dock.aotstats: .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-dock.aotstats: .rcc/qmlcache/module_starview-dock.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_starview-dock.aotstats"
 	/usr/lib/qt6/qmlaotstats aggregate /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/module_starview-dock.aotstatslist /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/module_starview-dock.aotstats
+
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp: /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp: .qt/rcc/qmake_StarViewDock.qrc
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp: .qt/rcc/starview-dock_raw_qml_0.qrc
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp: StarViewDock/starview-dock.qmltypes
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp: StarViewDock/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp, .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_src
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewDock/src/AppLauncher.qml -I /home/link/Programming/StarShell/StarDock/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarDock/build/StarViewDock/qmldir --resource /home/link/Programming/StarShell/StarDock/build/.qt/rcc/qmake_StarViewDock.qrc --resource /home/link/Programming/StarShell/StarDock/build/.qt/rcc/starview-dock_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewDock(starview-dock)" -o /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml
+
+.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.aotstats: .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.aotstats
 
 .rcc/qmlcache/starview-dock_src/Main_qml.cpp: /usr/lib/qt6/qmlcachegen
 .rcc/qmlcache/starview-dock_src/Main_qml.cpp: /home/link/Programming/StarShell/StarDock/src/Main.qml
@@ -79,7 +93,7 @@ CMakeFiles/module_starview-dock_aotstats_target: .rcc/qmlcache/module_starview-d
 .rcc/qmlcache/starview-dock_src/Main_qml.cpp: .qt/rcc/starview-dock_raw_qml_0.qrc
 .rcc/qmlcache/starview-dock_src/Main_qml.cpp: StarViewDock/starview-dock.qmltypes
 .rcc/qmlcache/starview-dock_src/Main_qml.cpp: StarViewDock/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/starview-dock_src/Main_qml.cpp, .rcc/qmlcache/starview-dock_src/Main_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/starview-dock_src/Main_qml.cpp, .rcc/qmlcache/starview-dock_src/Main_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_src
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewDock/src/Main.qml -I /home/link/Programming/StarShell/StarDock/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarDock/build/StarViewDock/qmldir --resource /home/link/Programming/StarShell/StarDock/build/.qt/rcc/qmake_StarViewDock.qrc --resource /home/link/Programming/StarShell/StarDock/build/.qt/rcc/starview-dock_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewDock(starview-dock)" -o /home/link/Programming/StarShell/StarDock/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp /home/link/Programming/StarShell/StarDock/src/Main.qml
 
@@ -90,6 +104,8 @@ CMakeFiles/module_starview-dock_aotstats_target.dir/codegen:
 .PHONY : CMakeFiles/module_starview-dock_aotstats_target.dir/codegen
 
 module_starview-dock_aotstats_target: .rcc/qmlcache/module_starview-dock.aotstats
+module_starview-dock_aotstats_target: .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp
+module_starview-dock_aotstats_target: .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.aotstats
 module_starview-dock_aotstats_target: .rcc/qmlcache/starview-dock_src/Main_qml.cpp
 module_starview-dock_aotstats_target: .rcc/qmlcache/starview-dock_src/Main_qml.cpp.aotstats
 module_starview-dock_aotstats_target: CMakeFiles/module_starview-dock_aotstats_target

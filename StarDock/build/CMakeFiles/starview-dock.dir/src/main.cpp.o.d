@@ -400,10 +400,78 @@ CMakeFiles/starview-dock.dir/src/main.cpp.o: \
  /usr/include/qt6/QtGui/qtransform.h \
  /usr/include/qt6/QtGui/qscreen_platform.h \
  /usr/include/qt6/QtGui/qkeysequence.h /usr/include/qt6/QtQml/qqmlinfo.h \
+ /usr/include/qt6/QtCore/QProcess /usr/include/qt6/QtCore/qprocess.h \
+ /usr/include/LayerShellQt/Window /usr/include/LayerShellQt/window.h \
+ /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtGui/QScreen \
+ /usr/include/qt6/QtGui/qscreen.h /usr/include/qt6/QtGui/QWindow \
+ /usr/include/qt6/QtGui/qwindow.h \
+ /usr/include/LayerShellQt/layershellqt_export.h \
+ /usr/include/qt6/QtCore/QRegularExpression \
+ /usr/include/qt6/QtCore/qregularexpression.h \
+ /usr/include/qt6/QtQml/QQmlComponent \
+ /usr/include/qt6/QtQml/qqmlcomponent.h \
+ /home/link/Programming/StarShell/StarDock/src/../include/DesktopFileParser.h \
+ /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
+ /usr/include/qt6/QtCore/QStringList \
+ /usr/include/qt6/QtCore/qstringlist.h /usr/include/qt6/QtCore/QFile \
+ /usr/include/qt6/QtCore/qfile.h /usr/include/qt6/QtCore/qfiledevice.h \
+ /usr/include/c++/15.2.1/filesystem /usr/include/c++/15.2.1/bits/fs_fwd.h \
+ /usr/include/c++/15.2.1/bits/fs_path.h /usr/include/c++/15.2.1/locale \
+ /usr/include/c++/15.2.1/bits/locale_facets.h \
+ /usr/include/c++/15.2.1/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/15.2.1/bits/locale_facets.tcc \
+ /usr/include/c++/15.2.1/bits/locale_facets_nonio.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/15.2.1/bits/codecvt.h \
+ /usr/include/c++/15.2.1/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/15.2.1/bits/locale_conv.h \
+ /usr/include/c++/15.2.1/iomanip \
+ /usr/include/c++/15.2.1/bits/quoted_string.h \
+ /usr/include/c++/15.2.1/sstream /usr/include/c++/15.2.1/istream \
+ /usr/include/c++/15.2.1/ios /usr/include/c++/15.2.1/bits/basic_ios.h \
+ /usr/include/c++/15.2.1/bits/basic_ios.tcc \
+ /usr/include/c++/15.2.1/ostream /usr/include/c++/15.2.1/bits/ostream.h \
+ /usr/include/c++/15.2.1/bits/ostream.tcc \
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /usr/include/c++/15.2.1/bits/sstream.tcc /usr/include/c++/15.2.1/codecvt \
+ /usr/include/c++/15.2.1/bits/fs_dir.h \
+ /usr/include/c++/15.2.1/bits/fs_ops.h \
+ /usr/include/qt6/QtCore/QTextStream \
+ /usr/include/qt6/QtCore/qtextstream.h /usr/include/qt6/QtCore/QDir \
+ /usr/include/qt6/QtCore/qdir.h /usr/include/qt6/QtCore/qdirlisting.h \
+ /usr/include/qt6/QtCore/qfile.h /usr/include/qt6/QtCore/qfileinfo.h \
+ /usr/include/qt6/QtCore/QVariantMap \
+ /usr/include/qt6/QtCore/qvariantmap.h /usr/include/qt6/QtCore/QMap \
+ /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtCore/QVariant \
+ /usr/include/qt6/QtCore/qvariant.h /usr/include/qt6/QtCore/QString \
  /usr/include/qt6/QtCore/QVariantList \
- /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QVariant \
- /usr/include/qt6/QtCore/qvariant.h /usr/include/LayerShellQt/Window \
- /usr/include/LayerShellQt/window.h /usr/include/qt6/QtCore/QObject \
- /usr/include/qt6/QtGui/QScreen /usr/include/qt6/QtGui/qscreen.h \
- /usr/include/qt6/QtGui/QWindow /usr/include/qt6/QtGui/qwindow.h \
- /usr/include/LayerShellQt/layershellqt_export.h
+ /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QDebug \
+ /usr/include/qt6/QtCore/qdebug.h \
+ /home/link/Programming/StarShell/StarDock/src/../include/WindowTracker.h \
+ /usr/include/qt6/QtCore/QTimer /usr/include/qt6/QtCore/qtimer.h \
+ /usr/include/qt6/QtCore/QSet /usr/include/qt6/QtCore/qset.h \
+ /home/link/Programming/StarShell/StarDock/src/../include/DesktopFileParser.h \
+ /home/link/Programming/StarShell/StarDock/src/../include/starview_ipc.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/bits/unistd_ext.h /usr/include/linux/close_range.h \
+ /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/bits/types/struct_osockaddr.h /usr/include/sys/un.h \
+ /home/link/Programming/StarShell/StarDock/src/../include/Config.h \
+ /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtGui/qcolor.h \
+ /usr/include/qt6/QtCore/QStandardPaths \
+ /usr/include/qt6/QtCore/qstandardpaths.h \
+ /home/link/Programming/StarShell/StarDock/src/../include/starview_ipc.h \
+ /home/link/Programming/StarShell/StarDock/build/starview-dock_autogen/include/main.moc \
+ /usr/include/qt6/QtCore/qtmochelpers.h \
+ /usr/include/qt6/QtCore/qtmocconstants.h \
+ /usr/include/qt6/QtCore/q20algorithm.h

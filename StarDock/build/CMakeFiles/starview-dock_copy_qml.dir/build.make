@@ -70,6 +70,7 @@ CMakeFiles/starview-dock_copy_qml: .qt/starview-dock_qml.txt
 
 .qt/starview-dock_qml.txt: /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/starview-dock_qml.txt: /home/link/Programming/StarShell/StarDock/src/Main.qml
+.qt/starview-dock_qml.txt: /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying starview-dock qml sources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/link/Programming/StarShell/StarDock/build/.qt/starview-dock_qml.cmake -P /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

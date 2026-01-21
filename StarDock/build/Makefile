@@ -409,6 +409,30 @@ build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.s
 
+build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.o: build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.o
+
+build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.i: build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.i
+
+build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.s: build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.s
+
 build/.rcc/qmlcache/starview-dock_src/Main_qml.o: build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-dock_src/Main_qml.o
 
@@ -432,6 +456,78 @@ build/.rcc/qmlcache/starview-dock_src/Main_qml.s: build/.rcc/qmlcache/starview-d
 build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.s
+
+src/Config.o: src/Config.cpp.o
+.PHONY : src/Config.o
+
+# target to build an object file
+src/Config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/Config.cpp.o
+.PHONY : src/Config.cpp.o
+
+src/Config.i: src/Config.cpp.i
+.PHONY : src/Config.i
+
+# target to preprocess a source file
+src/Config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/Config.cpp.i
+.PHONY : src/Config.cpp.i
+
+src/Config.s: src/Config.cpp.s
+.PHONY : src/Config.s
+
+# target to generate assembly for a file
+src/Config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/Config.cpp.s
+.PHONY : src/Config.cpp.s
+
+src/DesktopFileParser.o: src/DesktopFileParser.cpp.o
+.PHONY : src/DesktopFileParser.o
+
+# target to build an object file
+src/DesktopFileParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.o
+.PHONY : src/DesktopFileParser.cpp.o
+
+src/DesktopFileParser.i: src/DesktopFileParser.cpp.i
+.PHONY : src/DesktopFileParser.i
+
+# target to preprocess a source file
+src/DesktopFileParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.i
+.PHONY : src/DesktopFileParser.cpp.i
+
+src/DesktopFileParser.s: src/DesktopFileParser.cpp.s
+.PHONY : src/DesktopFileParser.s
+
+# target to generate assembly for a file
+src/DesktopFileParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/DesktopFileParser.cpp.s
+.PHONY : src/DesktopFileParser.cpp.s
+
+src/WindowTracker.o: src/WindowTracker.cpp.o
+.PHONY : src/WindowTracker.o
+
+# target to build an object file
+src/WindowTracker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.o
+.PHONY : src/WindowTracker.cpp.o
+
+src/WindowTracker.i: src/WindowTracker.cpp.i
+.PHONY : src/WindowTracker.i
+
+# target to preprocess a source file
+src/WindowTracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.i
+.PHONY : src/WindowTracker.cpp.i
+
+src/WindowTracker.s: src/WindowTracker.cpp.s
+.PHONY : src/WindowTracker.s
+
+# target to generate assembly for a file
+src/WindowTracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-dock.dir/build.make CMakeFiles/starview-dock.dir/src/WindowTracker.cpp.s
+.PHONY : src/WindowTracker.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -539,9 +635,21 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-dock_qmlcache_loader.o"
 	@echo "... build/.rcc/qmlcache/starview-dock_qmlcache_loader.i"
 	@echo "... build/.rcc/qmlcache/starview-dock_qmlcache_loader.s"
+	@echo "... build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-dock_src/AppLauncher_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-dock_src/Main_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-dock_src/Main_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-dock_src/Main_qml.s"
+	@echo "... src/Config.o"
+	@echo "... src/Config.i"
+	@echo "... src/Config.s"
+	@echo "... src/DesktopFileParser.o"
+	@echo "... src/DesktopFileParser.i"
+	@echo "... src/DesktopFileParser.s"
+	@echo "... src/WindowTracker.o"
+	@echo "... src/WindowTracker.i"
+	@echo "... src/WindowTracker.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

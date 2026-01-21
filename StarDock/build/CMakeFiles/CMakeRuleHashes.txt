@@ -8,6 +8,7 @@
 48a1088372b8686ccd9d7dfba981a37a .rcc/qmlcache/all_aotstats.aotstats
 f28e426dd19d8e1986f77fa9e22f1eeb .rcc/qmlcache/module_starview-dock.aotstats
 798939b94edd5b2f6b43ee56e181aaaa .rcc/qmlcache/starview-dock_qmlcache_loader.cpp
+be5c34d89f76ad1888c83142cc420a76 .rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp
 1d1ed6acbf9d5482b2c2d2b0d8d08b63 .rcc/qmlcache/starview-dock_src/Main_qml.cpp
 0dbbf99762412267b3ab1baf05806653 CMakeFiles/all_aotstats
 df952f98f7afe9676ee63506805e3d5d CMakeFiles/generate_qmlls_build_ini_file

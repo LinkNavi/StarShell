@@ -1,0 +1,4 @@
+/home/link/Programming/StarShell/StarDock/build/starview-dock_autogen/include/../6YEA5652QU/moc_Config.cpp.json
+/home/link/Programming/StarShell/StarDock/build/starview-dock_autogen/include/../6YEA5652QU/moc_DesktopFileParser.cpp.json
+/home/link/Programming/StarShell/StarDock/build/starview-dock_autogen/include/../6YEA5652QU/moc_WindowTracker.cpp.json
+/home/link/Programming/StarShell/StarDock/build/starview-dock_autogen/include/main.moc.json

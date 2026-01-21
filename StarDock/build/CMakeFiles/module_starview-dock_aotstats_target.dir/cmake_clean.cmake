@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   ".rcc/qmlcache/module_starview-dock.aotstats"
+  ".rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp"
+  ".rcc/qmlcache/starview-dock_src/AppLauncher_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-dock_src/Main_qml.cpp"
   ".rcc/qmlcache/starview-dock_src/Main_qml.cpp.aotstats"
   "CMakeFiles/module_starview-dock_aotstats_target"

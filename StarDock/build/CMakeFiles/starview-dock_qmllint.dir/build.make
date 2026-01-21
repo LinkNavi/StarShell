@@ -68,6 +68,7 @@ include CMakeFiles/starview-dock_qmllint.dir/progress.make
 
 CMakeFiles/starview-dock_qmllint: /usr/lib/qt6/bin/qmllint
 CMakeFiles/starview-dock_qmllint: /home/link/Programming/StarShell/StarDock/src/Main.qml
+CMakeFiles/starview-dock_qmllint: /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml
 CMakeFiles/starview-dock_qmllint: .rcc/qmllint/starview-dock.rsp
 	cd /home/link/Programming/StarShell/StarDock && /usr/lib/qt6/bin/qmllint @/home/link/Programming/StarShell/StarDock/build/.rcc/qmllint/starview-dock.rsp
 

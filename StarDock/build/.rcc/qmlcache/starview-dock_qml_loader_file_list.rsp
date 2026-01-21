@@ -3,3 +3,4 @@
 --resource
 /home/link/Programming/StarShell/StarDock/build/.qt/rcc/starview-dock_raw_qml_0.qrc
 /StarViewDock/src/Main.qml
+/StarViewDock/src/AppLauncher.qml

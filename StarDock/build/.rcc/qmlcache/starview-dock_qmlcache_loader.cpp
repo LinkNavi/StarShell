@@ -12,6 +12,13 @@ namespace _0x5f_StarViewDock_src_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_StarViewDock_src_AppLauncher_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +34,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewDock/src/Main.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewDock_src_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/StarViewDock/src/AppLauncher.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewDock_src_AppLauncher_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

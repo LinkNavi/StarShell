@@ -72,6 +72,7 @@ CMakeFiles/starview-dock_qmlimportscan: .qt/qml_imports/starview-dock_build.cmak
 .qt/qml_imports/starview-dock_build.cmake: .qt/rcc/qmake_StarViewDock.qrc
 .qt/qml_imports/starview-dock_build.cmake: .qt/rcc/starview-dock_raw_qml_0.qrc
 .qt/qml_imports/starview-dock_build.cmake: /home/link/Programming/StarShell/StarDock/src/Main.qml
+.qt/qml_imports/starview-dock_build.cmake: /home/link/Programming/StarShell/StarDock/src/AppLauncher.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarDock/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for starview-dock"
 	cd /home/link/Programming/StarShell/StarDock && /usr/lib/qt6/qmlimportscanner @/home/link/Programming/StarShell/StarDock/build/.qt/qml_imports/starview-dock_build.rsp
 

@@ -1,0 +1,46 @@
+{
+    "classes": [
+        {
+            "className": "WindowTracker",
+            "lineNumber": 38,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "isConst": true,
+                    "lineNumber": 45,
+                    "name": "getRunningApps",
+                    "returnType": "QVariantList"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "WindowTracker",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 48,
+                    "name": "runningAppsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 1,
+                    "lineNumber": 51,
+                    "name": "updateRunningApps",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "WindowTracker.h",
+    "outputRevision": 69
+}

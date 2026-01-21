@@ -1,0 +1,219 @@
+# StarDock Configuration File
+# Edit this file to customize your dock
+# Changes take effect after restarting the dock
+
+[dock]
+# Position: "bottom", "top", "left", "right"
+position = "bottom"
+
+# Size
+height = 70
+icon_size = 48
+icon_size_zoomed = 64
+spacing = 8
+padding = 30
+
+# Visibility
+auto_hide = false
+hide_delay_ms = 500
+show_delay_ms = 100
+
+# Layer shell
+exclusive_zone = 90  # Reserved space at screen edge
+
+[appearance]
+# Colors (hex format with alpha)
+background_color = "#1a1a2e"
+background_opacity = 0.85
+border_color = "#45475a"
+border_width = 1
+corner_radius = 16
+
+# Accent color (for hover effects)
+accent_color = "#89b4fa"
+accent_color_focused = "#a6e3a1"
+
+# Text color
+text_color = "#cdd6f4"
+text_size = 14
+
+# Shadow
+shadow_enabled = true
+shadow_color = "#90000000"
+shadow_blur = 1.0
+shadow_offset_x = 0
+shadow_offset_y = 8
+
+[animations]
+# Enable/disable animations
+enabled = true
+
+# Animation durations (milliseconds)
+zoom_duration = 200
+fade_duration = 150
+color_duration = 200
+
+# Easing: "Linear", "InQuad", "OutQuad", "InOutQuad", "OutCubic", "InOutCubic"
+zoom_easing = "OutCubic"
+
+[launcher]
+# App launcher settings
+width = 600
+height = 500
+
+# Grid
+cell_width = 120
+cell_height = 120
+icon_size = 48
+
+# Colors (inherits from [appearance] if not set)
+background_color = "#1a1a2e"
+background_opacity = 0.98
+border_color = "#45475a"
+text_color = "#cdd6f4"
+
+# Search
+search_placeholder = "Search applications..."
+search_enabled = true
+
+# Backdrop
+backdrop_enabled = true
+backdrop_color = "#80000000"
+
+[behavior]
+# Click behavior
+left_click_action = "focus"  # "focus", "launch", "menu"
+right_click_action = "menu"  # "menu", "focus", "none"
+middle_click_action = "close"  # "close", "minimize", "none"
+
+# Tooltips
+tooltips_enabled = true
+tooltip_delay_ms = 500
+
+# Keyboard shortcuts
+close_launcher_key = "Escape"
+
+[tracking]
+# Window tracking settings
+update_interval_ms = 1000  # How often to check for running apps
+
+# Process filtering
+skip_processes = [
+    "systemd",
+    "dbus",
+    "dbus-daemon",
+    "gdm",
+    "kwin",
+    "plasmashell",
+    "bash",
+    "sh",
+    "zsh",
+    "fish",
+    "starview-dock",
+    "starview",
+    "pipewire",
+    "pulseaudio",
+    "Xwayland",
+    "at-spi",
+    "gvfs",
+    "gnome-shell",
+    "gsd-",
+    "upowerd"
+]
+
+[icons]
+# Icon search paths (checked in order)
+search_paths = [
+    "/usr/share/pixmaps",
+    "/usr/share/icons/hicolor/48x48/apps",
+    "/usr/share/icons/hicolor/64x64/apps",
+    "/usr/share/icons/hicolor/scalable/apps",
+    "/usr/share/icons/hicolor/128x128/apps",
+    "~/.local/share/icons/hicolor/48x48/apps"
+]
+
+# Icon theme (if available)
+theme = "Papirus"
+
+# Fallback for missing icons
+use_text_fallback = true
+fallback_text_size = 18
+
+[desktop_files]
+# Desktop file search paths
+search_paths = [
+    "/usr/share/applications",
+    "/usr/local/share/applications",
+    "~/.local/share/applications"
+]
+
+# Filter settings
+show_no_display = false  # Show apps with NoDisplay=true
+show_terminal_apps = true
+
+[indicators]
+# Active app indicators (dots)
+enabled = true
+color = "#89b4fa"
+size = 4
+opacity = 0.8
+position = "bottom"  # "bottom", "top", "left", "right"
+
+[separator]
+# Separator between launcher button and apps
+enabled = true
+width = 2
+height = 40
+color = "#45475a"
+opacity = 0.5
+
+[launcher_button]
+# App launcher grid button
+enabled = true
+icon_type = "grid"  # "grid", "custom", "text"
+icon_text = "≡"  # If icon_type = "text"
+icon_path = ""  # If icon_type = "custom"
+
+# Grid settings (if icon_type = "grid")
+grid_rows = 3
+grid_columns = 3
+grid_dot_size = 4
+grid_dot_spacing = 3
+grid_dot_color = "#cdd6f4"
+
+[favorites]
+# Pinned apps (always show even when not running)
+enabled = false
+apps = [
+    # "firefox",
+    # "kitty",
+    # "thunar"
+]
+
+# Position: "start", "end", "mixed"
+position = "start"
+
+[workspace]
+# Workspace indicators (if compositor supports)
+show_workspace_indicators = false
+show_workspace_name = false
+
+[notifications]
+# Notification badges
+show_notification_badges = false
+badge_color = "#f38ba8"
+badge_text_color = "#ffffff"
+
+[advanced]
+# Advanced settings
+enable_ipc = true
+ipc_socket = "/tmp/starview-ipc.sock"
+
+# Logging
+log_level = "info"  # "debug", "info", "warning", "error"
+log_to_file = false
+log_file = "~/.local/share/stardock/stardock.log"
+
+# Performance
+vsync = true
+force_redraw = false

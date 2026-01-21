@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "DockController",
+            "lineNumber": 18,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "command",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 43,
+                    "name": "launchApp",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "isConst": true,
+                    "lineNumber": 62,
+                    "name": "getAllApps",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "isConst": true,
+                    "lineNumber": 67,
+                    "name": "getRunningApps",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 72,
+                    "name": "getIconPath",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "isConst": true,
+                    "lineNumber": 77,
+                    "name": "searchApps",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 98,
+                    "name": "showLauncher",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DockController",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 105,
+                    "name": "launcherRequested",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "main.cpp",
+    "outputRevision": 69
+}

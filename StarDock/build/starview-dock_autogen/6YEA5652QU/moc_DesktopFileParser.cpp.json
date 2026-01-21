@@ -1,0 +1,41 @@
+{
+    "classes": [
+        {
+            "className": "DesktopFileParser",
+            "lineNumber": 31,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "isConst": true,
+                    "lineNumber": 42,
+                    "name": "getAllApps",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "iconName",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 43,
+                    "name": "getIconPath",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DesktopFileParser",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "DesktopFileParser.h",
+    "outputRevision": 69
+}
