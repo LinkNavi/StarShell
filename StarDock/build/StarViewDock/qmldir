@@ -1,0 +1,6 @@
+module StarViewDock
+typeinfo starview-dock.qmltypes
+prefer :/StarViewDock/
+Main 1.0 src/Main.qml
+depends QtQuick
+

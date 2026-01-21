@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_qmake_StarViewDock.cpp"
+  ".qt/rcc/qrc_starview-dock_raw_qml_0.cpp"
+  ".rcc/qmlcache/starview-dock_qmlcache_loader.cpp"
+  ".rcc/qmlcache/starview-dock_src/Main_qml.cpp"
+  ".rcc/qmlcache/starview-dock_src/Main_qml.cpp.aotstats"
+  "CMakeFiles/starview-dock.dir/link.d"
+  "CMakeFiles/starview-dock_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/starview-dock_autogen.dir/ParseCache.txt"
+  "starview-dock_autogen"
+  "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o"
+  "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_qmake_StarViewDock.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o"
+  "CMakeFiles/starview-dock.dir/build/.qt/rcc/qrc_starview-dock_raw_qml_0.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o"
+  "CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o"
+  "CMakeFiles/starview-dock.dir/build/.rcc/qmlcache/starview-dock_src/Main_qml.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/src/main.cpp.o"
+  "CMakeFiles/starview-dock.dir/src/main.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/starview-dock.dir/starview-dock_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o"
+  "CMakeFiles/starview-dock.dir/starview-dock_qmltyperegistrations.cpp.o.d"
+  "StarViewDock/starview-dock.qmltypes"
+  "meta_types/qt6starview-dock_metatypes.json"
+  "meta_types/qt6starview-dock_metatypes.json.gen"
+  "meta_types/starview-dock_json_file_list.txt"
+  "meta_types/starview-dock_json_file_list.txt.timestamp"
+  "starview-dock"
+  "starview-dock.pdb"
+  "starview-dock_autogen/mocs_compilation.cpp"
+  "starview-dock_autogen/timestamp"
+  "starview-dock_qmltyperegistrations.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/starview-dock.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

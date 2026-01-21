@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/link/Programming/StarShell/StarDock/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

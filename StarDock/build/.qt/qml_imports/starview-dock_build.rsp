@@ -1,0 +1,14 @@
+-rootPath
+/home/link/Programming/StarShell/StarDock
+-cmake-output
+-output-file
+/home/link/Programming/StarShell/StarDock/build/.qt/qml_imports/starview-dock_build.cmake
+-importPath
+/home/link/Programming/StarShell/StarDock/build/StarViewDock
+-importPath
+/home/link/Programming/StarShell/StarDock/build
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/link/Programming/StarShell/StarDock/build/.qt/rcc/qmake_StarViewDock.qrc
+/home/link/Programming/StarShell/StarDock/build/.qt/rcc/starview-dock_raw_qml_0.qrc

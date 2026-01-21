@@ -1,0 +1,63 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "flags",
+                            "line": 10,
+                            "message": "Could not find property \"flags\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 119,
+                            "functionName": "fill",
+                            "line": 14,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 59,
+                            "functionName": "fill",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 54,
+                            "functionName": "fill",
+                            "line": 39,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 262,
+                            "functionName": "text",
+                            "line": 56,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 291,
+                            "functionName": "onTriggered",
+                            "line": 64,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/link/Programming/StarShell/StarDock/src/Main.qml"
+                }
+            ],
+            "moduleId": "StarViewDock(starview-dock)"
+        }
+    ]
+}

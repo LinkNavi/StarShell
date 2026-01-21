@@ -1,0 +1,10 @@
+--bare
+-I
+/home/link/Programming/StarShell/StarDock/build
+-I
+/usr/lib/qt6/qml
+--resource
+/home/link/Programming/StarShell/StarDock/build/.qt/rcc/qmake_StarViewDock.qrc
+--resource
+/home/link/Programming/StarShell/StarDock/build/.qt/rcc/starview-dock_raw_qml_0.qrc
+/home/link/Programming/StarShell/StarDock/src/Main.qml

@@ -1,0 +1,199 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 2,
+                            "column": 12,
+                            "durationMicroseconds": 0,
+                            "functionName": "flags",
+                            "line": 12,
+                            "message": "Could not find property \"flags\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 113,
+                            "functionName": "fill",
+                            "line": 18,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 39,
+                            "functionName": "fill",
+                            "line": 23,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 60,
+                            "functionName": "fill",
+                            "line": 33,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 66,
+                            "functionName": "preferredWidth",
+                            "line": 40,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 34,
+                            "functionName": "centerIn",
+                            "line": 44,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 28,
+                            "functionName": "number",
+                            "line": 51,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 33,
+                            "durationMicroseconds": 70,
+                            "functionName": "active",
+                            "line": 52,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 192,
+                            "functionName": "onClicked",
+                            "line": 53,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 24,
+                            "durationMicroseconds": 123,
+                            "functionName": "width",
+                            "line": 69,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 25,
+                            "durationMicroseconds": 81,
+                            "functionName": "height",
+                            "line": 70,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 36,
+                            "functionName": "centerIn",
+                            "line": 68,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 61,
+                            "functionName": "radius",
+                            "line": 77,
+                            "message": "Cannot load property radius from (component in /home/link/Programming/StarShell/Bar/src/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 37,
+                            "functionName": "fill",
+                            "line": 76,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 32,
+                            "functionName": "centerIn",
+                            "line": 89,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 81,
+                            "functionName": "preferredWidth",
+                            "line": 101,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 612,
+                            "functionName": "text",
+                            "line": 106,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 52,
+                            "functionName": "centerIn",
+                            "line": 105,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 84,
+                            "functionName": "weight",
+                            "line": 108,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 30,
+                            "durationMicroseconds": 380,
+                            "functionName": "onTriggered",
+                            "line": 116,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 104,
+                            "functionName": "target",
+                            "line": 123,
+                            "message": "Cannot access value for name ipcHandler"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onWorkspaceChanged",
+                            "line": 124,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 57,
+                            "functionName": "onCompleted",
+                            "line": 130,
+                            "message": "Cannot access value for name ipcHandler"
+                        }
+                    ],
+                    "filePath": "/home/link/Programming/StarShell/Bar/src/Main.qml"
+                }
+            ],
+            "moduleId": "StarViewPanel(starview-panel)"
+        }
+    ]
+}
