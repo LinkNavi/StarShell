@@ -1,0 +1,6 @@
+--resource
+/home/kirby/Programming/StarShell/idk/build/.qt/rcc/qmake_StarViewPanel.qrc
+--resource
+/home/kirby/Programming/StarShell/idk/build/.qt/rcc/starview-panel_raw_qml_0.qrc
+/StarViewPanel/src/Main.qml
+/StarViewPanel/src/WorkspaceButton.qml

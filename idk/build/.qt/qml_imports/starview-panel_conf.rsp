@@ -1,0 +1,14 @@
+-rootPath
+/home/kirby/Programming/StarShell/idk
+-cmake-output
+-output-file
+/home/kirby/Programming/StarShell/idk/build/.qt/qml_imports/starview-panel_conf.cmake
+-importPath
+/home/kirby/Programming/StarShell/idk/build/StarViewPanel
+-importPath
+/home/kirby/Programming/StarShell/idk/build
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/kirby/Programming/StarShell/idk/build/.qt/rcc/qmake_StarViewPanel.qrc
+/home/kirby/Programming/StarShell/idk/build/.qt/rcc/starview-panel_raw_qml_0.qrc

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/StarViewPanel/">
+    <file alias="src/Main.qml">/home/kirby/Programming/StarShell/idk/src/Main.qml</file>
+    <file alias="src/WorkspaceButton.qml">/home/kirby/Programming/StarShell/idk/src/WorkspaceButton.qml</file>
+  </qresource>
+</RCC>
+
