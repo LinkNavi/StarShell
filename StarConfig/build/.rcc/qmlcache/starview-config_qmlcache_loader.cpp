@@ -47,6 +47,13 @@ namespace _0x5f_StarViewConfig_src_pages_PanelPage_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_StarViewConfig_src_pages_ModulesPage_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 namespace _0x5f_StarViewConfig_src_pages_WallpaperPage_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -130,6 +137,7 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/AnimationPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_AnimationPage_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/TilingPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_TilingPage_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/PanelPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_PanelPage_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/ModulesPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_ModulesPage_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/WallpaperPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_WallpaperPage_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/MonitorsPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_MonitorsPage_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewConfig/src/pages/NetworkPage.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewConfig_src_pages_NetworkPage_qml::unit);

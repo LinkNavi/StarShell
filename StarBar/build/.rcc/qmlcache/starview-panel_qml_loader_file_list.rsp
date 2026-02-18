@@ -6,3 +6,5 @@
 /StarViewPanel/src/WorkspaceButton.qml
 /StarViewPanel/src/SystemTray.qml
 /StarViewPanel/src/ClockWidget.qml
+/StarViewPanel/src/QuickPanel.qml
+/StarViewPanel/src/ModuleSlot.qml

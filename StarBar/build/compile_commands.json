@@ -25,6 +25,18 @@
 },
 {
   "directory": "/home/link/Programming/StarShell/StarBar/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include -I/home/link/Programming/StarShell/StarBar -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-panel.dir/src/QuickPanelBackend.cpp.o -c /home/link/Programming/StarShell/StarBar/src/QuickPanelBackend.cpp",
+  "file": "/home/link/Programming/StarShell/StarBar/src/QuickPanelBackend.cpp",
+  "output": "CMakeFiles/starview-panel.dir/src/QuickPanelBackend.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarBar/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include -I/home/link/Programming/StarShell/StarBar -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-panel.dir/src/module_server.cpp.o -c /home/link/Programming/StarShell/StarBar/src/module_server.cpp",
+  "file": "/home/link/Programming/StarShell/StarBar/src/module_server.cpp",
+  "output": "CMakeFiles/starview-panel.dir/src/module_server.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarBar/build",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include -I/home/link/Programming/StarShell/StarBar -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o -c /home/link/Programming/StarShell/StarBar/build/starview-panel_qmltyperegistrations.cpp",
   "file": "/home/link/Programming/StarShell/StarBar/build/starview-panel_qmltyperegistrations.cpp",
   "output": "CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o"
@@ -64,6 +76,18 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include -I/home/link/Programming/StarShell/StarBar -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o -c /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp",
   "file": "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp",
   "output": "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarBar/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include -I/home/link/Programming/StarShell/StarBar -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.o -c /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp",
+  "output": "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarBar/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include -I/home/link/Programming/StarShell/StarBar -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.o -c /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp",
+  "output": "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.o"
 },
 {
   "directory": "/home/link/Programming/StarShell/StarBar/build",

@@ -7,6 +7,7 @@ DecorationPage 1.0 src/pages/DecorationPage.qml
 AnimationPage 1.0 src/pages/AnimationPage.qml
 TilingPage 1.0 src/pages/TilingPage.qml
 PanelPage 1.0 src/pages/PanelPage.qml
+ModulesPage 1.0 src/pages/ModulesPage.qml
 WallpaperPage 1.0 src/pages/WallpaperPage.qml
 MonitorsPage 1.0 src/pages/MonitorsPage.qml
 NetworkPage 1.0 src/pages/NetworkPage.qml

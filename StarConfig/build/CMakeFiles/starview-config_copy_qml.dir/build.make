@@ -75,6 +75,7 @@ CMakeFiles/starview-config_copy_qml: .qt/starview-config_qml.txt
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/PanelPage.qml
+.qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/ModulesPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml

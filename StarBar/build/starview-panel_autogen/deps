@@ -4,9 +4,13 @@ starview-panel_autogen/timestamp: \
 	/home/link/Programming/StarShell/StarBar/build/CMakeFiles/4.2.2-dirty/CMakeCXXCompiler.cmake \
 	/home/link/Programming/StarShell/StarBar/build/CMakeFiles/4.2.2-dirty/CMakeSystem.cmake \
 	/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/moc_predefs.h \
+	/home/link/Programming/StarShell/StarBar/src/QuickPanelBackend.cpp \
+	/home/link/Programming/StarShell/StarBar/src/QuickPanelBackend.h \
 	/home/link/Programming/StarShell/StarBar/src/ipc_handler.cpp \
 	/home/link/Programming/StarShell/StarBar/src/ipc_handler.h \
 	/home/link/Programming/StarShell/StarBar/src/main.cpp \
+	/home/link/Programming/StarShell/StarBar/src/module_server.cpp \
+	/home/link/Programming/StarShell/StarBar/src/module_server.h \
 	/home/link/Programming/StarShell/StarBar/src/panel_config.cpp \
 	/home/link/Programming/StarShell/StarBar/src/panel_config.h \
 	/usr/include/alloca.h \
@@ -200,6 +204,7 @@ starview-panel_autogen/timestamp: \
 	/usr/include/c++/15.2.1/debug/assertions.h \
 	/usr/include/c++/15.2.1/debug/debug.h \
 	/usr/include/c++/15.2.1/exception \
+	/usr/include/c++/15.2.1/experimental/source_location \
 	/usr/include/c++/15.2.1/ext/aligned_buffer.h \
 	/usr/include/c++/15.2.1/ext/alloc_traits.h \
 	/usr/include/c++/15.2.1/ext/atomicity.h \
@@ -275,15 +280,23 @@ starview-panel_autogen/timestamp: \
 	/usr/include/linux/types.h \
 	/usr/include/locale.h \
 	/usr/include/pthread.h \
+	/usr/include/qt6/QtCore/QAbstractListModel \
 	/usr/include/qt6/QtCore/QDebug \
 	/usr/include/qt6/QtCore/QDir \
 	/usr/include/qt6/QtCore/QFile \
 	/usr/include/qt6/QtCore/QFileInfo \
 	/usr/include/qt6/QtCore/QFileSystemWatcher \
+	/usr/include/qt6/QtCore/QJsonArray \
 	/usr/include/qt6/QtCore/QJsonDocument \
 	/usr/include/qt6/QtCore/QJsonObject \
+	/usr/include/qt6/QtCore/QList \
 	/usr/include/qt6/QtCore/QObject \
+	/usr/include/qt6/QtCore/QProcess \
+	/usr/include/qt6/QtCore/QString \
+	/usr/include/qt6/QtCore/QStringList \
 	/usr/include/qt6/QtCore/QTimer \
+	/usr/include/qt6/QtCore/QVariant \
+	/usr/include/qt6/QtCore/QVariantList \
 	/usr/include/qt6/QtCore/q17memory.h \
 	/usr/include/qt6/QtCore/q20functional.h \
 	/usr/include/qt6/QtCore/q20iterator.h \
@@ -293,6 +306,7 @@ starview-panel_autogen/timestamp: \
 	/usr/include/qt6/QtCore/q23type_traits.h \
 	/usr/include/qt6/QtCore/q23utility.h \
 	/usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+	/usr/include/qt6/QtCore/qabstractitemmodel.h \
 	/usr/include/qt6/QtCore/qalgorithms.h \
 	/usr/include/qt6/QtCore/qalloc.h \
 	/usr/include/qt6/QtCore/qanystringview.h \
@@ -351,6 +365,7 @@ starview-panel_autogen/timestamp: \
 	/usr/include/qt6/QtCore/qiodevicebase.h \
 	/usr/include/qt6/QtCore/qiterable.h \
 	/usr/include/qt6/QtCore/qiterator.h \
+	/usr/include/qt6/QtCore/qjsonarray.h \
 	/usr/include/qt6/QtCore/qjsondocument.h \
 	/usr/include/qt6/QtCore/qjsonobject.h \
 	/usr/include/qt6/QtCore/qjsonparseerror.h \
@@ -373,7 +388,10 @@ starview-panel_autogen/timestamp: \
 	/usr/include/qt6/QtCore/qobjectdefs_impl.h \
 	/usr/include/qt6/QtCore/qoverload.h \
 	/usr/include/qt6/QtCore/qpair.h \
+	/usr/include/qt6/QtCore/qprocess.h \
 	/usr/include/qt6/QtCore/qprocessordetection.h \
+	/usr/include/qt6/QtCore/qproperty.h \
+	/usr/include/qt6/QtCore/qpropertyprivate.h \
 	/usr/include/qt6/QtCore/qrefcount.h \
 	/usr/include/qt6/QtCore/qregularexpression.h \
 	/usr/include/qt6/QtCore/qscopedpointer.h \
@@ -426,6 +444,7 @@ starview-panel_autogen/timestamp: \
 	/usr/include/qt6/QtCore/qutf8stringview.h \
 	/usr/include/qt6/QtCore/quuid.h \
 	/usr/include/qt6/QtCore/qvariant.h \
+	/usr/include/qt6/QtCore/qvariantlist.h \
 	/usr/include/qt6/QtCore/qvarlengtharray.h \
 	/usr/include/qt6/QtCore/qversiontagging.h \
 	/usr/include/qt6/QtCore/qxptype_traits.h \
@@ -437,8 +456,10 @@ starview-panel_autogen/timestamp: \
 	/usr/include/qt6/QtGui/qtgui-config.h \
 	/usr/include/qt6/QtGui/qtguiexports.h \
 	/usr/include/qt6/QtGui/qtguiglobal.h \
+	/usr/include/qt6/QtNetwork/QLocalServer \
 	/usr/include/qt6/QtNetwork/QLocalSocket \
 	/usr/include/qt6/QtNetwork/qabstractsocket.h \
+	/usr/include/qt6/QtNetwork/qlocalserver.h \
 	/usr/include/qt6/QtNetwork/qlocalsocket.h \
 	/usr/include/qt6/QtNetwork/qtnetwork-config.h \
 	/usr/include/qt6/QtNetwork/qtnetworkexports.h \

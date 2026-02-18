@@ -10,6 +10,8 @@ f9a1beaed342fe0ef2466e386a1c1ed7 .qt/starview-panel_qml.txt
 35aeca07c2ff12cbf1154aa901f94484 .rcc/qmlcache/starview-panel_qmlcache_loader.cpp
 5fde25491421892a4ffc09ac842ce39a .rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp
 9973d635d79841e80ff2ca006722d083 .rcc/qmlcache/starview-panel_src/Main_qml.cpp
+19ff27c4f7c6f3a9f82b57e894269edd .rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp
+b7301d3df2316f3506bd40eb7387e8c6 .rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp
 3dbe93821bac4421ce5057f2f9aa7f21 .rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp
 ea3db758138cf19653ba2d5d8af9ead9 .rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp
 8e527dc911f9ff1a215a96fb883201af CMakeFiles/all_aotstats

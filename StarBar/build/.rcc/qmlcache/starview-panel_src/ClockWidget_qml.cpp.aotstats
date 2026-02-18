@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 317,
+                            "durationMicroseconds": 156,
                             "functionName": "implicitWidth",
                             "line": 6,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 74,
+                            "durationMicroseconds": 34,
                             "functionName": "spacing",
                             "line": 16,
                             "message": "Cannot access value for name showDate"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 39,
                             "functionName": "centerIn",
                             "line": 15,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 329,
+                            "durationMicroseconds": 178,
                             "functionName": "text",
                             "line": 21,
                             "message": ""
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 104,
+                            "durationMicroseconds": 56,
                             "functionName": "color",
                             "line": 24,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 166,
+                            "durationMicroseconds": 54,
                             "functionName": "horizontalCenter",
                             "line": 20,
                             "message": ""
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 26,
                             "functionName": "pixelSize",
                             "line": 22,
                             "message": "Cannot access value for name showDate"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 26,
-                            "durationMicroseconds": 79,
+                            "durationMicroseconds": 40,
                             "functionName": "weight",
                             "line": 23,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 16,
                             "functionName": "visible",
                             "line": 28,
                             "message": "Cannot access value for name showDate"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 19,
-                            "durationMicroseconds": 274,
+                            "durationMicroseconds": 133,
                             "functionName": "text",
                             "line": 30,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 88,
+                            "durationMicroseconds": 54,
                             "functionName": "color",
                             "line": 32,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 39,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 53,
                             "functionName": "horizontalCenter",
                             "line": 29,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 409,
+                            "durationMicroseconds": 189,
                             "functionName": "onTriggered",
                             "line": 38,
                             "message": ""

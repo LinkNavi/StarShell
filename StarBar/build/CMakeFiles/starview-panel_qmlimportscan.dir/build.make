@@ -75,6 +75,8 @@ CMakeFiles/starview-panel_qmlimportscan: .qt/qml_imports/starview-panel_build.cm
 .qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml
 .qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/SystemTray.qml
 .qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/ClockWidget.qml
+.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/QuickPanel.qml
+.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/ModuleSlot.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for starview-panel"
 	cd /home/link/Programming/StarShell/StarBar && /usr/lib/qt6/qmlimportscanner @/home/link/Programming/StarShell/StarBar/build/.qt/qml_imports/starview-panel_build.rsp
 

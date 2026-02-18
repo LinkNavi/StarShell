@@ -502,6 +502,54 @@ build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.s
 
+build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.o: build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.o
+
+build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.i: build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.i
+
+build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.s: build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.s
+
+build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.o: build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.o
+
+build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.i: build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.i
+
+build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.s: build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.s
+
 build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.o: build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.o
 
@@ -550,6 +598,30 @@ build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.s
 
+src/QuickPanelBackend.o: src/QuickPanelBackend.cpp.o
+.PHONY : src/QuickPanelBackend.o
+
+# target to build an object file
+src/QuickPanelBackend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/QuickPanelBackend.cpp.o
+.PHONY : src/QuickPanelBackend.cpp.o
+
+src/QuickPanelBackend.i: src/QuickPanelBackend.cpp.i
+.PHONY : src/QuickPanelBackend.i
+
+# target to preprocess a source file
+src/QuickPanelBackend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/QuickPanelBackend.cpp.i
+.PHONY : src/QuickPanelBackend.cpp.i
+
+src/QuickPanelBackend.s: src/QuickPanelBackend.cpp.s
+.PHONY : src/QuickPanelBackend.s
+
+# target to generate assembly for a file
+src/QuickPanelBackend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/QuickPanelBackend.cpp.s
+.PHONY : src/QuickPanelBackend.cpp.s
+
 src/ipc_handler.o: src/ipc_handler.cpp.o
 .PHONY : src/ipc_handler.o
 
@@ -597,6 +669,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/module_server.o: src/module_server.cpp.o
+.PHONY : src/module_server.o
+
+# target to build an object file
+src/module_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/module_server.cpp.o
+.PHONY : src/module_server.cpp.o
+
+src/module_server.i: src/module_server.cpp.i
+.PHONY : src/module_server.i
+
+# target to preprocess a source file
+src/module_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/module_server.cpp.i
+.PHONY : src/module_server.cpp.i
+
+src/module_server.s: src/module_server.cpp.s
+.PHONY : src/module_server.s
+
+# target to generate assembly for a file
+src/module_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/module_server.cpp.s
+.PHONY : src/module_server.cpp.s
 
 src/panel_config.o: src/panel_config.cpp.o
 .PHONY : src/panel_config.o
@@ -714,18 +810,30 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-panel_src/Main_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/Main_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/Main_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.s"
+	@echo "... src/QuickPanelBackend.o"
+	@echo "... src/QuickPanelBackend.i"
+	@echo "... src/QuickPanelBackend.s"
 	@echo "... src/ipc_handler.o"
 	@echo "... src/ipc_handler.i"
 	@echo "... src/ipc_handler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/module_server.o"
+	@echo "... src/module_server.i"
+	@echo "... src/module_server.s"
 	@echo "... src/panel_config.o"
 	@echo "... src/panel_config.i"
 	@echo "... src/panel_config.s"

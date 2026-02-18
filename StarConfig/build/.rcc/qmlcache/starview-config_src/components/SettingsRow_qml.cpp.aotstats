@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 208,
+                            "durationMicroseconds": 194,
                             "functionName": "text",
                             "line": 11,
                             "message": ""
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 59,
-                            "durationMicroseconds": 420,
+                            "durationMicroseconds": 457,
                             "functionName": "color",
                             "line": 11,
                             "message": "Cannot access value for name root"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 142,
+                            "durationMicroseconds": 133,
                             "functionName": "text",
                             "line": 12,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 58,
-                            "durationMicroseconds": 413,
+                            "durationMicroseconds": 362,
                             "functionName": "color",
                             "line": 12,
                             "message": "Cannot access value for name root"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 82,
-                            "durationMicroseconds": 193,
+                            "durationMicroseconds": 246,
                             "functionName": "visible",
                             "line": 12,
                             "message": ""

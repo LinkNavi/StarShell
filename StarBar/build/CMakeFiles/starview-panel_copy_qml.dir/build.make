@@ -73,6 +73,8 @@ CMakeFiles/starview-panel_copy_qml: .qt/starview-panel_qml.txt
 .qt/starview-panel_qml.txt: /home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml
 .qt/starview-panel_qml.txt: /home/link/Programming/StarShell/StarBar/src/SystemTray.qml
 .qt/starview-panel_qml.txt: /home/link/Programming/StarShell/StarBar/src/ClockWidget.qml
+.qt/starview-panel_qml.txt: /home/link/Programming/StarShell/StarBar/src/QuickPanel.qml
+.qt/starview-panel_qml.txt: /home/link/Programming/StarShell/StarBar/src/ModuleSlot.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying starview-panel qml sources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/link/Programming/StarShell/StarBar/build/.qt/starview-panel_qml.cmake -P /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

@@ -71,6 +71,8 @@ CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/
 CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml
 CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/SystemTray.qml
 CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/ClockWidget.qml
+CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/QuickPanel.qml
+CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/ModuleSlot.qml
 CMakeFiles/starview-panel_qmllint: .rcc/qmllint/starview-panel.rsp
 	cd /home/link/Programming/StarShell/StarBar && /usr/lib/qt6/bin/qmllint @/home/link/Programming/StarShell/StarBar/build/.rcc/qmllint/starview-panel.rsp
 

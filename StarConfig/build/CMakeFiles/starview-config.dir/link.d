@@ -10,6 +10,7 @@ starview-config: \
   CMakeFiles/starview-config.dir/src/ColorProvider.cpp.o \
   CMakeFiles/starview-config.dir/src/NetworkManager.cpp.o \
   CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.o \
+  CMakeFiles/starview-config.dir/src/module_server.cpp.o \
   CMakeFiles/starview-config.dir/src/toml.c.o \
   CMakeFiles/starview-config.dir/starview-config_qmltyperegistrations.cpp.o \
   CMakeFiles/starview-config.dir/build/.qt/rcc/qrc_qmake_StarViewConfig.cpp.o \
@@ -20,6 +21,7 @@ starview-config: \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o \
+  CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.o \
@@ -151,6 +153,8 @@ CMakeFiles/starview-config.dir/src/NetworkManager.cpp.o:
 
 CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.o:
 
+CMakeFiles/starview-config.dir/src/module_server.cpp.o:
+
 CMakeFiles/starview-config.dir/src/toml.c.o:
 
 CMakeFiles/starview-config.dir/starview-config_qmltyperegistrations.cpp.o:
@@ -170,6 +174,8 @@ CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/Ani
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o:
 
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o:
+
+CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.o:
 
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o:
 

@@ -33,6 +33,20 @@ namespace _0x5f_StarViewPanel_src_ClockWidget_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_StarViewPanel_src_QuickPanel_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_StarViewPanel_src_ModuleSlot_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -51,6 +65,8 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewPanel/src/WorkspaceButton.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewPanel_src_WorkspaceButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewPanel/src/SystemTray.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewPanel_src_SystemTray_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/StarViewPanel/src/ClockWidget.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewPanel_src_ClockWidget_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/StarViewPanel/src/QuickPanel.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewPanel_src_QuickPanel_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/StarViewPanel/src/ModuleSlot.qml"), &QmlCacheGeneratedCode::_0x5f_StarViewPanel_src_ModuleSlot_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

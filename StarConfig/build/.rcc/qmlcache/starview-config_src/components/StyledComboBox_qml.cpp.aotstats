@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 102,
+                            "durationMicroseconds": 147,
                             "functionName": "onCompleted",
                             "line": 9,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 59,
                             "functionName": "visible",
                             "line": 13,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 34,
+                            "durationMicroseconds": 63,
                             "functionName": "rightPadding",
                             "line": 14,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 15,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 43,
                             "functionName": "text",
                             "line": 15,
                             "message": "Cannot retrieve a non-object type by ID: control"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 273,
+                            "durationMicroseconds": 506,
                             "functionName": "color",
                             "line": 17,
                             "message": "Cannot access value for name root"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 0,
                             "column": 28,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 167,
                             "functionName": "verticalAlignment",
                             "line": 18,
                             "message": ""
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 114,
                             "functionName": "elide",
                             "line": 19,
                             "message": ""
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 44,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 82,
                             "functionName": "rightPadding",
                             "line": 26,
                             "message": "Cannot access value for name control"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 48,
                             "functionName": "text",
                             "line": 27,
                             "message": "Cannot access value for name control"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 365,
+                            "durationMicroseconds": 540,
                             "functionName": "color",
                             "line": 29,
                             "message": "Cannot access value for name root"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 303,
+                            "durationMicroseconds": 498,
                             "functionName": "selectionColor",
                             "line": 30,
                             "message": "Cannot access value for name root"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 322,
+                            "durationMicroseconds": 466,
                             "functionName": "selectedTextColor",
                             "line": 31,
                             "message": "Cannot access value for name root"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 93,
+                            "durationMicroseconds": 159,
                             "functionName": "verticalAlignment",
                             "line": 32,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 44,
+                            "durationMicroseconds": 75,
                             "functionName": "onTextEdited",
                             "line": 33,
                             "message": "Cannot access value for name control"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 81,
                             "functionName": "x",
                             "line": 38,
                             "message": "Cannot access value for name control"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 12,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 59,
                             "functionName": "y",
                             "line": 39,
                             "message": "Cannot access value for name control"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 260,
+                            "durationMicroseconds": 432,
                             "functionName": "color",
                             "line": 40,
                             "message": "Cannot access value for name root"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 388,
+                            "durationMicroseconds": 596,
                             "functionName": "color",
                             "line": 44,
                             "message": "Cannot access value for name control"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 23,
-                            "durationMicroseconds": 275,
+                            "durationMicroseconds": 416,
                             "functionName": "color",
                             "line": 46,
                             "message": "Cannot access value for name control"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 1041,
+                            "durationMicroseconds": 1560,
                             "functionName": "text",
                             "line": 54,
                             "message": "Cannot access value for name control"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 945,
+                            "durationMicroseconds": 1219,
                             "functionName": "color",
                             "line": 56,
                             "message": "Cannot access value for name highlighted"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 0,
                             "column": 32,
-                            "durationMicroseconds": 80,
+                            "durationMicroseconds": 132,
                             "functionName": "verticalAlignment",
                             "line": 57,
                             "message": ""
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 1027,
+                            "durationMicroseconds": 1625,
                             "functionName": "color",
                             "line": 61,
                             "message": "Cannot access value for name highlighted"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 165,
+                            "durationMicroseconds": 185,
                             "functionName": "color",
                             "line": 75,
                             "message": "Cannot access value for name root"
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 134,
+                            "durationMicroseconds": 182,
                             "functionName": "color",
                             "line": 77,
                             "message": "Cannot access value for name root"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 0,
                             "column": 29,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 97,
                             "functionName": "implicitHeight",
                             "line": 83,
                             "message": ""
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 62,
+                            "durationMicroseconds": 85,
                             "functionName": "model",
                             "line": 84,
                             "message": "Cannot access value for name control"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 22,
+                            "durationMicroseconds": 31,
                             "functionName": "currentIndex",
                             "line": 85,
                             "message": "Cannot access value for name control"

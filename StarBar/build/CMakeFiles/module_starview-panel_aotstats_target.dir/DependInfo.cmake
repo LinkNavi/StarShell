@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp"
   "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ModuleSlot_qml.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/QuickPanel_qml.cpp"
   "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp"
   "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp"
   )

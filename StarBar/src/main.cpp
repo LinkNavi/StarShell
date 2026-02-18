@@ -5,6 +5,8 @@
 #include <LayerShellQt/Window>
 #include "ipc_handler.h"
 #include "panel_config.h"
+#include "module_server.h"
+#include "QuickPanelBackend.h"
 
 static void configureLayerShell(QQuickWindow *window, PanelConfig *config)
 {
@@ -25,12 +27,12 @@ static void configureLayerShell(QQuickWindow *window, PanelConfig *config)
     if (config->position() == 1) {
         layer->setAnchors(static_cast<LayerShellQt::Window::Anchors>(
             LayerShellQt::Window::AnchorBottom |
-            LayerShellQt::Window::AnchorLeft |
+            LayerShellQt::Window::AnchorLeft   |
             LayerShellQt::Window::AnchorRight
         ));
     } else {
         layer->setAnchors(static_cast<LayerShellQt::Window::Anchors>(
-            LayerShellQt::Window::AnchorTop |
+            LayerShellQt::Window::AnchorTop  |
             LayerShellQt::Window::AnchorLeft |
             LayerShellQt::Window::AnchorRight
         ));
@@ -40,8 +42,8 @@ static void configureLayerShell(QQuickWindow *window, PanelConfig *config)
     layer->setMargins(QMargins(m, m, m, m));
 
     window->setHeight(h + m * 2);
-
     window->show();
+
     qDebug() << "Panel configured: h=" << h << "pos=" << config->position()
              << "margins=" << m << "floating=" << config->floating();
 }
@@ -53,12 +55,16 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     QGuiApplication::setApplicationName("StarView Panel");
 
-    IpcHandler ipcHandler;
-    PanelConfig panelConfig;
+    IpcHandler        ipcHandler;
+    PanelConfig       panelConfig;
+    ModuleServer      moduleServer;
+    QuickPanelBackend quickPanelBackend;
 
     QQmlApplicationEngine engine;
-    engine.rootContext()->setContextProperty("ipcHandler", &ipcHandler);
-    engine.rootContext()->setContextProperty("panelConfig", &panelConfig);
+    engine.rootContext()->setContextProperty("ipcHandler",    &ipcHandler);
+    engine.rootContext()->setContextProperty("panelConfig",   &panelConfig);
+    engine.rootContext()->setContextProperty("moduleServer",  &moduleServer);
+    engine.rootContext()->setContextProperty("quickPanel",    &quickPanelBackend);
 
     QQuickWindow *panelWindow = nullptr;
 
@@ -71,7 +77,6 @@ int main(int argc, char *argv[])
             configureLayerShell(panelWindow, &panelConfig);
         }, Qt::QueuedConnection);
 
-    // Reconfigure LayerShell on every config change
     QObject::connect(&panelConfig, &PanelConfig::configChanged,
         &app, [&panelWindow, &panelConfig]() {
             if (panelWindow) {

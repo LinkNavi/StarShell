@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   ".rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp"
   ".rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.aotstats"
+  ".rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp"
+  ".rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp"
   ".rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp"

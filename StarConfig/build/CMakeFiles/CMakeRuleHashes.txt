@@ -20,6 +20,7 @@ a797fa06c705548f9fbcecebb362c519 .rcc/qmlcache/starview-config_src/components/Se
 fd03fbc5092f7e7fd8159bfd9a523996 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp
 1758ec19e123c94670a8f6ede0e688e6 .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp
 8c356828f01bbe4b27a72bff87a5c743 .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp
+982d2fe21ea2d55d96cdbe8cf527ff15 .rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp
 7f3d9e16daa607f78a5609ee48885022 .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp
 6e832cf2ee782839e74060f2a98a545d .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp
 97d507a5e0c5f7f4ef6d7c84010dbef0 .rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp

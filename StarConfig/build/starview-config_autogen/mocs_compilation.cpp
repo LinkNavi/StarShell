@@ -5,3 +5,4 @@
 #include "UVLADIE3JM/moc_NetworkManager.cpp"
 #include "UVLADIE3JM/moc_PanelConfigWriter.cpp"
 #include "UVLADIE3JM/moc_WallpaperManager.cpp"
+#include "UVLADIE3JM/moc_module_server.cpp"

@@ -5,5 +5,7 @@ Main 1.0 src/Main.qml
 WorkspaceButton 1.0 src/WorkspaceButton.qml
 SystemTray 1.0 src/SystemTray.qml
 ClockWidget 1.0 src/ClockWidget.qml
+QuickPanel 1.0 src/QuickPanel.qml
+ModuleSlot 1.0 src/ModuleSlot.qml
 depends QtQuick
 

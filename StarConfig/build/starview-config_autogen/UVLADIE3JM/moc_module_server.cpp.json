@@ -1,0 +1,176 @@
+{
+    "classes": [
+        {
+            "className": "ModuleModel",
+            "lineNumber": 34,
+            "object": true,
+            "qualifiedClassName": "ModuleModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "ModuleServer",
+            "lineNumber": 69,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "manifest",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "type",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 85,
+                    "name": "createModule",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "left",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "center",
+                            "type": "QVariantList"
+                        },
+                        {
+                            "name": "right",
+                            "type": "QVariantList"
+                        }
+                    ],
+                    "index": 8,
+                    "lineNumber": 89,
+                    "name": "applySlots",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 71,
+                    "name": "model",
+                    "read": "model",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ModuleModel*",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 72,
+                    "name": "listening",
+                    "notify": "listeningChanged",
+                    "read": "listening",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "ModuleServer",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 94,
+                    "name": "listeningChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 95,
+                    "name": "slotsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 96,
+                    "name": "moduleUpdated",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "lineNumber": 99,
+                    "name": "scanModules",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "lineNumber": 100,
+                    "name": "onNewConnection",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "sock",
+                            "type": "QLocalSocket*"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 101,
+                    "name": "onSocketData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "sock",
+                            "type": "QLocalSocket*"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 102,
+                    "name": "onSocketDisconnected",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "module_server.h",
+    "outputRevision": 69
+}

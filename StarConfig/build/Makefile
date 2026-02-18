@@ -670,6 +670,30 @@ build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.s
 
+build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.i: build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.s: build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp.s
+
 build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.o
 
@@ -982,6 +1006,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/module_server.o: src/module_server.cpp.o
+.PHONY : src/module_server.o
+
+# target to build an object file
+src/module_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/module_server.cpp.o
+.PHONY : src/module_server.cpp.o
+
+src/module_server.i: src/module_server.cpp.i
+.PHONY : src/module_server.i
+
+# target to preprocess a source file
+src/module_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/module_server.cpp.i
+.PHONY : src/module_server.cpp.i
+
+src/module_server.s: src/module_server.cpp.s
+.PHONY : src/module_server.s
+
+# target to generate assembly for a file
+src/module_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/module_server.cpp.s
+.PHONY : src/module_server.cpp.s
+
 src/toml.o: src/toml.c.o
 .PHONY : src/toml.o
 
@@ -1119,6 +1167,9 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.s"
@@ -1158,6 +1209,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/module_server.o"
+	@echo "... src/module_server.i"
+	@echo "... src/module_server.s"
 	@echo "... src/toml.o"
 	@echo "... src/toml.i"
 	@echo "... src/toml.s"

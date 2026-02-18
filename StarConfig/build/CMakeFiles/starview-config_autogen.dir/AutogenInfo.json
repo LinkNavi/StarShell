@@ -971,6 +971,12 @@
 			"MU",
 			"UVLADIE3JM/moc_WallpaperManager.cpp",
 			null
+		],
+		[
+			"/home/link/Programming/StarShell/StarConfig/src/module_server.h",
+			"MU",
+			"UVLADIE3JM/moc_module_server.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -998,6 +1004,7 @@
 	[
 		"/home/link/Programming/StarShell/StarConfig",
 		"/home/link/Programming/StarShell/StarConfig/include",
+		"/home/link/Programming/StarShell/StarConfig/src",
 		"/usr/include/qt6/QtQml",
 		"/usr/include/qt6",
 		"/usr/include/qt6/QtCore",
@@ -1051,6 +1058,7 @@
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp",
@@ -1104,6 +1112,11 @@
 			"MU",
 			null
 		],
+		[
+			"/home/link/Programming/StarShell/StarConfig/src/module_server.cpp",
+			"MU",
+			null
+		],
 		[ "/home/link/Programming/StarShell/StarConfig/src/toml.c", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
@@ -1122,6 +1135,7 @@
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/ModulesPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp",

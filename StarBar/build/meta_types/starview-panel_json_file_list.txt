@@ -1,2 +1,4 @@
+/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include/../UVLADIE3JM/moc_QuickPanelBackend.cpp.json
 /home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include/../UVLADIE3JM/moc_ipc_handler.cpp.json
+/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include/../UVLADIE3JM/moc_module_server.cpp.json
 /home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include/../UVLADIE3JM/moc_panel_config.cpp.json

@@ -23,16 +23,16 @@
                         },
                         {
                             "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 78,
+                            "column": 42,
+                            "durationMicroseconds": 101,
                             "functionName": "bgColor",
                             "line": 18,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 37,
+                            "column": 42,
+                            "durationMicroseconds": 48,
                             "functionName": "fgColor",
                             "line": 19,
                             "message": "Cannot access value for name panelConfig"
@@ -40,31 +40,47 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 90,
                             "functionName": "accentColor",
                             "line": 20,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 39,
-                            "durationMicroseconds": 287,
+                            "column": 42,
+                            "durationMicroseconds": 374,
                             "functionName": "dimColor",
                             "line": 21,
                             "message": "Cannot generate efficient code for internal conversion with incompatible or ambiguous types: call to method rgba, returning QVariant -> QColor stored as QVariant"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 17,
-                            "durationMicroseconds": 325,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "moduleSlotModel",
+                            "line": 182,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "hasModulesInSlot",
+                            "line": 207,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 18,
+                            "durationMicroseconds": 424,
                             "functionName": "radius",
                             "line": 28,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 16,
-                            "durationMicroseconds": 12,
+                            "column": 18,
+                            "durationMicroseconds": 16,
                             "functionName": "color",
                             "line": 29,
                             "message": "Cannot retrieve a non-object type by ID: panel"
@@ -72,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 140,
+                            "durationMicroseconds": 178,
                             "functionName": "opacity",
                             "line": 30,
                             "message": "Cannot access value for name panelConfig"
@@ -80,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 54,
                             "functionName": "fill",
                             "line": 26,
                             "message": ""
@@ -88,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 348,
+                            "durationMicroseconds": 435,
                             "functionName": "margins",
                             "line": 27,
                             "message": "Cannot access value for name panelConfig"
@@ -96,337 +112,457 @@
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 90,
+                            "durationMicroseconds": 114,
                             "functionName": "left",
-                            "line": 35,
+                            "line": 34,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 78,
                             "functionName": "right",
-                            "line": 35,
+                            "line": 34,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 82,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 72,
                             "functionName": "top",
-                            "line": 35,
+                            "line": 34,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 38,
+                            "durationMicroseconds": 55,
                             "functionName": "fill",
-                            "line": 42,
+                            "line": 41,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 316,
+                            "durationMicroseconds": 437,
                             "functionName": "margins",
-                            "line": 43,
+                            "line": 42,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 118,
+                            "column": 26,
+                            "durationMicroseconds": 229,
                             "functionName": "visible",
-                            "line": 50,
+                            "line": 55,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 93,
+                            "column": 40,
+                            "durationMicroseconds": 84,
                             "functionName": "preferredWidth",
-                            "line": 49,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 71,
-                            "functionName": "centerIn",
                             "line": 54,
                             "message": ""
                         },
                         {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 52,
+                            "functionName": "centerIn",
+                            "line": 59,
+                            "message": ""
+                        },
+                        {
                             "codegenResult": 2,
-                            "column": 28,
-                            "durationMicroseconds": 185,
+                            "column": 32,
+                            "durationMicroseconds": 242,
                             "functionName": "model",
-                            "line": 58,
+                            "line": 63,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 33,
-                            "durationMicroseconds": 19,
+                            "column": 37,
+                            "durationMicroseconds": 75,
                             "functionName": "number",
-                            "line": 61,
+                            "line": 65,
                             "message": "Cannot access value for name index"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 33,
-                            "durationMicroseconds": 35,
+                            "column": 37,
+                            "durationMicroseconds": 119,
                             "functionName": "active",
-                            "line": 62,
-                            "message": "Cannot access value for name panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 38,
-                            "durationMicroseconds": 40,
-                            "functionName": "accentColor",
-                            "line": 63,
-                            "message": "Cannot access value for name panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 17,
-                            "functionName": "fgColor",
-                            "line": 64,
-                            "message": "Cannot access value for name panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 34,
-                            "durationMicroseconds": 16,
-                            "functionName": "bgColor",
-                            "line": 65,
-                            "message": "Cannot access value for name panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 144,
-                            "functionName": "inactiveColor",
                             "line": 66,
-                            "message": "Cannot access value for name panelConfig"
+                            "message": "Cannot access value for name panel"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 133,
-                            "functionName": "barHeight",
+                            "column": 42,
+                            "durationMicroseconds": 34,
+                            "functionName": "accentColor",
                             "line": 67,
-                            "message": "Cannot access value for name panelConfig"
+                            "message": "Cannot access value for name panel"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 36,
-                            "durationMicroseconds": 161,
-                            "functionName": "onClicked",
+                            "column": 42,
+                            "durationMicroseconds": 32,
+                            "functionName": "fgColor",
                             "line": 68,
                             "message": "Cannot access value for name panel"
                         },
                         {
                             "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 31,
+                            "functionName": "bgColor",
+                            "line": 69,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 242,
+                            "functionName": "inactiveColor",
+                            "line": 70,
+                            "message": "Cannot access value for name panelConfig"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 209,
+                            "functionName": "barHeight",
+                            "line": 71,
+                            "message": "Cannot access value for name panelConfig"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 440,
+                            "functionName": "onClicked",
+                            "line": 72,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 288,
+                            "functionName": "model",
+                            "line": 83,
+                            "message": "method moduleSlotModel cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 82,
+                            "functionName": "delegate",
+                            "line": 84,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 344,
+                            "durationMicroseconds": 624,
                             "functionName": "visible",
-                            "line": 79,
+                            "line": 90,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 11,
+                            "durationMicroseconds": 34,
                             "functionName": "color",
-                            "line": 81,
-                            "message": "Cannot retrieve a non-object type by ID: panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 118,
-                            "functionName": "visible",
-                            "line": 88,
-                            "message": "Cannot access value for name panelConfig"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 24,
-                            "durationMicroseconds": 168,
-                            "functionName": "width",
-                            "line": 93,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 24,
-                            "functionName": "text",
                             "line": 94,
                             "message": "Cannot retrieve a non-object type by ID: panel"
                         },
                         {
                             "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 963,
+                            "functionName": "visible",
+                            "line": 106,
+                            "message": "Cannot access value for name panelConfig"
+                        },
+                        {
+                            "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 300,
+                            "functionName": "width",
+                            "line": 107,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 83,
+                            "functionName": "text",
+                            "line": 108,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 76,
                             "functionName": "color",
-                            "line": 97,
+                            "line": 111,
                             "message": "Cannot retrieve a non-object type by ID: panel"
                         },
                         {
                             "codegenResult": 0,
                             "column": 24,
-                            "durationMicroseconds": 46,
+                            "durationMicroseconds": 103,
                             "functionName": "elide",
-                            "line": 98,
+                            "line": 112,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 38,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 63,
                             "functionName": "horizontalAlignment",
-                            "line": 99,
+                            "line": 113,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 65,
                             "functionName": "centerIn",
-                            "line": 92,
+                            "line": 105,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 30,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 52,
                             "functionName": "weight",
-                            "line": 96,
-                            "message": "Cannot retrieve a non-object type by ID: panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 413,
-                            "functionName": "visible",
-                            "line": 105,
-                            "message": "Cannot access value for name panelConfig"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 30,
-                            "durationMicroseconds": 10,
-                            "functionName": "color",
-                            "line": 107,
-                            "message": "Cannot retrieve a non-object type by ID: panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 142,
-                            "functionName": "visible",
-                            "line": 112,
-                            "message": "Cannot access value for name panelConfig"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 9,
-                            "functionName": "fgColor",
-                            "line": 114,
-                            "message": "Cannot retrieve a non-object type by ID: panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 8,
-                            "functionName": "dimColor",
-                            "line": 115,
+                            "line": 110,
                             "message": "Cannot retrieve a non-object type by ID: panel"
                         },
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 8,
-                            "functionName": "accentColor",
-                            "line": 116,
-                            "message": "Cannot retrieve a non-object type by ID: panel"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 270,
+                            "durationMicroseconds": 286,
                             "functionName": "visible",
-                            "line": 121,
-                            "message": "Cannot access value for name panelConfig"
+                            "line": 120,
+                            "message": "method hasModulesInSlot cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 35,
+                            "durationMicroseconds": 67,
+                            "functionName": "centerIn",
+                            "line": 118,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 30,
-                            "durationMicroseconds": 10,
-                            "functionName": "color",
+                            "column": 28,
+                            "durationMicroseconds": 324,
+                            "functionName": "model",
                             "line": 123,
-                            "message": "Cannot retrieve a non-object type by ID: panel"
+                            "message": "method moduleSlotModel cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 55,
+                            "functionName": "delegate",
+                            "line": 124,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 22,
-                            "durationMicroseconds": 132,
+                            "durationMicroseconds": 1172,
                             "functionName": "visible",
-                            "line": 128,
+                            "line": 131,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 9,
-                            "functionName": "fgColor",
-                            "line": 131,
+                            "column": 30,
+                            "durationMicroseconds": 18,
+                            "functionName": "color",
+                            "line": 136,
                             "message": "Cannot retrieve a non-object type by ID: panel"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 8,
+                            "column": 24,
+                            "durationMicroseconds": 337,
+                            "functionName": "model",
+                            "line": 146,
+                            "message": "method moduleSlotModel cannot be resolved."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 96,
+                            "functionName": "delegate",
+                            "line": 147,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 250,
+                            "functionName": "visible",
+                            "line": 152,
+                            "message": "Cannot access value for name panelConfig"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 18,
+                            "functionName": "fgColor",
+                            "line": 154,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 14,
                             "functionName": "dimColor",
-                            "line": 132,
+                            "line": 155,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 14,
+                            "functionName": "accentColor",
+                            "line": 156,
                             "message": "Cannot retrieve a non-object type by ID: panel"
                         },
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 124,
-                            "functionName": "clockFormat",
-                            "line": 133,
+                            "durationMicroseconds": 470,
+                            "functionName": "visible",
+                            "line": 161,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 119,
+                            "column": 34,
+                            "durationMicroseconds": 20,
+                            "functionName": "color",
+                            "line": 163,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 232,
+                            "functionName": "visible",
+                            "line": 168,
+                            "message": "Cannot access value for name panelConfig"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 20,
+                            "functionName": "fgColor",
+                            "line": 171,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 17,
+                            "functionName": "dimColor",
+                            "line": 172,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 232,
+                            "functionName": "clockFormat",
+                            "line": 173,
+                            "message": "Cannot access value for name panelConfig"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 236,
                             "functionName": "showDate",
-                            "line": 134,
+                            "line": 174,
                             "message": "Cannot access value for name panelConfig"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 35,
+                            "column": 40,
+                            "durationMicroseconds": 94,
                             "functionName": "preferredWidth",
-                            "line": 130,
+                            "line": 170,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 195,
+                            "functionName": "moduleData",
+                            "line": 216,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 30,
+                            "functionName": "fgColor",
+                            "line": 217,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 28,
+                            "functionName": "dimColor",
+                            "line": 218,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 28,
+                            "functionName": "accentColor",
+                            "line": 219,
+                            "message": "Cannot access value for name panel"
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 17,
-                            "durationMicroseconds": 39,
+                            "durationMicroseconds": 66,
                             "functionName": "target",
-                            "line": 140,
+                            "line": 225,
+                            "message": "Cannot access value for name moduleServer"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 46,
+                            "functionName": "onModuleUpdated",
+                            "line": 226,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 36,
+                            "functionName": "onSlotsChanged",
+                            "line": 227,
+                            "message": "Cannot retrieve a non-object type by ID: panel"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 98,
+                            "functionName": "target",
+                            "line": 232,
                             "message": "Cannot access value for name ipcHandler"
                         },
                         {
@@ -434,7 +570,7 @@
                             "column": 9,
                             "durationMicroseconds": 0,
                             "functionName": "onWorkspaceChanged",
-                            "line": 141,
+                            "line": 233,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
@@ -442,15 +578,15 @@
                             "column": 9,
                             "durationMicroseconds": 0,
                             "functionName": "onFocusedWindowChanged",
-                            "line": 142,
+                            "line": 234,
                             "message": "Functions without type annotations won't be compiled"
                         },
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 360,
                             "functionName": "onCompleted",
-                            "line": 145,
+                            "line": 237,
                             "message": "Cannot access value for name ipcHandler"
                         }
                     ],

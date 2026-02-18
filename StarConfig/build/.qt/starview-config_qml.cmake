@@ -14,6 +14,8 @@ set(src_and_dest_list
     "/home/link/Programming/StarShell/StarConfig/build/StarViewConfig/src/pages/TilingPage.qml"
     "/home/link/Programming/StarShell/StarConfig/src/pages/PanelPage.qml"
     "/home/link/Programming/StarShell/StarConfig/build/StarViewConfig/src/pages/PanelPage.qml"
+    "/home/link/Programming/StarShell/StarConfig/src/pages/ModulesPage.qml"
+    "/home/link/Programming/StarShell/StarConfig/build/StarViewConfig/src/pages/ModulesPage.qml"
     "/home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml"
     "/home/link/Programming/StarShell/StarConfig/build/StarViewConfig/src/pages/WallpaperPage.qml"
     "/home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml"
