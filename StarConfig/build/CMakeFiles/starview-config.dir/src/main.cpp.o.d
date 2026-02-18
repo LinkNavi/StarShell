@@ -371,10 +371,14 @@ CMakeFiles/starview-config.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/qvariantmap.h /usr/include/qt6/QtCore/QMap \
  /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtCore/QVariant \
  /usr/include/qt6/QtCore/qvariant.h /usr/include/qt6/QtCore/QString \
+ /usr/include/qt6/QtCore/QVariantList \
+ /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QList \
+ /usr/include/qt6/QtCore/qlist.h \
  /usr/include/qt6/QtCore/QFileSystemWatcher \
  /usr/include/qt6/QtCore/qfilesystemwatcher.h \
  /usr/include/qt6/QtCore/QTextStream \
- /usr/include/qt6/QtCore/qtextstream.h \
+ /usr/include/qt6/QtCore/qtextstream.h /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtCore/qtimer.h \
  /home/link/Programming/StarShell/StarConfig/include/toml.h \
  /home/link/Programming/StarShell/StarConfig/include/starview_ipc.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
@@ -391,7 +395,7 @@ CMakeFiles/starview-config.dir/src/main.cpp.o: \
  /usr/include/qt6/QtCore/QProcess /usr/include/qt6/QtCore/qprocess.h \
  /usr/include/qt6/QtCore/qiodevice.h \
  /home/link/Programming/StarShell/StarConfig/src/MonitorManager.h \
- /usr/include/qt6/QtCore/QVariantList \
- /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QList \
- /usr/include/qt6/QtCore/qlist.h \
- /home/link/Programming/StarShell/StarConfig/src/NetworkManager.h
+ /home/link/Programming/StarShell/StarConfig/src/NetworkManager.h \
+ /home/link/Programming/StarShell/StarConfig/src/ColorProvider.h \
+ /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtGui/qcolor.h \
+ /usr/include/qt6/QtGui/qrgb.h /usr/include/qt6/QtGui/qrgba64.h

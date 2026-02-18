@@ -4,11 +4,16 @@ prefer :/StarViewConfig/
 Main 1.0 src/Main.qml
 GeneralPage 1.0 src/pages/GeneralPage.qml
 DecorationPage 1.0 src/pages/DecorationPage.qml
+AnimationPage 1.0 src/pages/AnimationPage.qml
+TilingPage 1.0 src/pages/TilingPage.qml
 WallpaperPage 1.0 src/pages/WallpaperPage.qml
 MonitorsPage 1.0 src/pages/MonitorsPage.qml
 NetworkPage 1.0 src/pages/NetworkPage.qml
 KeybindingsPage 1.0 src/pages/KeybindingsPage.qml
+RulesPage 1.0 src/pages/RulesPage.qml
+AutostartPage 1.0 src/pages/AutostartPage.qml
 SettingsGroup 1.0 src/components/SettingsGroup.qml
 SettingsRow 1.0 src/components/SettingsRow.qml
+StyledComboBox 1.0 src/components/StyledComboBox.qml
 depends QtQuick
 

@@ -526,6 +526,78 @@ build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.s
 
+build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.o: build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.i: build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.s: build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.s
+
+build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.i: build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.s: build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.s
+
+build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.i: build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.s: build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.s
+
 build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.o
 
@@ -646,6 +718,54 @@ build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.s
 
+build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.i: build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.s: build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.s
+
+build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.i: build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.s: build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.s
+
 build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.o
 
@@ -669,6 +789,30 @@ build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.s: build/.rcc/qm
 build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.s
+
+src/ColorProvider.o: src/ColorProvider.cpp.o
+.PHONY : src/ColorProvider.o
+
+# target to build an object file
+src/ColorProvider.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/ColorProvider.cpp.o
+.PHONY : src/ColorProvider.cpp.o
+
+src/ColorProvider.i: src/ColorProvider.cpp.i
+.PHONY : src/ColorProvider.i
+
+# target to preprocess a source file
+src/ColorProvider.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/ColorProvider.cpp.i
+.PHONY : src/ColorProvider.cpp.i
+
+src/ColorProvider.s: src/ColorProvider.cpp.s
+.PHONY : src/ColorProvider.s
+
+# target to generate assembly for a file
+src/ColorProvider.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/ColorProvider.cpp.s
+.PHONY : src/ColorProvider.cpp.s
 
 src/ConfigManager.o: src/ConfigManager.cpp.o
 .PHONY : src/ConfigManager.o
@@ -909,6 +1053,15 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.s"
@@ -924,9 +1077,18 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.s"
+	@echo "... src/ColorProvider.o"
+	@echo "... src/ColorProvider.i"
+	@echo "... src/ColorProvider.s"
 	@echo "... src/ConfigManager.o"
 	@echo "... src/ConfigManager.i"
 	@echo "... src/ConfigManager.s"

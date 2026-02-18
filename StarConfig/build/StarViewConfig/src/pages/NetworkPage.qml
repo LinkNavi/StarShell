@@ -3,229 +3,54 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import "../components"
 
-ScrollView {
-    id: root
-    objectName: "network"
-    
-    ColumnLayout {
-        width: root.width - 40
-        spacing: 20
-        
-        Text {
-            text: "Network Settings"
-            font.pixelSize: 28
-            font.bold: true
-            color: "#cdd6f4"
-            Layout.topMargin: 30
-            Layout.leftMargin: 30
-        }
-        
-        SettingsGroup {
-            title: "WiFi"
-            Layout.fillWidth: true
-            Layout.margins: 30
-            
-            ColumnLayout {
-                Layout.fillWidth: true
-                spacing: 15
-                
-                // WiFi toggle
-                SettingsRow {
-                    label: "WiFi Enabled"
-                    
-                    Switch {
-                        checked: networkManager.wifiEnabled
-                        onToggled: networkManager.toggleWifi()
-                    }
-                }
-                
-                // Scan button
-                Button {
-                    text: "Scan Networks"
-                    Layout.fillWidth: true
-                    enabled: networkManager.wifiEnabled
-                    
-                    background: Rectangle {
-                        color: parent.enabled ? (parent.pressed ? "#313244" : (parent.hovered ? "#45475a" : "#1e1e2e")) : "#11111b"
-                        radius: 8
-                        border.color: "#45475a"
-                        border.width: 1
-                    }
-                    
-                    contentItem: Text {
-                        text: parent.text
-                        color: parent.enabled ? "#cdd6f4" : "#6c7086"
-                        horizontalAlignment: Text.AlignHCenter
-                        verticalAlignment: Text.AlignVCenter
-                    }
-                    
-                    onClicked: {
-                        var networks = networkManager.scanNetworks()
-                        networkList.model = networks
-                    }
-                }
-                
-                // Network list
-                ListView {
-                    id: networkList
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: 400
-                    clip: true
-                    spacing: 8
-                    
-                    delegate: Rectangle {
-                        width: networkList.width
-                        height: 60
-                        radius: 8
-                        color: mouseArea.containsMouse ? "#313244" : "#1e1e2e"
-                        border.color: "#45475a"
-                        border.width: 1
-                        
-                        RowLayout {
-                            anchors.fill: parent
-                            anchors.margins: 15
-                            spacing: 15
-                            
-                            // Signal strength indicator
-                            Text {
-                                text: modelData.signal > 75 ? "📶" : (modelData.signal > 50 ? "📶" : (modelData.signal > 25 ? "📶" : "📶"))
-                                font.pixelSize: 20
-                                color: "#cdd6f4"
-                            }
-                            
-                            ColumnLayout {
-                                Layout.fillWidth: true
-                                spacing: 4
-                                
-                                Text {
-                                    text: modelData.ssid
-                                    font.pixelSize: 14
-                                    font.bold: true
-                                    color: "#cdd6f4"
-                                }
-                                
-                                Text {
-                                    text: modelData.security || "Open"
-                                    font.pixelSize: 11
-                                    color: "#6c7086"
-                                }
-                            }
-                            
-                            Text {
-                                text: modelData.signal + "%"
-                                font.pixelSize: 12
-                                color: "#89b4fa"
-                            }
-                        }
-                        
-                        MouseArea {
-                            id: mouseArea
-                            anchors.fill: parent
-                            hoverEnabled: true
-                            cursorShape: Qt.PointingHandCursor
-                            
-                            onClicked: {
-                                connectDialog.ssid = modelData.ssid
-                                connectDialog.needsPassword = modelData.security !== ""
-                                connectDialog.open()
-                            }
-                        }
+Item {
+    id: netPg
+    property var networkList: []
+
+    ScrollView { anchors.fill: parent; contentWidth: availableWidth
+        ColumnLayout { width: parent.width - 60; x: 30; spacing: 20
+            Text { text: "Network"; font.pixelSize: 26; font.bold: true; color: root.cText; Layout.topMargin: 30 }
+
+            SettingsGroup { title: "WiFi"
+                SettingsRow { label: "WiFi Enabled"
+                    Switch { checked:networkManager.wifiEnabled; onCheckedChanged: networkManager.toggleWifi() } }
+
+                Rectangle { Layout.fillWidth:true; height:36; radius:6; color:_scma.containsMouse?root.cCrust:root.cMantle; border.color:root.cSurfaceVar; border.width:1
+                    Text { anchors.centerIn:parent; text:"Scan Networks"; font.pixelSize:13; color: networkManager.wifiEnabled?root.cText:root.cSubtext }
+                    MouseArea { id:_scma; anchors.fill:parent; hoverEnabled:true; cursorShape:Qt.PointingHandCursor; enabled:networkManager.wifiEnabled
+                        onClicked: netPg.networkList=networkManager.scanNetworks() } }
+
+                Repeater { model: netPg.networkList
+                    RowLayout { Layout.fillWidth:true; spacing:12
+                        Text { text:"📶"; font.pixelSize:16 }
+                        ColumnLayout { Layout.fillWidth:true; spacing:2
+                            Text { text:modelData.ssid||"Hidden"; color:root.cText; font.pixelSize:13 }
+                            Text { text:(modelData.security||"Open")+" · "+modelData.signal+"%"; color:root.cSubtext; font.pixelSize:11 } }
+                        Rectangle { width:80; height:30; radius:6; color:_cnma.containsMouse?Qt.lighter(root.cAccent,1.1):root.cAccent
+                            Text { anchors.centerIn:parent; text:"Connect"; font.pixelSize:12; color:root.cOnAccent }
+                            MouseArea { id:_cnma; anchors.fill:parent; hoverEnabled:true; cursorShape:Qt.PointingHandCursor
+                                onClicked: { _cd.ssid=modelData.ssid; _cd.secured=(modelData.security||"")!==""; _cd.open() } } }
                     }
                 }
             }
+            Item { height: 30 }
         }
-        
-        Item { Layout.fillHeight: true }
     }
-    
-    // Connection dialog
-    Dialog {
-        id: connectDialog
-        title: "Connect to " + ssid
-        modal: true
-        anchors.centerIn: parent
-        
-        property string ssid: ""
-        property bool needsPassword: true
-        
-        background: Rectangle {
-            color: "#1e1e2e"
-            radius: 12
-            border.color: "#45475a"
-            border.width: 1
-        }
-        
-        ColumnLayout {
-            spacing: 15
-            
-            Text {
-                text: "Password:"
-                color: "#cdd6f4"
-                visible: connectDialog.needsPassword
-            }
-            
-            TextField {
-                id: passwordField
-                Layout.preferredWidth: 300
-                echoMode: TextInput.Password
-                placeholderText: "Enter password"
-                visible: connectDialog.needsPassword
-                
-                background: Rectangle {
-                    color: "#313244"
-                    radius: 6
-                    border.color: "#45475a"
-                    border.width: 1
-                }
-                
-                color: "#cdd6f4"
-            }
-            
-            RowLayout {
-                Layout.alignment: Qt.AlignRight
-                spacing: 10
-                
-                Button {
-                    text: "Cancel"
-                    onClicked: connectDialog.close()
-                    
-                    background: Rectangle {
-                        color: parent.pressed ? "#313244" : (parent.hovered ? "#45475a" : "#1e1e2e")
-                        radius: 6
-                        border.color: "#45475a"
-                        border.width: 1
-                    }
-                    
-                    contentItem: Text {
-                        text: parent.text
-                        color: "#cdd6f4"
-                        horizontalAlignment: Text.AlignHCenter
-                    }
-                }
-                
-                Button {
-                    text: "Connect"
-                    
-                    background: Rectangle {
-                        color: parent.pressed ? "#7287fd" : (parent.hovered ? "#89b4fa" : "#74c7ec")
-                        radius: 6
-                    }
-                    
-                    contentItem: Text {
-                        text: parent.text
-                        color: "#1e1e2e"
-                        font.bold: true
-                        horizontalAlignment: Text.AlignHCenter
-                    }
-                    
-                    onClicked: {
-                        networkManager.connectToNetwork(
-                            connectDialog.ssid,
-                            passwordField.text
-                        )
-                        connectDialog.close()
-                    }
-                }
+
+    Dialog { id:_cd; anchors.centerIn:parent; modal:true; property string ssid:""; property bool secured:true
+        background: Rectangle{color:root.cMantle;radius:12;border.color:root.cSurfaceVar;border.width:1}
+        header: Text{text:"Connect to "+_cd.ssid;color:root.cText;font.pixelSize:16;font.bold:true;padding:16}
+        ColumnLayout { spacing:12; width:300
+            TextField { id:_pw; Layout.fillWidth:true; visible:_cd.secured; echoMode:TextInput.Password; placeholderText:"Password"
+                font.pixelSize:12; color:root.cText; background:Rectangle{color:root.cCrust;radius:6;border.color:root.cSurfaceVar;border.width:1} }
+            RowLayout { Layout.alignment:Qt.AlignRight; spacing:8
+                Rectangle { width:70;height:32;radius:6;color:_ccma.containsMouse?root.cCrust:"transparent"
+                    Text{anchors.centerIn:parent;text:"Cancel";font.pixelSize:13;color:root.cText}
+                    MouseArea{id:_ccma;anchors.fill:parent;hoverEnabled:true;cursorShape:Qt.PointingHandCursor;onClicked:_cd.close()} }
+                Rectangle { width:80;height:32;radius:6;color:_cxma.containsMouse?Qt.lighter(root.cAccent,1.1):root.cAccent
+                    Text{anchors.centerIn:parent;text:"Connect";font.pixelSize:13;font.bold:true;color:root.cOnAccent}
+                    MouseArea{id:_cxma;anchors.fill:parent;hoverEnabled:true;cursorShape:Qt.PointingHandCursor
+                        onClicked:{networkManager.connectToNetwork(_cd.ssid,_pw.text);_cd.close()}} }
             }
         }
     }

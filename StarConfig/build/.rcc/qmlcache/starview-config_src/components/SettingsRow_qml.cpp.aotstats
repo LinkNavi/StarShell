@@ -7,34 +7,42 @@
                     "entries": [
                         {
                             "codegenResult": 0,
-                            "column": 19,
-                            "durationMicroseconds": 152,
+                            "column": 22,
+                            "durationMicroseconds": 225,
                             "functionName": "text",
-                            "line": 20,
+                            "line": 11,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 19,
-                            "durationMicroseconds": 117,
-                            "functionName": "text",
-                            "line": 27,
-                            "message": ""
+                            "codegenResult": 2,
+                            "column": 59,
+                            "durationMicroseconds": 466,
+                            "functionName": "color",
+                            "line": 11,
+                            "message": "Cannot access value for name root"
                         },
                         {
                             "codegenResult": 0,
                             "column": 22,
-                            "durationMicroseconds": 172,
-                            "functionName": "visible",
-                            "line": 30,
+                            "durationMicroseconds": 164,
+                            "functionName": "text",
+                            "line": 12,
                             "message": ""
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 58,
+                            "durationMicroseconds": 432,
+                            "functionName": "color",
+                            "line": 12,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
                             "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 112,
-                            "functionName": "alignment",
-                            "line": 36,
+                            "column": 82,
+                            "durationMicroseconds": 242,
+                            "functionName": "visible",
+                            "line": 12,
                             "message": ""
                         }
                     ],

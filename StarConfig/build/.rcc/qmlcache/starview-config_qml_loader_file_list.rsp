@@ -5,9 +5,14 @@
 /StarViewConfig/src/Main.qml
 /StarViewConfig/src/pages/GeneralPage.qml
 /StarViewConfig/src/pages/DecorationPage.qml
+/StarViewConfig/src/pages/AnimationPage.qml
+/StarViewConfig/src/pages/TilingPage.qml
 /StarViewConfig/src/pages/WallpaperPage.qml
 /StarViewConfig/src/pages/MonitorsPage.qml
 /StarViewConfig/src/pages/NetworkPage.qml
 /StarViewConfig/src/pages/KeybindingsPage.qml
+/StarViewConfig/src/pages/RulesPage.qml
+/StarViewConfig/src/pages/AutostartPage.qml
 /StarViewConfig/src/components/SettingsGroup.qml
 /StarViewConfig/src/components/SettingsRow.qml
+/StarViewConfig/src/components/StyledComboBox.qml

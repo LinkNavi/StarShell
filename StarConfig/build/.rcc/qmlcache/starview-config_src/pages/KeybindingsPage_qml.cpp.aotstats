@@ -6,27 +6,1355 @@
                 {
                     "entries": [
                         {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 321,
+                            "functionName": "modifierList",
+                            "line": 10,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 5123,
+                            "functionName": "keyList",
+                            "line": 11,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 13120,
+                            "functionName": "actionCategories",
+                            "line": 28,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 934,
+                            "functionName": "getAllActions",
+                            "line": 94,
+                            "message": "Cannot load property length from (component in /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml)::actionCategories with type QVariant."
+                        },
+                        {
                             "codegenResult": 0,
-                            "column": 22,
-                            "durationMicroseconds": 201,
-                            "functionName": "top",
-                            "line": 13,
+                            "column": 30,
+                            "durationMicroseconds": 84,
+                            "functionName": "allActions",
+                            "line": 104,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 332,
+                            "functionName": "actionLabels",
+                            "line": 105,
+                            "message": "Cannot load property length from (component in /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml)::allActions with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 1725,
+                            "functionName": "gestureActionList",
+                            "line": 108,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 352,
+                            "functionName": "gestureActionLabels",
+                            "line": 123,
+                            "message": "Cannot load property length from (component in /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml)::gestureActionList with type QVariant."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 243,
+                            "functionName": "gestureDirections",
+                            "line": 125,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 45,
+                            "durationMicroseconds": 127,
+                            "functionName": "gesturePinchDirs",
+                            "line": 126,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 5,
+                            "durationMicroseconds": 0,
+                            "functionName": "buildKeyString",
+                            "line": 129,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentWidth",
+                            "line": 136,
+                            "message": "Could not find property \"contentWidth\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 136,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 164,
+                            "functionName": "width",
+                            "line": 137,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 96,
+                            "durationMicroseconds": 295,
+                            "functionName": "color",
+                            "line": 138,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 190,
+                            "functionName": "modActive",
+                            "line": 144,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 70,
+                            "durationMicroseconds": 284,
+                            "functionName": "color",
+                            "line": 147,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 39,
+                            "durationMicroseconds": 97,
+                            "functionName": "model",
+                            "line": 149,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 23,
-                            "durationMicroseconds": 141,
-                            "functionName": "left",
-                            "line": 15,
+                            "column": 44,
+                            "durationMicroseconds": 137,
+                            "functionName": "width",
+                            "line": 150,
                             "message": ""
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 84,
+                            "functionName": "active",
+                            "line": 151,
+                            "message": "Cannot access value for name _kbGroup"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 395,
+                            "functionName": "color",
+                            "line": 152,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 327,
+                            "functionName": "color",
+                            "line": 153,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 80,
+                            "durationMicroseconds": 448,
+                            "functionName": "text",
+                            "line": 154,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 1313,
+                            "functionName": "color",
+                            "line": 155,
+                            "message": "Cannot load property active from (component in /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml)::parent with type QQuickItem."
+                        },
+                        {
                             "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 88,
+                            "column": 66,
+                            "durationMicroseconds": 147,
                             "functionName": "centerIn",
-                            "line": 22,
+                            "line": 154,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 114,
+                            "functionName": "cursorShape",
+                            "line": 156,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 602,
+                            "functionName": "onClicked",
+                            "line": 157,
+                            "message": "Cannot access value for name _kbGroup"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 53,
+                            "functionName": "fill",
+                            "line": 156,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 240,
+                            "functionName": "color",
+                            "line": 168,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 80,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 169,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 131,
+                            "functionName": "color",
+                            "line": 170,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 115,
+                            "functionName": "color",
+                            "line": 170,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 158,
+                            "functionName": "color",
+                            "line": 171,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 211,
+                            "functionName": "color",
+                            "line": 171,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 301,
+                            "functionName": "color",
+                            "line": 175,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 176,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 147,
+                            "functionName": "color",
+                            "line": 177,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 116,
+                            "functionName": "color",
+                            "line": 177,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
+                            "durationMicroseconds": 126,
+                            "functionName": "color",
+                            "line": 178,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 90,
+                            "durationMicroseconds": 103,
+                            "functionName": "color",
+                            "line": 178,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 77,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 182,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "placeholderText",
+                            "line": 186,
+                            "message": "Could not find property \"placeholderText\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 192,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 103,
+                            "functionName": "color",
+                            "line": 193,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 99,
+                            "functionName": "color",
+                            "line": 193,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 74,
+                            "durationMicroseconds": 98,
+                            "functionName": "visible",
+                            "line": 197,
+                            "message": "Cannot retrieve a non-object type by ID: _actionCombo"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 306,
+                            "functionName": "color",
+                            "line": 203,
+                            "message": "Cannot access value for name _argField"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 101,
+                            "functionName": "color",
+                            "line": 204,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 68,
+                            "durationMicroseconds": 233,
+                            "functionName": "text",
+                            "line": 205,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 43,
+                            "durationMicroseconds": 629,
+                            "functionName": "color",
+                            "line": 206,
+                            "message": "Cannot access value for name _argField"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 79,
+                            "functionName": "centerIn",
+                            "line": 205,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 67,
+                            "functionName": "cursorShape",
+                            "line": 207,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 249,
+                            "functionName": "onClicked",
+                            "line": 208,
+                            "message": "Cannot access value for name _argField"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 48,
+                            "functionName": "fill",
+                            "line": 207,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 332,
+                            "functionName": "color",
+                            "line": 215,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 119,
+                            "durationMicroseconds": 221,
+                            "functionName": "color",
+                            "line": 216,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 48,
+                            "functionName": "centerIn",
+                            "line": 216,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 102,
+                            "durationMicroseconds": 65,
+                            "functionName": "cursorShape",
+                            "line": 217,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 841,
+                            "functionName": "onClicked",
+                            "line": 218,
+                            "message": "Cannot retrieve a non-object type by ID: _keyCombo"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 61,
+                            "durationMicroseconds": 49,
+                            "functionName": "fill",
+                            "line": 217,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 76,
+                            "durationMicroseconds": 220,
+                            "functionName": "color",
+                            "line": 240,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 241,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 122,
+                            "functionName": "color",
+                            "line": 242,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 110,
+                            "functionName": "color",
+                            "line": 242,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 78,
+                            "durationMicroseconds": 205,
+                            "functionName": "color",
+                            "line": 245,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 84,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 246,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 112,
+                            "functionName": "color",
+                            "line": 247,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 105,
+                            "functionName": "color",
+                            "line": 247,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 75,
+                            "durationMicroseconds": 204,
+                            "functionName": "color",
+                            "line": 250,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 84,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 251,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 116,
+                            "functionName": "color",
+                            "line": 252,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 110,
+                            "functionName": "color",
+                            "line": 252,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 255,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 256,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "placeholderText",
+                            "line": 257,
+                            "message": "Could not find property \"placeholderText\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 135,
+                            "functionName": "color",
+                            "line": 258,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 106,
+                            "functionName": "color",
+                            "line": 258,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 259,
+                            "functionName": "color",
+                            "line": 261,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 119,
+                            "durationMicroseconds": 193,
+                            "functionName": "color",
+                            "line": 262,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 54,
+                            "functionName": "centerIn",
+                            "line": 262,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 101,
+                            "durationMicroseconds": 62,
+                            "functionName": "cursorShape",
+                            "line": 263,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 894,
+                            "functionName": "onClicked",
+                            "line": 264,
+                            "message": "Cannot retrieve a non-object type by ID: _gAct"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 60,
+                            "durationMicroseconds": 73,
+                            "functionName": "fill",
+                            "line": 263,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 75,
+                            "durationMicroseconds": 251,
+                            "functionName": "color",
+                            "line": 281,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 282,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 129,
+                            "functionName": "color",
+                            "line": 283,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 140,
+                            "functionName": "color",
+                            "line": 283,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 77,
+                            "durationMicroseconds": 189,
+                            "functionName": "color",
+                            "line": 286,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 287,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 117,
+                            "functionName": "color",
+                            "line": 288,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 103,
+                            "functionName": "color",
+                            "line": 288,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 78,
+                            "durationMicroseconds": 182,
+                            "functionName": "color",
+                            "line": 291,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 292,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 115,
+                            "functionName": "color",
+                            "line": 293,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 102,
+                            "functionName": "color",
+                            "line": 293,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 75,
+                            "durationMicroseconds": 200,
+                            "functionName": "color",
+                            "line": 296,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 297,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 57,
+                            "durationMicroseconds": 117,
+                            "functionName": "color",
+                            "line": 298,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 91,
+                            "durationMicroseconds": 117,
+                            "functionName": "color",
+                            "line": 298,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 92,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 301,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 302,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "placeholderText",
+                            "line": 303,
+                            "message": "Could not find property \"placeholderText\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 123,
+                            "functionName": "color",
+                            "line": 304,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 83,
+                            "durationMicroseconds": 108,
+                            "functionName": "color",
+                            "line": 304,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 257,
+                            "functionName": "color",
+                            "line": 307,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 125,
+                            "durationMicroseconds": 448,
+                            "functionName": "color",
+                            "line": 308,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 150,
+                            "functionName": "centerIn",
+                            "line": 308,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 102,
+                            "durationMicroseconds": 74,
+                            "functionName": "cursorShape",
+                            "line": 309,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 1404,
+                            "functionName": "onClicked",
+                            "line": 310,
+                            "message": "Cannot retrieve a non-object type by ID: _mgAct"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 61,
+                            "durationMicroseconds": 59,
+                            "functionName": "fill",
+                            "line": 309,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 88,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 327,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "onMoved",
+                            "line": 328,
+                            "message": "Could not find signal \"moved\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 65,
+                            "functionName": "text",
+                            "line": 329,
+                            "message": "Cannot retrieve a non-object type by ID: _swTh"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 243,
+                            "functionName": "color",
+                            "line": 329,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 334,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "onMoved",
+                            "line": 335,
+                            "message": "Could not find signal \"moved\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 33,
+                            "functionName": "text",
+                            "line": 336,
+                            "message": "Cannot retrieve a non-object type by ID: _piTh"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 211,
+                            "functionName": "color",
+                            "line": 336,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 85,
+                            "durationMicroseconds": 0,
+                            "functionName": "value",
+                            "line": 341,
+                            "message": "Could not find property \"value\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 0,
+                            "functionName": "onMoved",
+                            "line": 342,
+                            "message": "Could not find signal \"moved\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 55,
+                            "functionName": "text",
+                            "line": 343,
+                            "message": "Cannot retrieve a non-object type by ID: _moTh"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 89,
+                            "durationMicroseconds": 465,
+                            "functionName": "color",
+                            "line": 343,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 271,
+                            "functionName": "title",
+                            "line": 349,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 255,
+                            "functionName": "model",
+                            "line": 350,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 141,
+                            "functionName": "color",
+                            "line": 352,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 83,
+                            "durationMicroseconds": 105,
+                            "functionName": "implicitWidth",
+                            "line": 352,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 80,
+                            "durationMicroseconds": 297,
+                            "functionName": "text",
+                            "line": 353,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 152,
+                            "durationMicroseconds": 177,
+                            "functionName": "color",
+                            "line": 353,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 69,
+                            "functionName": "centerIn",
+                            "line": 353,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 206,
+                            "functionName": "color",
+                            "line": 354,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 266,
+                            "functionName": "text",
+                            "line": 355,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 173,
+                            "functionName": "color",
+                            "line": 355,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 130,
+                            "durationMicroseconds": 79,
+                            "functionName": "elide",
+                            "line": 355,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 185,
+                            "functionName": "color",
+                            "line": 356,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 97,
+                            "durationMicroseconds": 56,
+                            "functionName": "cursorShape",
+                            "line": 357,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 131,
+                            "durationMicroseconds": 413,
+                            "functionName": "onClicked",
+                            "line": 357,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 37,
+                            "functionName": "fill",
+                            "line": 357,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 202,
+                            "functionName": "title",
+                            "line": 363,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 114,
+                            "durationMicroseconds": 180,
+                            "functionName": "visible",
+                            "line": 363,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 204,
+                            "functionName": "model",
+                            "line": 364,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 115,
+                            "functionName": "color",
+                            "line": 366,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 83,
+                            "durationMicroseconds": 91,
+                            "functionName": "implicitWidth",
+                            "line": 366,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 127,
+                            "durationMicroseconds": 202,
+                            "functionName": "color",
+                            "line": 367,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 460,
+                            "functionName": "text",
+                            "line": 368,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 82,
+                            "functionName": "centerIn",
+                            "line": 367,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 209,
+                            "functionName": "color",
+                            "line": 369,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 256,
+                            "functionName": "text",
+                            "line": 370,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 189,
+                            "functionName": "color",
+                            "line": 370,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 130,
+                            "durationMicroseconds": 80,
+                            "functionName": "elide",
+                            "line": 370,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 179,
+                            "functionName": "color",
+                            "line": 371,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 97,
+                            "durationMicroseconds": 52,
+                            "functionName": "cursorShape",
+                            "line": 372,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 131,
+                            "durationMicroseconds": 436,
+                            "functionName": "onClicked",
+                            "line": 372,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 42,
+                            "functionName": "fill",
+                            "line": 372,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 219,
+                            "functionName": "title",
+                            "line": 378,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 108,
+                            "durationMicroseconds": 174,
+                            "functionName": "visible",
+                            "line": 378,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 201,
+                            "functionName": "model",
+                            "line": 379,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 100,
+                            "functionName": "color",
+                            "line": 381,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 83,
+                            "durationMicroseconds": 108,
+                            "functionName": "implicitWidth",
+                            "line": 381,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 127,
+                            "durationMicroseconds": 221,
+                            "functionName": "color",
+                            "line": 382,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 1006,
+                            "functionName": "text",
+                            "line": 383,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 66,
+                            "durationMicroseconds": 43,
+                            "functionName": "centerIn",
+                            "line": 382,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 491,
+                            "functionName": "color",
+                            "line": 384,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
+                            "durationMicroseconds": 350,
+                            "functionName": "text",
+                            "line": 385,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 187,
+                            "functionName": "color",
+                            "line": 385,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 130,
+                            "durationMicroseconds": 79,
+                            "functionName": "elide",
+                            "line": 385,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 50,
+                            "durationMicroseconds": 240,
+                            "functionName": "color",
+                            "line": 386,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 97,
+                            "durationMicroseconds": 185,
+                            "functionName": "cursorShape",
+                            "line": 387,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 131,
+                            "durationMicroseconds": 673,
+                            "functionName": "onClicked",
+                            "line": 387,
+                            "message": "Cannot access value for name configManager"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 91,
+                            "functionName": "fill",
+                            "line": 387,
                             "message": ""
                         }
                     ],

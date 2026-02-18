@@ -4,181 +4,81 @@ import QtQuick.Layouts
 import QtQuick.Dialogs
 import "../components"
 
-ScrollView {
-    id: root
-    objectName: "wallpaper"
-    
-    ColumnLayout {
-        width: root.width - 40
-        spacing: 20
-        
-        Text {
-            text: "Wallpaper & Colors"
-            font.pixelSize: 28
-            font.bold: true
-            color: "#cdd6f4"
-            Layout.topMargin: 30
-            Layout.leftMargin: 30
+Item {
+    id: wpPage
+    property string pendingImage: configManager.bgImage || ""
+
+    Connections {
+        target: configManager
+        function onConfigChanged() {
+            // Only update from configManager if we don't have a pending local change
+            if (wpPage.pendingImage === "" || wpPage.pendingImage === configManager.bgImage)
+                wpPage.pendingImage = configManager.bgImage || ""
         }
-        
-        SettingsGroup {
-            title: "Wallpaper"
-            Layout.fillWidth: true
-            Layout.margins: 30
-            
-            ColumnLayout {
-                Layout.fillWidth: true
-                spacing: 15
-                
-                // Preview
-                Rectangle {
-                    Layout.fillWidth: true
-                    Layout.preferredHeight: 300
-                    radius: 12
-                    color: "#11111b"
-                    border.color: "#45475a"
-                    border.width: 1
-                    
+    }
+
+    ScrollView { anchors.fill: parent; contentWidth: availableWidth
+        ColumnLayout { width: parent.width - 60; x: 30; spacing: 20
+            Text { text: "Wallpaper & Colors"; font.pixelSize: 26; font.bold: true; color: root.cText; Layout.topMargin: 30 }
+
+            SettingsGroup { title: "Background"
+                SettingsRow { label: "Enable Background"
+                    Switch { checked:configManager.bgEnabled; onCheckedChanged: configManager.bgEnabled=checked } }
+                SettingsRow { label: "Background Color"
+                    TextField { text:configManager.bgColor; implicitWidth:120; font.pixelSize:12; color:root.cText
+                        background: Rectangle{color:root.cCrust;radius:6;border.color:root.cSurfaceVar;border.width:1}
+                        onEditingFinished: configManager.bgColor=text } }
+                SettingsRow { label: "Mode"
+                    StyledComboBox { model:["fill","fit","stretch","center","tile","color"]
+                        currentIndex: model.indexOf(configManager.bgMode); onActivated: configManager.bgMode=currentText } }
+            }
+
+            SettingsGroup { title: "Wallpaper Image"
+                Rectangle { Layout.fillWidth:true; Layout.preferredHeight:220; radius:8; color:root.cCrust; clip:true
                     Image {
-                        anchors.fill: parent
-                        anchors.margins: 2
-                        source: configManager.wallpaperPath ? "file://" + configManager.wallpaperPath : ""
-                        fillMode: Image.PreserveAspectFit
-                        
-                        Text {
-                            anchors.centerIn: parent
-                            text: "No wallpaper set"
-                            color: "#6c7086"
-                            visible: !configManager.wallpaperPath
-                        }
+                        anchors.fill:parent; anchors.margins:2; fillMode:Image.PreserveAspectCrop
+                        source: wpPage.pendingImage ? "file://" + wpPage.pendingImage : ""
+                        cache: false
+                        asynchronous: true
                     }
+                    Text { anchors.centerIn:parent; text:"No wallpaper set"; color:root.cSubtext; visible: !wpPage.pendingImage }
                 }
-                
-                RowLayout {
-                    Layout.fillWidth: true
-                    spacing: 10
-                    
-                    Button {
-                        text: "Select Wallpaper"
-                        Layout.fillWidth: true
-                        
-                        background: Rectangle {
-                            color: parent.pressed ? "#313244" : (parent.hovered ? "#45475a" : "#1e1e2e")
-                            radius: 8
-                            border.color: "#45475a"
-                            border.width: 1
-                        }
-                        
-                        contentItem: Text {
-                            text: parent.text
-                            color: "#cdd6f4"
-                            horizontalAlignment: Text.AlignHCenter
-                            verticalAlignment: Text.AlignVCenter
-                        }
-                        
-                        onClicked: fileDialog.open()
-                    }
-                    
-                    Button {
-                        text: "Generate Colors"
-                        enabled: configManager.wallpaperPath !== ""
-                        
-                        background: Rectangle {
-                            color: parent.enabled ? (parent.pressed ? "#7287fd" : (parent.hovered ? "#89b4fa" : "#74c7ec")) : "#313244"
-                            radius: 8
-                        }
-                        
-                        contentItem: Text {
-                            text: parent.text
-                            color: parent.enabled ? "#1e1e2e" : "#6c7086"
-                            horizontalAlignment: Text.AlignHCenter
-                            verticalAlignment: Text.AlignVCenter
-                            font.bold: true
-                        }
-                        
-                        onClicked: {
-                            wallpaperManager.generateColors(configManager.wallpaperPath)
-                        }
-                    }
+
+                RowLayout { Layout.fillWidth:true; spacing:8
+                    Rectangle { Layout.fillWidth:true; height:40; radius:8; color:_selma.containsMouse?root.cCrust:root.cMantle; border.color:root.cSurfaceVar; border.width:1
+                        Text { anchors.centerIn:parent; text:"Select Image"; font.pixelSize:13; color:root.cText }
+                        MouseArea { id:_selma; anchors.fill:parent; hoverEnabled:true; cursorShape:Qt.PointingHandCursor; onClicked:_fd.open() } }
+                    Rectangle { Layout.fillWidth:true; height:40; radius:8
+                        color: wpPage.pendingImage!=="" ? (_genma.containsMouse?Qt.lighter(root.cAccent,1.1):root.cAccent) : root.cCrust
+                        Text { anchors.centerIn:parent; text:"Generate Matugen Colors"; font.pixelSize:13; font.bold:true
+                               color: wpPage.pendingImage!=="" ? root.cOnAccent : root.cSubtext }
+                        MouseArea { id:_genma; anchors.fill:parent; hoverEnabled:true; cursorShape:Qt.PointingHandCursor
+                                    enabled: wpPage.pendingImage!==""; onClicked: colors.generateFromWallpaper(wpPage.pendingImage) } }
                 }
-                
-                SettingsRow {
-                    label: "Wallpaper Mode"
-                    description: "How to scale the wallpaper"
-                    
-                    ComboBox {
-                        model: ["fill", "fit", "stretch", "center", "tile"]
-                        currentIndex: model.indexOf(configManager.wallpaperMode)
-                        onActivated: configManager.wallpaperMode = currentText
-                        
-                        background: Rectangle {
-                            color: "#313244"
-                            radius: 6
-                            border.color: "#45475a"
-                            border.width: 1
-                        }
-                        
-                        contentItem: Text {
-                            text: parent.displayText
-                            color: "#cdd6f4"
-                            verticalAlignment: Text.AlignVCenter
-                            leftPadding: 10
-                        }
-                    }
+                Text { text: wpPage.pendingImage||"No image selected"; font.pixelSize:11; color:root.cSubtext; elide:Text.ElideMiddle; Layout.fillWidth:true }
+            }
+
+            // Palette preview
+            SettingsGroup { title: "Color Palette"; visible: colors.loaded
+                GridLayout { Layout.fillWidth:true; columns:6; columnSpacing:6; rowSpacing:6
+                    Repeater { model: [
+                        {n:"Primary",c:colors.primary},{n:"Secondary",c:colors.secondary},{n:"Tertiary",c:colors.tertiary},
+                        {n:"Error",c:colors.error},{n:"BG",c:colors.background},{n:"Surface",c:colors.surface}
+                    ]
+                    delegate: ColumnLayout { spacing:4
+                        Rectangle { width:60;height:36;radius:6;color:modelData.c;border.color:root.cSurfaceVar;border.width:1 }
+                        Text { text:modelData.n; font.pixelSize:9; color:root.cSubtext; Layout.alignment:Qt.AlignHCenter }
+                    }}
                 }
             }
+            Item { height: 30 }
         }
-        
-        Item { Layout.fillHeight: true }
     }
-    
-    FileDialog {
-        id: fileDialog
-        title: "Select Wallpaper"
-        nameFilters: ["Images (*.png *.jpg *.jpeg *.webp)"]
+    FileDialog { id:_fd; title:"Select Wallpaper"; nameFilters:["Images (*.png *.jpg *.jpeg *.webp *.bmp)"]
         onAccepted: {
-            let path = selectedFile.toString().replace("file://", "")
-            wallpaperManager.setWallpaper(path)
-            configManager.wallpaperPath = path
-        }
-    }
-    
-    Connections {
-        target: wallpaperManager
-        function onColorsGenerated() {
-            // Show notification
-            notification.text = "Colors generated! Restart shell to apply."
-            notification.visible = true
-            notificationTimer.restart()
-        }
-    }
-    
-    // Notification
-    Rectangle {
-        id: notification
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.top: parent.top
-        anchors.topMargin: 20
-        width: notifText.width + 40
-        height: 50
-        radius: 8
-        color: "#a6e3a1"
-        visible: false
-        
-        property alias text: notifText.text
-        
-        Text {
-            id: notifText
-            anchors.centerIn: parent
-            color: "#1e1e2e"
-            font.pixelSize: 14
-            font.bold: true
-        }
-        
-        Timer {
-            id: notificationTimer
-            interval: 3000
-            onTriggered: notification.visible = false
+            var p = selectedFile.toString().replace("file://","")
+            wpPage.pendingImage = p
+            configManager.bgImage = p
         }
     }
 }

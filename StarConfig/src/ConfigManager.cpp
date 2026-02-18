@@ -3,7 +3,7 @@
 #include <QDir>
 #include <QDebug>
 
-#define SET_PROP(field, val) do { if (field != val) { field = val; emit configChanged(); } } while(0)
+#define SET_PROP(field, val) do { if (field != val) { field = val; m_dirty = true; emit configChanged(); } } while(0)
 
 ConfigManager::ConfigManager(QObject *parent) : QObject(parent) {
     m_ipc = starview_ipc_connect();
@@ -26,9 +26,13 @@ ConfigManager::ConfigManager(QObject *parent) : QObject(parent) {
     }
 
     connect(m_watcher, &QFileSystemWatcher::fileChanged, this, [this](const QString &path) {
-        if (!m_externalChange) {
+        if (!m_externalChange && !m_dirty) {
             qDebug() << "Config changed externally:" << path;
             loadFromFile();
+            if (!m_watcher->files().contains(path))
+                m_watcher->addPath(path);
+        } else if (m_dirty) {
+            qDebug() << "Skipping external reload (unsaved local changes)";
             if (!m_watcher->files().contains(path))
                 m_watcher->addPath(path);
         }
@@ -69,7 +73,6 @@ void ConfigManager::reconnect() {
 void ConfigManager::loadFromFile() {
     QString path = mainConfigPath();
     if (!QFile::exists(path)) {
-        // Try loading from split files
         QDir dir(configDir());
         for (const auto &f : dir.entryList({"*.toml"}, QDir::Files)) {
             path = configDir() + "/" + f;
@@ -137,12 +140,21 @@ void ConfigManager::loadFromFile() {
     if (anim) {
         v = toml_bool_in(anim, "enabled"); if (v.ok) m_animEnabled = v.u.b;
         v = toml_int_in(anim, "duration"); if (v.ok) m_animDuration = v.u.i;
+        v = toml_int_in(anim, "speed"); if (v.ok) m_animDuration = v.u.i;
         v = toml_string_in(anim, "window_open");
         if (v.ok) { m_animWindowOpen = QString(v.u.s); free(v.u.s); }
         v = toml_string_in(anim, "window_close");
         if (v.ok) { m_animWindowClose = QString(v.u.s); free(v.u.s); }
+        v = toml_string_in(anim, "window_move");
+        if (v.ok) { m_animWindowMove = QString(v.u.s); free(v.u.s); }
+        v = toml_string_in(anim, "window_resize");
+        if (v.ok) { m_animWindowResize = QString(v.u.s); free(v.u.s); }
+        v = toml_string_in(anim, "workspace_switch");
+        if (v.ok) { m_animWorkspaceSwitch = QString(v.u.s); free(v.u.s); }
         v = toml_string_in(anim, "curve");
         if (v.ok) { m_animCurve = QString(v.u.s); free(v.u.s); }
+        v = toml_double_in(anim, "fade_min"); if (v.ok) m_animFadeMin = v.u.d;
+        v = toml_double_in(anim, "zoom_min"); if (v.ok) m_animZoomMin = v.u.d;
     }
 
     // [tiling]
@@ -211,9 +223,56 @@ void ConfigManager::loadFromFile() {
         }
     }
 
+    // [gestures] thresholds
+    toml_table_t *gestures = toml_table_in(root, "gestures");
+    if (gestures) {
+        v = toml_double_in(gestures, "swipe_threshold"); if (v.ok) m_gestureSwipeThreshold = v.u.d;
+        v = toml_double_in(gestures, "pinch_threshold"); if (v.ok) m_gesturePinchThreshold = v.u.d;
+        v = toml_double_in(gestures, "mouse_threshold"); if (v.ok) m_gestureMouseThreshold = v.u.d;
+    }
+
+    // [[gesture_touchpad]]
+    m_touchpadGestures.clear();
+    toml_array_t *tpArr = toml_array_in(root, "gesture_touchpad");
+    if (tpArr) {
+        int len = toml_array_nelem(tpArr);
+        for (int i = 0; i < len; i++) {
+            toml_table_t *g = toml_table_at(tpArr, i);
+            if (!g) continue;
+            QVariantMap gm;
+            v = toml_int_in(g, "fingers"); if (v.ok) gm["fingers"] = (int)v.u.i;
+            v = toml_string_in(g, "direction"); if (v.ok) { gm["direction"] = QString(v.u.s); free(v.u.s); }
+            v = toml_string_in(g, "action"); if (v.ok) { gm["action"] = QString(v.u.s); free(v.u.s); }
+            if (gm.contains("fingers") && gm.contains("direction") && gm.contains("action"))
+                m_touchpadGestures.append(gm);
+        }
+    }
+
+    // [[gesture_mouse]]
+    m_mouseGestures.clear();
+    toml_array_t *mgArr = toml_array_in(root, "gesture_mouse");
+    if (mgArr) {
+        int len = toml_array_nelem(mgArr);
+        for (int i = 0; i < len; i++) {
+            toml_table_t *g = toml_table_at(mgArr, i);
+            if (!g) continue;
+            QVariantMap gm;
+            v = toml_string_in(g, "button"); if (v.ok) { gm["button"] = QString(v.u.s); free(v.u.s); }
+            v = toml_string_in(g, "modifiers"); if (v.ok) { gm["modifiers"] = QString(v.u.s); free(v.u.s); }
+            v = toml_string_in(g, "direction"); if (v.ok) { gm["direction"] = QString(v.u.s); free(v.u.s); }
+            v = toml_string_in(g, "action"); if (v.ok) { gm["action"] = QString(v.u.s); free(v.u.s); }
+            if (gm.contains("button") && gm.contains("direction") && gm.contains("action"))
+                m_mouseGestures.append(gm);
+        }
+    }
+
     toml_free(root);
+    m_dirty = false;
     emit configChanged();
-    qDebug() << "Config loaded:" << m_keybinds.size() << "keybinds," << m_rules.size() << "rules";
+    qDebug() << "Config loaded:" << m_keybinds.size() << "keybinds,"
+             << m_rules.size() << "rules,"
+             << m_touchpadGestures.size() << "touchpad gestures,"
+             << m_mouseGestures.size() << "mouse gestures";
 }
 
 static QString stripHash(const QString &c) {
@@ -261,7 +320,12 @@ void ConfigManager::writeFullConfig(const QString &path) {
     out << "duration = " << m_animDuration << "\n";
     out << "window_open = \"" << m_animWindowOpen << "\"\n";
     out << "window_close = \"" << m_animWindowClose << "\"\n";
+    out << "window_move = \"" << m_animWindowMove << "\"\n";
+    out << "window_resize = \"" << m_animWindowResize << "\"\n";
+    out << "workspace_switch = \"" << m_animWorkspaceSwitch << "\"\n";
     out << "curve = \"" << m_animCurve << "\"\n";
+    out << "fade_min = " << m_animFadeMin << "\n";
+    out << "zoom_min = " << m_animZoomMin << "\n";
 
     out << "\n[tiling]\n";
     out << "master_ratio = " << m_masterRatio << "\n";
@@ -305,6 +369,32 @@ void ConfigManager::writeFullConfig(const QString &path) {
         out << "]\n";
     }
 
+    // Gesture thresholds
+    out << "\n[gestures]\n";
+    out << "swipe_threshold = " << m_gestureSwipeThreshold << "\n";
+    out << "pinch_threshold = " << m_gesturePinchThreshold << "\n";
+    out << "mouse_threshold = " << m_gestureMouseThreshold << "\n";
+
+    // Touchpad gestures
+    for (const auto &g : m_touchpadGestures) {
+        QVariantMap m = g.toMap();
+        out << "\n[[gesture_touchpad]]\n";
+        out << "fingers = " << m["fingers"].toInt() << "\n";
+        out << "direction = \"" << m["direction"].toString() << "\"\n";
+        out << "action = \"" << m["action"].toString() << "\"\n";
+    }
+
+    // Mouse gestures
+    for (const auto &g : m_mouseGestures) {
+        QVariantMap m = g.toMap();
+        out << "\n[[gesture_mouse]]\n";
+        out << "button = \"" << m["button"].toString() << "\"\n";
+        if (m.contains("modifiers") && !m["modifiers"].toString().isEmpty())
+            out << "modifiers = \"" << m["modifiers"].toString() << "\"\n";
+        out << "direction = \"" << m["direction"].toString() << "\"\n";
+        out << "action = \"" << m["action"].toString() << "\"\n";
+    }
+
     file.close();
 }
 
@@ -317,6 +407,7 @@ void ConfigManager::saveToFile() {
     m_externalChange = false;
 
     emit saved();
+    m_dirty = false;
     qDebug() << "Config saved to" << mainConfigPath();
 }
 
@@ -347,37 +438,80 @@ void ConfigManager::addKeybind(const QString &key, const QString &action) {
     kb["key"] = key;
     kb["action"] = action;
     m_keybinds.append(kb);
+    m_dirty = true;
     emit configChanged();
 }
 
 void ConfigManager::removeKeybind(int index) {
     if (index >= 0 && index < m_keybinds.size()) {
         m_keybinds.removeAt(index);
-        emit configChanged();
+        m_dirty = true;
+    emit configChanged();
     }
 }
 
 void ConfigManager::addRule(const QVariantMap &rule) {
     m_rules.append(rule);
+    m_dirty = true;
     emit configChanged();
 }
 
 void ConfigManager::removeRule(int index) {
     if (index >= 0 && index < m_rules.size()) {
         m_rules.removeAt(index);
-        emit configChanged();
+        m_dirty = true;
+    emit configChanged();
     }
 }
 
 void ConfigManager::addAutostart(const QString &cmd) {
     m_autostart.append(cmd);
+    m_dirty = true;
     emit configChanged();
 }
 
 void ConfigManager::removeAutostart(int index) {
     if (index >= 0 && index < m_autostart.size()) {
         m_autostart.removeAt(index);
-        emit configChanged();
+        m_dirty = true;
+    emit configChanged();
+    }
+}
+
+void ConfigManager::addTouchpadGesture(int fingers, const QString &direction, const QString &action) {
+    QVariantMap g;
+    g["fingers"] = fingers;
+    g["direction"] = direction;
+    g["action"] = action;
+    m_touchpadGestures.append(g);
+    m_dirty = true;
+    emit configChanged();
+}
+
+void ConfigManager::removeTouchpadGesture(int index) {
+    if (index >= 0 && index < m_touchpadGestures.size()) {
+        m_touchpadGestures.removeAt(index);
+        m_dirty = true;
+    emit configChanged();
+    }
+}
+
+void ConfigManager::addMouseGesture(const QString &button, const QString &modifiers, const QString &direction, const QString &action) {
+    QVariantMap g;
+    g["button"] = button;
+    g["modifiers"] = modifiers;
+    g["direction"] = direction;
+    g["action"] = action;
+    m_mouseGestures.append(g);
+    m_dirty = true;
+    emit configChanged();
+}
+
+void ConfigManager::removeMouseGesture(int index) {
+    if (index >= 0 && index < m_mouseGestures.size()) {
+        m_mouseGestures.removeAt(index);
+        m_dirty = true;
+    emit configChanged();
     }
 }
 
@@ -392,6 +526,7 @@ void ConfigManager::applyMatugenColors(const QVariantMap &colors) {
     if (colors.contains("secondary")) m_decorMaxColor = colors["secondary"].toString();
     if (colors.contains("tertiary")) m_decorMinColor = colors["tertiary"].toString();
     if (colors.contains("background")) m_bgColor = colors["background"].toString();
+    m_dirty = true;
     emit configChanged();
 }
 
@@ -424,7 +559,12 @@ void ConfigManager::setAnimEnabled(bool v) { SET_PROP(m_animEnabled, v); }
 void ConfigManager::setAnimDuration(int v) { SET_PROP(m_animDuration, v); }
 void ConfigManager::setAnimWindowOpen(const QString &v) { SET_PROP(m_animWindowOpen, v); }
 void ConfigManager::setAnimWindowClose(const QString &v) { SET_PROP(m_animWindowClose, v); }
+void ConfigManager::setAnimWindowMove(const QString &v) { SET_PROP(m_animWindowMove, v); }
+void ConfigManager::setAnimWindowResize(const QString &v) { SET_PROP(m_animWindowResize, v); }
+void ConfigManager::setAnimWorkspaceSwitch(const QString &v) { SET_PROP(m_animWorkspaceSwitch, v); }
 void ConfigManager::setAnimCurve(const QString &v) { SET_PROP(m_animCurve, v); }
+void ConfigManager::setAnimFadeMin(double v) { SET_PROP(m_animFadeMin, v); }
+void ConfigManager::setAnimZoomMin(double v) { SET_PROP(m_animZoomMin, v); }
 void ConfigManager::setMasterRatio(double v) { SET_PROP(m_masterRatio, v); }
 void ConfigManager::setMasterCount(int v) { SET_PROP(m_masterCount, v); }
 void ConfigManager::setBgEnabled(bool v) { SET_PROP(m_bgEnabled, v); }
@@ -432,3 +572,6 @@ void ConfigManager::setBgColor(const QString &v) { SET_PROP(m_bgColor, v); }
 void ConfigManager::setBgImage(const QString &v) { SET_PROP(m_bgImage, v); }
 void ConfigManager::setBgMode(const QString &v) { SET_PROP(m_bgMode, v); }
 void ConfigManager::setAutostart(const QStringList &v) { m_autostart = v; emit configChanged(); }
+void ConfigManager::setGestureSwipeThreshold(double v) { SET_PROP(m_gestureSwipeThreshold, v); }
+void ConfigManager::setGesturePinchThreshold(double v) { SET_PROP(m_gesturePinchThreshold, v); }
+void ConfigManager::setGestureMouseThreshold(double v) { SET_PROP(m_gestureMouseThreshold, v); }

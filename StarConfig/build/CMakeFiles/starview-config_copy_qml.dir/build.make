@@ -72,12 +72,17 @@ CMakeFiles/starview-config_copy_qml: .qt/starview-config_qml.txt
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/Main.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/GeneralPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
+.qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
+.qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml
+.qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/RulesPage.qml
+.qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/pages/AutostartPage.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/components/SettingsGroup.qml
 .qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/components/SettingsRow.qml
+.qt/starview-config_qml.txt: /home/link/Programming/StarShell/StarConfig/src/components/StyledComboBox.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying starview-config qml sources into build dir"
 	/usr/bin/cmake -DFILES_INFO_PATH=/home/link/Programming/StarShell/StarConfig/build/.qt/starview-config_qml.cmake -P /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

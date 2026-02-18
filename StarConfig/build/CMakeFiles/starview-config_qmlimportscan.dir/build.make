@@ -74,12 +74,17 @@ CMakeFiles/starview-config_qmlimportscan: .qt/qml_imports/starview-config_build.
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/Main.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/GeneralPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
+.qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
+.qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml
+.qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/RulesPage.qml
+.qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/AutostartPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/components/SettingsGroup.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/components/SettingsRow.qml
+.qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/components/StyledComboBox.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for starview-config"
 	cd /home/link/Programming/StarShell/StarConfig && /usr/lib/qt6/qmlimportscanner @/home/link/Programming/StarShell/StarConfig/build/.qt/qml_imports/starview-config_build.rsp
 

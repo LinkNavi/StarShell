@@ -937,6 +937,12 @@
 			null
 		],
 		[
+			"/home/link/Programming/StarShell/StarConfig/src/ColorProvider.h",
+			"MU",
+			"UVLADIE3JM/moc_ColorProvider.cpp",
+			null
+		],
+		[
 			"/home/link/Programming/StarShell/StarConfig/src/ConfigManager.h",
 			"MU",
 			"UVLADIE3JM/moc_ConfigManager.cpp",
@@ -1033,11 +1039,16 @@
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/Main_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/starview-config_qmltyperegistrations.cpp"
 	],
@@ -1051,6 +1062,11 @@
 	"SETTINGS_FILE" : "/home/link/Programming/StarShell/StarConfig/build/CMakeFiles/starview-config_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/home/link/Programming/StarShell/StarConfig/src/ColorProvider.cpp",
+			"MU",
+			null
+		],
 		[
 			"/home/link/Programming/StarShell/StarConfig/src/ConfigManager.cpp",
 			"MU",
@@ -1088,11 +1104,16 @@
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/Main_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/starview-config_qmltyperegistrations.cpp"
 	],

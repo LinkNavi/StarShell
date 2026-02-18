@@ -7,6 +7,7 @@ starview-config: \
   CMakeFiles/starview-config.dir/src/ConfigManager.cpp.o \
   CMakeFiles/starview-config.dir/src/WallpaperManager.cpp.o \
   CMakeFiles/starview-config.dir/src/MonitorManager.cpp.o \
+  CMakeFiles/starview-config.dir/src/ColorProvider.cpp.o \
   CMakeFiles/starview-config.dir/src/NetworkManager.cpp.o \
   CMakeFiles/starview-config.dir/src/toml.c.o \
   CMakeFiles/starview-config.dir/starview-config_qmltyperegistrations.cpp.o \
@@ -15,12 +16,17 @@ starview-config: \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/Main_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.o \
+  CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o \
+  CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.o \
+  CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o \
+  CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.o \
+  CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o \
   CMakeFiles/starview-config.dir/build/.qt/rcc/qrc_starview-config_raw_qml_0.cpp.o \
   /usr/lib/libQt6Quick.so.6.10.1 \
   /usr/lib/libQt6OpenGL.so.6.10.1 \
@@ -137,6 +143,8 @@ CMakeFiles/starview-config.dir/src/WallpaperManager.cpp.o:
 
 CMakeFiles/starview-config.dir/src/MonitorManager.cpp.o:
 
+CMakeFiles/starview-config.dir/src/ColorProvider.cpp.o:
+
 CMakeFiles/starview-config.dir/src/NetworkManager.cpp.o:
 
 CMakeFiles/starview-config.dir/src/toml.c.o:
@@ -153,6 +161,10 @@ CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/Gen
 
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.o:
 
+CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o:
+
+CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o:
+
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o:
 
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.o:
@@ -161,9 +173,15 @@ CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/Net
 
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.o:
 
+CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o:
+
+CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o:
+
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp.o:
 
 CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.o:
+
+CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o:
 
 CMakeFiles/starview-config.dir/build/.qt/rcc/qrc_starview-config_raw_qml_0.cpp.o:
 

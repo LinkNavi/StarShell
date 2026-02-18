@@ -31,6 +31,12 @@
 },
 {
   "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/src/ColorProvider.cpp.o -c /home/link/Programming/StarShell/StarConfig/src/ColorProvider.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/src/ColorProvider.cpp",
+  "output": "CMakeFiles/starview-config.dir/src/ColorProvider.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/src/NetworkManager.cpp.o -c /home/link/Programming/StarShell/StarConfig/src/NetworkManager.cpp",
   "file": "/home/link/Programming/StarShell/StarConfig/src/NetworkManager.cpp",
   "output": "CMakeFiles/starview-config.dir/src/NetworkManager.cpp.o"
@@ -79,6 +85,18 @@
 },
 {
   "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp",
+  "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
+  "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp",
   "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp",
   "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.o"
@@ -103,6 +121,18 @@
 },
 {
   "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp",
+  "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp",
+  "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp",
   "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp",
   "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp.o"
@@ -112,6 +142,12 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp",
   "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp",
   "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp",
+  "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.o"
 },
 {
   "directory": "/home/link/Programming/StarShell/StarConfig/build",

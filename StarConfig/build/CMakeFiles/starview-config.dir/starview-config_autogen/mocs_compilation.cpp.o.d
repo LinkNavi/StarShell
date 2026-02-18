@@ -1,8 +1,8 @@
 CMakeFiles/starview-config.dir/starview-config_autogen/mocs_compilation.cpp.o: \
  /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/moc_ConfigManager.cpp \
- /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/../../../src/ConfigManager.h \
+ /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/moc_ColorProvider.cpp \
+ /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/../../../src/ColorProvider.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \
@@ -300,8 +300,7 @@ CMakeFiles/starview-config.dir/starview-config_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/qobject_impl.h \
  /usr/include/qt6/QtCore/qbindingstorage.h /usr/include/c++/15.2.1/chrono \
  /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
- /usr/include/c++/15.2.1/ctime /usr/include/qt6/QtCore/QString \
- /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/QVariantMap \
+ /usr/include/c++/15.2.1/ctime /usr/include/qt6/QtCore/QVariantMap \
  /usr/include/qt6/QtCore/qvariantmap.h /usr/include/qt6/QtCore/QMap \
  /usr/include/qt6/QtCore/qmap.h /usr/include/qt6/QtCore/qshareddata.h \
  /usr/include/qt6/QtCore/qshareddata_impl.h \
@@ -325,11 +324,26 @@ CMakeFiles/starview-config.dir/starview-config_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt6/QtCore/qvarlengtharray.h \
  /usr/include/qt6/QtCore/qalloc.h /usr/include/qt6/QtCore/q23utility.h \
  /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/qobject.h \
- /usr/include/qt6/QtCore/QString \
+ /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/qstring.h \
  /usr/include/qt6/QtCore/QFileSystemWatcher \
  /usr/include/qt6/QtCore/qfilesystemwatcher.h \
- /usr/include/qt6/QtCore/QTextStream \
- /usr/include/qt6/QtCore/qtextstream.h \
+ /usr/include/qt6/QtGui/QColor /usr/include/qt6/QtGui/qcolor.h \
+ /usr/include/qt6/QtGui/qtguiglobal.h \
+ /usr/include/qt6/QtGui/qtgui-config.h \
+ /usr/include/qt6/QtGui/qtguiexports.h /usr/include/qt6/QtGui/qrgb.h \
+ /usr/include/qt6/QtGui/qrgba64.h /usr/include/qt6/QtCore/qtmochelpers.h \
+ /usr/include/qt6/QtCore/qtmocconstants.h \
+ /usr/include/qt6/QtCore/q20algorithm.h \
+ /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/moc_ConfigManager.cpp \
+ /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/../../../src/ConfigManager.h \
+ /usr/include/qt6/QtCore/QString /usr/include/qt6/QtCore/QVariantList \
+ /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QList \
+ /usr/include/qt6/QtCore/qlist.h /usr/include/qt6/QtCore/QTextStream \
+ /usr/include/qt6/QtCore/qtextstream.h /usr/include/qt6/QtCore/QTimer \
+ /usr/include/qt6/QtCore/qtimer.h /usr/include/qt6/QtCore/qbasictimer.h \
+ /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h \
  /home/link/Programming/StarShell/StarConfig/include/toml.h \
  /home/link/Programming/StarShell/StarConfig/include/starview_ipc.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
@@ -342,14 +356,8 @@ CMakeFiles/starview-config.dir/starview-config_autogen/mocs_compilation.cpp.o: \
  /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/bits/types/struct_osockaddr.h /usr/include/sys/un.h \
- /usr/include/qt6/QtCore/qtmochelpers.h \
- /usr/include/qt6/QtCore/qtmocconstants.h \
- /usr/include/qt6/QtCore/q20algorithm.h \
  /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/moc_MonitorManager.cpp \
  /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/../../../src/MonitorManager.h \
- /usr/include/qt6/QtCore/QVariantList \
- /usr/include/qt6/QtCore/qvariantlist.h /usr/include/qt6/QtCore/QList \
- /usr/include/qt6/QtCore/qlist.h \
  /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/moc_NetworkManager.cpp \
  /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/../../../src/NetworkManager.h \
  /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/UVLADIE3JM/moc_WallpaperManager.cpp \

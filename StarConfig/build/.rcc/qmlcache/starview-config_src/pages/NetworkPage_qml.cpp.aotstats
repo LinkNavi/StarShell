@@ -7,274 +7,394 @@
                     "entries": [
                         {
                             "codegenResult": 2,
-                            "column": 16,
-                            "durationMicroseconds": 62,
-                            "functionName": "width",
-                            "line": 11,
-                            "message": "Cannot retrieve a non-object type by ID: root"
+                            "column": 31,
+                            "durationMicroseconds": 102,
+                            "functionName": "networkList",
+                            "line": 8,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 34,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "contentWidth",
+                            "line": 10,
+                            "message": "Could not find property \"contentWidth\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 10,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 187,
+                            "functionName": "width",
+                            "line": 11,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 81,
+                            "durationMicroseconds": 296,
+                            "functionName": "color",
+                            "line": 12,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 38,
                             "durationMicroseconds": 0,
                             "functionName": "checked",
-                            "line": 37,
+                            "line": 16,
                             "message": "Could not find property \"checked\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 36,
+                            "column": 84,
                             "durationMicroseconds": 0,
-                            "functionName": "onToggled",
-                            "line": 38,
-                            "message": "Could not find signal \"toggled\"."
+                            "functionName": "onCheckedChanged",
+                            "line": 16,
+                            "message": "Could not find signal \"checkedChanged\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 30,
-                            "durationMicroseconds": 0,
-                            "functionName": "enabled",
-                            "line": 46,
-                            "message": "Could not find property \"enabled\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 62,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 163,
+                            "column": 79,
+                            "durationMicroseconds": 375,
                             "functionName": "color",
-                            "line": 49,
-                            "message": "Cannot load property pressed from (component in /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml)::parent with type QQuickItem."
+                            "line": 18,
+                            "message": "Cannot access value for name root"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 43,
-                            "functionName": "text",
-                            "line": 56,
-                            "message": "Cannot load property text from (component in /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 32,
-                            "durationMicroseconds": 168,
+                            "column": 138,
+                            "durationMicroseconds": 160,
                             "functionName": "color",
-                            "line": 57,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 46,
-                            "durationMicroseconds": 61,
-                            "functionName": "horizontalAlignment",
-                            "line": 58,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 44,
-                            "durationMicroseconds": 39,
-                            "functionName": "verticalAlignment",
-                            "line": 59,
-                            "message": ""
+                            "line": 18,
+                            "message": "Cannot access value for name root"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 32,
-                            "functionName": "width",
-                            "line": 77,
-                            "message": "Cannot access value for name networkList"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 32,
-                            "durationMicroseconds": 136,
+                            "column": 101,
+                            "durationMicroseconds": 998,
                             "functionName": "color",
-                            "line": 80,
-                            "message": ""
+                            "line": 19,
+                            "message": "Cannot access value for name networkManager"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 40,
-                            "functionName": "fill",
-                            "line": 85,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 39,
-                            "durationMicroseconds": 772,
-                            "functionName": "text",
-                            "line": 91,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 43,
-                            "durationMicroseconds": 235,
-                            "functionName": "text",
-                            "line": 101,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 43,
-                            "durationMicroseconds": 227,
-                            "functionName": "text",
-                            "line": 108,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 39,
-                            "durationMicroseconds": 196,
-                            "functionName": "text",
-                            "line": 115,
-                            "message": "Cannot access value for name modelData"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 42,
-                            "durationMicroseconds": 53,
-                            "functionName": "cursorShape",
-                            "line": 125,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 392,
-                            "functionName": "onClicked",
-                            "line": 127,
-                            "message": "Cannot access value for name connectDialog"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
-                            "durationMicroseconds": 38,
-                            "functionName": "fill",
-                            "line": 123,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 16,
-                            "durationMicroseconds": 0,
-                            "functionName": "title",
-                            "line": 144,
-                            "message": "Could not find property \"title\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
+                            "column": 45,
+                            "durationMicroseconds": 79,
                             "functionName": "centerIn",
-                            "line": 146,
-                            "message": "Could not find property \"centerIn\"."
+                            "line": 19,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 95,
+                            "durationMicroseconds": 93,
+                            "functionName": "cursorShape",
+                            "line": 20,
+                            "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 13,
-                            "functionName": "visible",
-                            "line": 164,
-                            "message": "Cannot retrieve a non-object type by ID: connectDialog"
+                            "column": 126,
+                            "durationMicroseconds": 386,
+                            "functionName": "enabled",
+                            "line": 20,
+                            "message": "Cannot access value for name networkManager"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 27,
-                            "durationMicroseconds": 0,
-                            "functionName": "echoMode",
-                            "line": 170,
-                            "message": "Could not find property \"echoMode\"."
+                            "column": 36,
+                            "durationMicroseconds": 395,
+                            "functionName": "onClicked",
+                            "line": 21,
+                            "message": "Cannot access value for name networkManager"
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 26,
-                            "durationMicroseconds": 0,
-                            "functionName": "visible",
-                            "line": 172,
-                            "message": "Could not find property \"visible\"."
+                            "codegenResult": 0,
+                            "column": 56,
+                            "durationMicroseconds": 76,
+                            "functionName": "fill",
+                            "line": 20,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 35,
-                            "durationMicroseconds": 44,
-                            "functionName": "alignment",
-                            "line": 185,
+                            "durationMicroseconds": 101,
+                            "functionName": "model",
+                            "line": 23,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 190,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 98,
-                            "functionName": "color",
-                            "line": 193,
-                            "message": "Cannot load property pressed from (component in /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml)::parent with type QQuickItem."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 35,
+                            "column": 41,
+                            "durationMicroseconds": 409,
                             "functionName": "text",
-                            "line": 200,
-                            "message": "Cannot load property text from (component in /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml)::parent with type QQuickItem."
+                            "line": 27,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 73,
+                            "durationMicroseconds": 263,
+                            "functionName": "color",
+                            "line": 27,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 708,
+                            "functionName": "text",
+                            "line": 28,
+                            "message": "Cannot access value for name modelData"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 104,
+                            "durationMicroseconds": 248,
+                            "functionName": "color",
+                            "line": 28,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 74,
+                            "durationMicroseconds": 391,
+                            "functionName": "color",
+                            "line": 29,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 102,
+                            "durationMicroseconds": 519,
+                            "functionName": "color",
+                            "line": 30,
+                            "message": "Cannot access value for name root"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 46,
+                            "column": 53,
+                            "durationMicroseconds": 161,
+                            "functionName": "centerIn",
+                            "line": 30,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 103,
+                            "durationMicroseconds": 118,
+                            "functionName": "cursorShape",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 1302,
+                            "functionName": "onClicked",
+                            "line": 32,
+                            "message": "Cannot access value for name _cd"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 64,
+                            "durationMicroseconds": 86,
+                            "functionName": "fill",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 39,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 40,
+                            "message": "Could not find property \"centerIn\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 37,
+                            "durationMicroseconds": 168,
+                            "functionName": "color",
+                            "line": 41,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 73,
+                            "durationMicroseconds": 172,
+                            "functionName": "color",
+                            "line": 41,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 27,
                             "durationMicroseconds": 42,
-                            "functionName": "horizontalAlignment",
-                            "line": 202,
+                            "functionName": "text",
+                            "line": 42,
+                            "message": "Cannot access value for name _cd"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 56,
+                            "durationMicroseconds": 282,
+                            "functionName": "color",
+                            "line": 42,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 64,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 44,
+                            "message": "Could not find property \"visible\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 86,
+                            "durationMicroseconds": 0,
+                            "functionName": "echoMode",
+                            "line": 44,
+                            "message": "Could not find property \"echoMode\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 42,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 45,
+                            "message": "Could not find property \"color\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 81,
+                            "durationMicroseconds": 216,
+                            "functionName": "color",
+                            "line": 45,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 115,
+                            "durationMicroseconds": 436,
+                            "functionName": "color",
+                            "line": 45,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 42,
+                            "durationMicroseconds": 108,
+                            "functionName": "alignment",
+                            "line": 46,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 221,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 91,
+                            "column": 63,
+                            "durationMicroseconds": 226,
                             "functionName": "color",
-                            "line": 210,
-                            "message": "Cannot load property pressed from (component in /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml)::parent with type QQuickItem."
+                            "line": 47,
+                            "message": "Cannot access value for name root"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 31,
-                            "durationMicroseconds": 34,
-                            "functionName": "text",
-                            "line": 215,
-                            "message": "Cannot load property text from (component in /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml)::parent with type QQuickItem."
+                            "column": 88,
+                            "durationMicroseconds": 271,
+                            "functionName": "color",
+                            "line": 48,
+                            "message": "Cannot access value for name root"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 46,
-                            "durationMicroseconds": 58,
-                            "functionName": "horizontalAlignment",
-                            "line": 218,
+                            "column": 43,
+                            "durationMicroseconds": 71,
+                            "functionName": "centerIn",
+                            "line": 48,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 90,
+                            "durationMicroseconds": 81,
+                            "functionName": "cursorShape",
+                            "line": 49,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 122,
+                            "durationMicroseconds": 47,
+                            "functionName": "onClicked",
+                            "line": 49,
+                            "message": "Cannot retrieve a non-object type by ID: _cd"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 53,
+                            "durationMicroseconds": 65,
+                            "functionName": "fill",
+                            "line": 49,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 63,
+                            "durationMicroseconds": 379,
+                            "functionName": "color",
+                            "line": 50,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 104,
+                            "durationMicroseconds": 269,
+                            "functionName": "color",
+                            "line": 51,
+                            "message": "Cannot access value for name root"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 43,
+                            "durationMicroseconds": 72,
+                            "functionName": "centerIn",
+                            "line": 51,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 90,
+                            "durationMicroseconds": 99,
+                            "functionName": "cursorShape",
+                            "line": 52,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 442,
+                            "functionName": "onClicked",
+                            "line": 53,
+                            "message": "Cannot access value for name networkManager"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 53,
+                            "durationMicroseconds": 78,
+                            "functionName": "fill",
+                            "line": 52,
                             "message": ""
                         }
                     ],

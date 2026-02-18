@@ -1,38 +1,17 @@
 import QtQuick
-import QtQuick.Controls
 import QtQuick.Layouts
 
 Rectangle {
-    id: root
-    
+    id: sg
     property string title: ""
-    property alias content: contentLoader.sourceComponent
-    default property alias children: contentColumn.data
-    
-    color: "#11111b"
-    radius: 12
-    border.color: "#45475a"
-    border.width: 1
-    
-    implicitHeight: contentColumn.height + 40
-    
+    default property alias children: _col.data
+    Layout.fillWidth: true
+    color: root.cMantle; radius: 12; border.color: root.cSurfaceVar; border.width: 1
+    implicitHeight: _col.implicitHeight + 40
     ColumnLayout {
-        id: contentColumn
-        anchors.fill: parent
-        anchors.margins: 20
-        spacing: 15
-        
-        Text {
-            text: root.title
-            font.pixelSize: 18
-            font.bold: true
-            color: "#89b4fa"
-            visible: root.title !== ""
-        }
-    }
-    
-    Loader {
-        id: contentLoader
-        anchors.fill: parent
+        id: _col
+        anchors.left: parent.left; anchors.right: parent.right; anchors.top: parent.top
+        anchors.margins: 20; spacing: 14
+        Text { text: sg.title; font.pixelSize: 16; font.bold: true; color: root.cAccent; visible: sg.title !== "" }
     }
 }

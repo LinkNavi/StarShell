@@ -1,0 +1,47 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 191,
+                            "functionName": "text",
+                            "line": 21,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 133,
+                            "functionName": "text",
+                            "line": 28,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 185,
+                            "functionName": "visible",
+                            "line": 31,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 126,
+                            "functionName": "alignment",
+                            "line": 37,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/link/Programming/StarShell/StarConfig/src/components/StyledSwitch.qml"
+                }
+            ],
+            "moduleId": "StarViewConfig(starview-config)"
+        }
+    ]
+}

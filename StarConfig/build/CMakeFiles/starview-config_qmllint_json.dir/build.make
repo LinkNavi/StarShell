@@ -70,12 +70,17 @@ CMakeFiles/starview-config_qmllint_json: /usr/lib/qt6/bin/qmllint
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/Main.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/GeneralPage.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
+CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
+CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml
+CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/RulesPage.qml
+CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/pages/AutostartPage.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/components/SettingsGroup.qml
 CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/components/SettingsRow.qml
+CMakeFiles/starview-config_qmllint_json: /home/link/Programming/StarShell/StarConfig/src/components/StyledComboBox.qml
 CMakeFiles/starview-config_qmllint_json: .rcc/qmllint/starview-config_json.rsp
 	cd /home/link/Programming/StarShell/StarConfig && /usr/lib/qt6/bin/qmllint @/home/link/Programming/StarShell/StarConfig/build/.rcc/qmllint/starview-config_json.rsp
 

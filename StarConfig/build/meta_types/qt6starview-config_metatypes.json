@@ -2,35 +2,684 @@
     {
         "classes": [
             {
-                "className": "ConfigManager",
-                "lineNumber": 15,
+                "className": "ColorProvider",
+                "lineNumber": 9,
                 "methods": [
                     {
                         "access": "public",
                         "index": 3,
-                        "lineNumber": 66,
-                        "name": "load",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "index": 4,
-                        "lineNumber": 67,
-                        "name": "save",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "index": 5,
-                        "lineNumber": 68,
+                        "lineNumber": 69,
                         "name": "reload",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "wallpaperPath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 70,
+                        "name": "generateFromWallpaper",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "isConst": true,
+                        "lineNumber": 71,
+                        "name": "color",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 12,
+                        "name": "primary",
+                        "notify": "colorsChanged",
+                        "read": "primary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 13,
+                        "name": "onPrimary",
+                        "notify": "colorsChanged",
+                        "read": "onPrimary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 14,
+                        "name": "primaryContainer",
+                        "notify": "colorsChanged",
+                        "read": "primaryContainer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 15,
+                        "name": "onPrimaryContainer",
+                        "notify": "colorsChanged",
+                        "read": "onPrimaryContainer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 16,
+                        "name": "secondary",
+                        "notify": "colorsChanged",
+                        "read": "secondary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 17,
+                        "name": "onSecondary",
+                        "notify": "colorsChanged",
+                        "read": "onSecondary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
                         "index": 6,
-                        "lineNumber": 69,
+                        "lineNumber": 18,
+                        "name": "secondaryContainer",
+                        "notify": "colorsChanged",
+                        "read": "secondaryContainer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 19,
+                        "name": "onSecondaryContainer",
+                        "notify": "colorsChanged",
+                        "read": "onSecondaryContainer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 20,
+                        "name": "tertiary",
+                        "notify": "colorsChanged",
+                        "read": "tertiary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 21,
+                        "name": "onTertiary",
+                        "notify": "colorsChanged",
+                        "read": "onTertiary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 22,
+                        "name": "tertiaryContainer",
+                        "notify": "colorsChanged",
+                        "read": "tertiaryContainer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 23,
+                        "name": "onTertiaryContainer",
+                        "notify": "colorsChanged",
+                        "read": "onTertiaryContainer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 24,
+                        "name": "background",
+                        "notify": "colorsChanged",
+                        "read": "background",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 25,
+                        "name": "onBackground",
+                        "notify": "colorsChanged",
+                        "read": "onBackground",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 26,
+                        "name": "surface",
+                        "notify": "colorsChanged",
+                        "read": "surface",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 27,
+                        "name": "onSurface",
+                        "notify": "colorsChanged",
+                        "read": "onSurface",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 28,
+                        "name": "surfaceVariant",
+                        "notify": "colorsChanged",
+                        "read": "surfaceVariant",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 17,
+                        "lineNumber": 29,
+                        "name": "onSurfaceVariant",
+                        "notify": "colorsChanged",
+                        "read": "onSurfaceVariant",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 18,
+                        "lineNumber": 30,
+                        "name": "outline",
+                        "notify": "colorsChanged",
+                        "read": "outline",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 19,
+                        "lineNumber": 31,
+                        "name": "outlineVariant",
+                        "notify": "colorsChanged",
+                        "read": "outlineVariant",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 20,
+                        "lineNumber": 32,
+                        "name": "error",
+                        "notify": "colorsChanged",
+                        "read": "error",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 21,
+                        "lineNumber": 33,
+                        "name": "onError",
+                        "notify": "colorsChanged",
+                        "read": "onError",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 22,
+                        "lineNumber": 34,
+                        "name": "inverseSurface",
+                        "notify": "colorsChanged",
+                        "read": "inverseSurface",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 23,
+                        "lineNumber": 35,
+                        "name": "inverseOnSurface",
+                        "notify": "colorsChanged",
+                        "read": "inverseOnSurface",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 24,
+                        "lineNumber": 36,
+                        "name": "inversePrimary",
+                        "notify": "colorsChanged",
+                        "read": "inversePrimary",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 25,
+                        "lineNumber": 37,
+                        "name": "loaded",
+                        "notify": "colorsChanged",
+                        "read": "loaded",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "ColorProvider",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 74,
+                        "name": "colorsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 75,
+                        "name": "generateStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "success",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 76,
+                        "name": "generateFinished",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ColorProvider.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ConfigManager",
+                "lineNumber": 17,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 209,
+                        "name": "load",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 210,
+                        "name": "save",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 211,
+                        "name": "saveAndReload",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "lineNumber": 212,
                         "name": "reloadCompositor",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 213,
+                        "name": "reconnect",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "action",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "lineNumber": 215,
+                        "name": "addKeybind",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 216,
+                        "name": "removeKeybind",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "rule",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "index": 12,
+                        "lineNumber": 217,
+                        "name": "addRule",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 218,
+                        "name": "removeRule",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cmd",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 219,
+                        "name": "addAutostart",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 15,
+                        "lineNumber": 220,
+                        "name": "removeAutostart",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "fingers",
+                                "type": "int"
+                            },
+                            {
+                                "name": "direction",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "action",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 16,
+                        "lineNumber": 222,
+                        "name": "addTouchpadGesture",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 17,
+                        "lineNumber": 223,
+                        "name": "removeTouchpadGesture",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "button",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "modifiers",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "direction",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "action",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 18,
+                        "lineNumber": 224,
+                        "name": "addMouseGesture",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 19,
+                        "lineNumber": 225,
+                        "name": "removeMouseGesture",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "colors",
+                                "type": "QVariantMap"
+                            }
+                        ],
+                        "index": 20,
+                        "lineNumber": 227,
+                        "name": "applyMatugenColors",
                         "returnType": "void"
                     }
                 ],
@@ -41,23 +690,39 @@
                         "designable": true,
                         "final": false,
                         "index": 0,
-                        "lineNumber": 19,
-                        "name": "gapSize",
+                        "lineNumber": 21,
+                        "name": "gapsInner",
                         "notify": "configChanged",
-                        "read": "gapSize",
+                        "read": "gapsInner",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
                         "type": "int",
                         "user": false,
-                        "write": "setGapSize"
+                        "write": "setGapsInner"
                     },
                     {
                         "constant": false,
                         "designable": true,
                         "final": false,
                         "index": 1,
-                        "lineNumber": 20,
+                        "lineNumber": 22,
+                        "name": "gapsOuter",
+                        "notify": "configChanged",
+                        "read": "gapsOuter",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setGapsOuter"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 23,
                         "name": "borderWidth",
                         "notify": "configChanged",
                         "read": "borderWidth",
@@ -72,33 +737,17 @@
                         "constant": false,
                         "designable": true,
                         "final": false,
-                        "index": 2,
-                        "lineNumber": 21,
-                        "name": "borderColor",
-                        "notify": "configChanged",
-                        "read": "borderColor",
-                        "required": false,
-                        "scriptable": true,
-                        "stored": true,
-                        "type": "QString",
-                        "user": false,
-                        "write": "setBorderColor"
-                    },
-                    {
-                        "constant": false,
-                        "designable": true,
-                        "final": false,
                         "index": 3,
-                        "lineNumber": 22,
-                        "name": "focusedBorderColor",
+                        "lineNumber": 24,
+                        "name": "borderColorActive",
                         "notify": "configChanged",
-                        "read": "focusedBorderColor",
+                        "read": "borderColorActive",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
                         "type": "QString",
                         "user": false,
-                        "write": "setFocusedBorderColor"
+                        "write": "setBorderColorActive"
                     },
                     {
                         "constant": false,
@@ -106,15 +755,15 @@
                         "final": false,
                         "index": 4,
                         "lineNumber": 25,
-                        "name": "decorationsEnabled",
+                        "name": "borderColorInactive",
                         "notify": "configChanged",
-                        "read": "decorationsEnabled",
+                        "read": "borderColorInactive",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "bool",
+                        "type": "QString",
                         "user": false,
-                        "write": "setDecorationsEnabled"
+                        "write": "setBorderColorInactive"
                     },
                     {
                         "constant": false,
@@ -122,15 +771,15 @@
                         "final": false,
                         "index": 5,
                         "lineNumber": 26,
-                        "name": "titlebarHeight",
+                        "name": "focusFollowsMouse",
                         "notify": "configChanged",
-                        "read": "titlebarHeight",
+                        "read": "focusFollowsMouse",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "bool",
                         "user": false,
-                        "write": "setTitlebarHeight"
+                        "write": "setFocusFollowsMouse"
                     },
                     {
                         "constant": false,
@@ -138,15 +787,15 @@
                         "final": false,
                         "index": 6,
                         "lineNumber": 27,
-                        "name": "decorationBgColor",
+                        "name": "defaultMode",
                         "notify": "configChanged",
-                        "read": "decorationBgColor",
+                        "read": "defaultMode",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
                         "type": "QString",
                         "user": false,
-                        "write": "setDecorationBgColor"
+                        "write": "setDefaultMode"
                     },
                     {
                         "constant": false,
@@ -154,31 +803,31 @@
                         "final": false,
                         "index": 7,
                         "lineNumber": 28,
-                        "name": "decorationTextColor",
+                        "name": "resizeStep",
                         "notify": "configChanged",
-                        "read": "decorationTextColor",
+                        "read": "resizeStep",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "QString",
+                        "type": "int",
                         "user": false,
-                        "write": "setDecorationTextColor"
+                        "write": "setResizeStep"
                     },
                     {
                         "constant": false,
                         "designable": true,
                         "final": false,
                         "index": 8,
-                        "lineNumber": 31,
-                        "name": "wallpaperPath",
+                        "lineNumber": 29,
+                        "name": "moveStep",
                         "notify": "configChanged",
-                        "read": "wallpaperPath",
+                        "read": "moveStep",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "QString",
+                        "type": "int",
                         "user": false,
-                        "write": "setWallpaperPath"
+                        "write": "setMoveStep"
                     },
                     {
                         "constant": false,
@@ -186,15 +835,634 @@
                         "final": false,
                         "index": 9,
                         "lineNumber": 32,
-                        "name": "wallpaperMode",
+                        "name": "decorEnabled",
                         "notify": "configChanged",
-                        "read": "wallpaperMode",
+                        "read": "decorEnabled",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setDecorEnabled"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 33,
+                        "name": "decorHeight",
+                        "notify": "configChanged",
+                        "read": "decorHeight",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDecorHeight"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 34,
+                        "name": "decorButtonSize",
+                        "notify": "configChanged",
+                        "read": "decorButtonSize",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDecorButtonSize"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 35,
+                        "name": "decorButtonSpacing",
+                        "notify": "configChanged",
+                        "read": "decorButtonSpacing",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDecorButtonSpacing"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 36,
+                        "name": "decorCornerRadius",
+                        "notify": "configChanged",
+                        "read": "decorCornerRadius",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDecorCornerRadius"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 37,
+                        "name": "decorBgColor",
+                        "notify": "configChanged",
+                        "read": "decorBgColor",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
                         "type": "QString",
                         "user": false,
-                        "write": "setWallpaperMode"
+                        "write": "setDecorBgColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 38,
+                        "name": "decorBgColorInactive",
+                        "notify": "configChanged",
+                        "read": "decorBgColorInactive",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorBgColorInactive"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 39,
+                        "name": "decorTitleColor",
+                        "notify": "configChanged",
+                        "read": "decorTitleColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorTitleColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 17,
+                        "lineNumber": 40,
+                        "name": "decorTitleColorInactive",
+                        "notify": "configChanged",
+                        "read": "decorTitleColorInactive",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorTitleColorInactive"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 18,
+                        "lineNumber": 41,
+                        "name": "decorCloseColor",
+                        "notify": "configChanged",
+                        "read": "decorCloseColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorCloseColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 19,
+                        "lineNumber": 42,
+                        "name": "decorMaxColor",
+                        "notify": "configChanged",
+                        "read": "decorMaxColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorMaxColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 20,
+                        "lineNumber": 43,
+                        "name": "decorMinColor",
+                        "notify": "configChanged",
+                        "read": "decorMinColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorMinColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 21,
+                        "lineNumber": 44,
+                        "name": "decorFont",
+                        "notify": "configChanged",
+                        "read": "decorFont",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setDecorFont"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 22,
+                        "lineNumber": 45,
+                        "name": "decorFontSize",
+                        "notify": "configChanged",
+                        "read": "decorFontSize",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setDecorFontSize"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 23,
+                        "lineNumber": 46,
+                        "name": "decorButtonsLeft",
+                        "notify": "configChanged",
+                        "read": "decorButtonsLeft",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setDecorButtonsLeft"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 24,
+                        "lineNumber": 49,
+                        "name": "animEnabled",
+                        "notify": "configChanged",
+                        "read": "animEnabled",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setAnimEnabled"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 25,
+                        "lineNumber": 50,
+                        "name": "animDuration",
+                        "notify": "configChanged",
+                        "read": "animDuration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setAnimDuration"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 26,
+                        "lineNumber": 51,
+                        "name": "animWindowOpen",
+                        "notify": "configChanged",
+                        "read": "animWindowOpen",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAnimWindowOpen"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 27,
+                        "lineNumber": 52,
+                        "name": "animWindowClose",
+                        "notify": "configChanged",
+                        "read": "animWindowClose",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAnimWindowClose"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 28,
+                        "lineNumber": 53,
+                        "name": "animWindowMove",
+                        "notify": "configChanged",
+                        "read": "animWindowMove",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAnimWindowMove"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 29,
+                        "lineNumber": 54,
+                        "name": "animWindowResize",
+                        "notify": "configChanged",
+                        "read": "animWindowResize",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAnimWindowResize"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 30,
+                        "lineNumber": 55,
+                        "name": "animWorkspaceSwitch",
+                        "notify": "configChanged",
+                        "read": "animWorkspaceSwitch",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAnimWorkspaceSwitch"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 31,
+                        "lineNumber": 56,
+                        "name": "animCurve",
+                        "notify": "configChanged",
+                        "read": "animCurve",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setAnimCurve"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 32,
+                        "lineNumber": 57,
+                        "name": "animFadeMin",
+                        "notify": "configChanged",
+                        "read": "animFadeMin",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setAnimFadeMin"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 33,
+                        "lineNumber": 58,
+                        "name": "animZoomMin",
+                        "notify": "configChanged",
+                        "read": "animZoomMin",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setAnimZoomMin"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 34,
+                        "lineNumber": 61,
+                        "name": "masterRatio",
+                        "notify": "configChanged",
+                        "read": "masterRatio",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setMasterRatio"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 35,
+                        "lineNumber": 62,
+                        "name": "masterCount",
+                        "notify": "configChanged",
+                        "read": "masterCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setMasterCount"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 36,
+                        "lineNumber": 65,
+                        "name": "bgEnabled",
+                        "notify": "configChanged",
+                        "read": "bgEnabled",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setBgEnabled"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 37,
+                        "lineNumber": 66,
+                        "name": "bgColor",
+                        "notify": "configChanged",
+                        "read": "bgColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setBgColor"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 38,
+                        "lineNumber": 67,
+                        "name": "bgImage",
+                        "notify": "configChanged",
+                        "read": "bgImage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setBgImage"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 39,
+                        "lineNumber": 68,
+                        "name": "bgMode",
+                        "notify": "configChanged",
+                        "read": "bgMode",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setBgMode"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 40,
+                        "lineNumber": 71,
+                        "name": "keybinds",
+                        "notify": "configChanged",
+                        "read": "keybinds",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 41,
+                        "lineNumber": 74,
+                        "name": "rules",
+                        "notify": "configChanged",
+                        "read": "rules",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 42,
+                        "lineNumber": 77,
+                        "name": "autostart",
+                        "notify": "configChanged",
+                        "read": "autostart",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false,
+                        "write": "setAutostart"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 43,
+                        "lineNumber": 80,
+                        "name": "touchpadGestures",
+                        "notify": "configChanged",
+                        "read": "touchpadGestures",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 44,
+                        "lineNumber": 81,
+                        "name": "mouseGestures",
+                        "notify": "configChanged",
+                        "read": "mouseGestures",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 45,
+                        "lineNumber": 82,
+                        "name": "gestureSwipeThreshold",
+                        "notify": "configChanged",
+                        "read": "gestureSwipeThreshold",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setGestureSwipeThreshold"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 46,
+                        "lineNumber": 83,
+                        "name": "gesturePinchThreshold",
+                        "notify": "configChanged",
+                        "read": "gesturePinchThreshold",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setGesturePinchThreshold"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 47,
+                        "lineNumber": 84,
+                        "name": "gestureMouseThreshold",
+                        "notify": "configChanged",
+                        "read": "gestureMouseThreshold",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false,
+                        "write": "setGestureMouseThreshold"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 48,
+                        "lineNumber": 87,
+                        "name": "connected",
+                        "notify": "connectionChanged",
+                        "read": "connected",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
                     }
                 ],
                 "qualifiedClassName": "ConfigManager",
@@ -202,15 +1470,29 @@
                     {
                         "access": "public",
                         "index": 0,
-                        "lineNumber": 72,
+                        "lineNumber": 230,
                         "name": "configChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 1,
-                        "lineNumber": 73,
+                        "lineNumber": 231,
                         "name": "saved",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 232,
+                        "name": "connectionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 233,
+                        "name": "reloadSuccess",
                         "returnType": "void"
                     },
                     {
@@ -221,8 +1503,8 @@
                                 "type": "QString"
                             }
                         ],
-                        "index": 2,
-                        "lineNumber": 74,
+                        "index": 4,
+                        "lineNumber": 234,
                         "name": "reloadFailed",
                         "returnType": "void"
                     }

@@ -71,12 +71,17 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/Main_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.aotstats
+.rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.aotstats
+.rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.aotstats
+.rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.aotstats
+.rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.aotstats
+.rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.aotstats
 .rcc/qmlcache/module_starview-config.aotstats: .rcc/qmlcache/module_starview-config.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_starview-config.aotstats"
 	/usr/lib/qt6/qmlaotstats aggregate /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/module_starview-config.aotstatslist /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/module_starview-config.aotstats
@@ -120,13 +125,52 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.aotstats
 
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/components/StyledComboBox.qml
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp: .qt/rcc/qmake_StarViewConfig.qrc
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp: StarViewConfig/starview-config.qmltypes
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp: StarViewConfig/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp, .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/components/StyledComboBox.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp /home/link/Programming/StarShell/StarConfig/src/components/StyledComboBox.qml
+
+.rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.aotstats
+
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp: .qt/rcc/qmake_StarViewConfig.qrc
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp: StarViewConfig/starview-config.qmltypes
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp: StarViewConfig/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/AnimationPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
+
+.rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.aotstats
+
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/pages/AutostartPage.qml
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp: .qt/rcc/qmake_StarViewConfig.qrc
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp: StarViewConfig/starview-config.qmltypes
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp: StarViewConfig/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/AutostartPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/AutostartPage.qml
+
+.rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.aotstats
+
 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp: /usr/lib/qt6/qmlcachegen
 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp: .qt/rcc/qmake_StarViewConfig.qrc
 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp: StarViewConfig/starview-config.qmltypes
 .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp: StarViewConfig/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/DecorationPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
 
@@ -139,7 +183,7 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
 .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp: StarViewConfig/starview-config.qmltypes
 .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp: StarViewConfig/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/GeneralPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/GeneralPage.qml
 
@@ -152,7 +196,7 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
 .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp: StarViewConfig/starview-config.qmltypes
 .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp: StarViewConfig/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/KeybindingsPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/KeybindingsPage.qml
 
@@ -165,7 +209,7 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
 .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp: StarViewConfig/starview-config.qmltypes
 .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp: StarViewConfig/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/MonitorsPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 
@@ -178,12 +222,38 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
 .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp: StarViewConfig/starview-config.qmltypes
 .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp: StarViewConfig/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/NetworkPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml
 
 .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats
+
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/pages/RulesPage.qml
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp: .qt/rcc/qmake_StarViewConfig.qrc
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp: StarViewConfig/starview-config.qmltypes
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp: StarViewConfig/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/RulesPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/RulesPage.qml
+
+.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.aotstats
+
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp: /usr/lib/qt6/qmlcachegen
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp: .qt/rcc/qmake_StarViewConfig.qrc
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp: StarViewConfig/starview-config.qmltypes
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp: StarViewConfig/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.aotstats"
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
+	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/TilingPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
+
+.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.aotstats: .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.aotstats
 
 .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp: /usr/lib/qt6/qmlcachegen
 .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
@@ -191,7 +261,7 @@ CMakeFiles/module_starview-config_aotstats_target: .rcc/qmlcache/module_starview
 .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp: .qt/rcc/starview-config_raw_qml_0.qrc
 .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp: StarViewConfig/starview-config.qmltypes
 .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp: StarViewConfig/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarConfig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp, .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.aotstats"
 	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages
 	/usr/lib/qt6/qmlcachegen --bare --resource-path /StarViewConfig/src/pages/WallpaperPage.qml -I /home/link/Programming/StarShell/StarConfig/build -I /usr/lib/qt6/qml -i /home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc --resource /home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc --dump-aot-stats "--module-id=StarViewConfig(starview-config)" -o /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 
@@ -208,6 +278,12 @@ module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/compon
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/components/SettingsGroup_qml.cpp.aotstats
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/components/SettingsRow_qml.cpp.aotstats
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/components/StyledComboBox_qml.cpp.aotstats
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/AnimationPage_qml.cpp.aotstats
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/AutostartPage_qml.cpp.aotstats
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/DecorationPage_qml.cpp.aotstats
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/GeneralPage_qml.cpp
@@ -218,6 +294,10 @@ module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.aotstats
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.aotstats
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp
+module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.aotstats
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp
 module_starview-config_aotstats_target: .rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp.aotstats
 module_starview-config_aotstats_target: CMakeFiles/module_starview-config_aotstats_target

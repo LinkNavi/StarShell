@@ -45,12 +45,17 @@ class ConfigManager : public QObject {
     Q_PROPERTY(int decorFontSize READ decorFontSize WRITE setDecorFontSize NOTIFY configChanged)
     Q_PROPERTY(bool decorButtonsLeft READ decorButtonsLeft WRITE setDecorButtonsLeft NOTIFY configChanged)
 
-    // Animation
+    // Animation (full)
     Q_PROPERTY(bool animEnabled READ animEnabled WRITE setAnimEnabled NOTIFY configChanged)
     Q_PROPERTY(int animDuration READ animDuration WRITE setAnimDuration NOTIFY configChanged)
     Q_PROPERTY(QString animWindowOpen READ animWindowOpen WRITE setAnimWindowOpen NOTIFY configChanged)
     Q_PROPERTY(QString animWindowClose READ animWindowClose WRITE setAnimWindowClose NOTIFY configChanged)
+    Q_PROPERTY(QString animWindowMove READ animWindowMove WRITE setAnimWindowMove NOTIFY configChanged)
+    Q_PROPERTY(QString animWindowResize READ animWindowResize WRITE setAnimWindowResize NOTIFY configChanged)
+    Q_PROPERTY(QString animWorkspaceSwitch READ animWorkspaceSwitch WRITE setAnimWorkspaceSwitch NOTIFY configChanged)
     Q_PROPERTY(QString animCurve READ animCurve WRITE setAnimCurve NOTIFY configChanged)
+    Q_PROPERTY(double animFadeMin READ animFadeMin WRITE setAnimFadeMin NOTIFY configChanged)
+    Q_PROPERTY(double animZoomMin READ animZoomMin WRITE setAnimZoomMin NOTIFY configChanged)
 
     // Tiling
     Q_PROPERTY(double masterRatio READ masterRatio WRITE setMasterRatio NOTIFY configChanged)
@@ -70,6 +75,13 @@ class ConfigManager : public QObject {
 
     // Autostart
     Q_PROPERTY(QStringList autostart READ autostart WRITE setAutostart NOTIFY configChanged)
+
+    // Gestures
+    Q_PROPERTY(QVariantList touchpadGestures READ touchpadGestures NOTIFY configChanged)
+    Q_PROPERTY(QVariantList mouseGestures READ mouseGestures NOTIFY configChanged)
+    Q_PROPERTY(double gestureSwipeThreshold READ gestureSwipeThreshold WRITE setGestureSwipeThreshold NOTIFY configChanged)
+    Q_PROPERTY(double gesturePinchThreshold READ gesturePinchThreshold WRITE setGesturePinchThreshold NOTIFY configChanged)
+    Q_PROPERTY(double gestureMouseThreshold READ gestureMouseThreshold WRITE setGestureMouseThreshold NOTIFY configChanged)
 
     // Connection state
     Q_PROPERTY(bool connected READ connected NOTIFY connectionChanged)
@@ -111,7 +123,12 @@ public:
     int animDuration() const { return m_animDuration; }
     QString animWindowOpen() const { return m_animWindowOpen; }
     QString animWindowClose() const { return m_animWindowClose; }
+    QString animWindowMove() const { return m_animWindowMove; }
+    QString animWindowResize() const { return m_animWindowResize; }
+    QString animWorkspaceSwitch() const { return m_animWorkspaceSwitch; }
     QString animCurve() const { return m_animCurve; }
+    double animFadeMin() const { return m_animFadeMin; }
+    double animZoomMin() const { return m_animZoomMin; }
 
     // Tiling
     double masterRatio() const { return m_masterRatio; }
@@ -123,10 +140,17 @@ public:
     QString bgImage() const { return m_bgImage; }
     QString bgMode() const { return m_bgMode; }
 
-    // Keybinds & rules
+    // Keybinds, rules, autostart
     QVariantList keybinds() const { return m_keybinds; }
     QVariantList rules() const { return m_rules; }
     QStringList autostart() const { return m_autostart; }
+
+    // Gestures
+    QVariantList touchpadGestures() const { return m_touchpadGestures; }
+    QVariantList mouseGestures() const { return m_mouseGestures; }
+    double gestureSwipeThreshold() const { return m_gestureSwipeThreshold; }
+    double gesturePinchThreshold() const { return m_gesturePinchThreshold; }
+    double gestureMouseThreshold() const { return m_gestureMouseThreshold; }
 
     bool connected() const { return m_ipc != nullptr; }
 
@@ -161,7 +185,12 @@ public:
     void setAnimDuration(int v);
     void setAnimWindowOpen(const QString &v);
     void setAnimWindowClose(const QString &v);
+    void setAnimWindowMove(const QString &v);
+    void setAnimWindowResize(const QString &v);
+    void setAnimWorkspaceSwitch(const QString &v);
     void setAnimCurve(const QString &v);
+    void setAnimFadeMin(double v);
+    void setAnimZoomMin(double v);
 
     void setMasterRatio(double v);
     void setMasterCount(int v);
@@ -172,6 +201,10 @@ public:
     void setBgMode(const QString &v);
 
     void setAutostart(const QStringList &v);
+
+    void setGestureSwipeThreshold(double v);
+    void setGesturePinchThreshold(double v);
+    void setGestureMouseThreshold(double v);
 
     Q_INVOKABLE void load();
     Q_INVOKABLE void save();
@@ -186,7 +219,11 @@ public:
     Q_INVOKABLE void addAutostart(const QString &cmd);
     Q_INVOKABLE void removeAutostart(int index);
 
-    // Apply matugen colors to decoration config
+    Q_INVOKABLE void addTouchpadGesture(int fingers, const QString &direction, const QString &action);
+    Q_INVOKABLE void removeTouchpadGesture(int index);
+    Q_INVOKABLE void addMouseGesture(const QString &button, const QString &modifiers, const QString &direction, const QString &action);
+    Q_INVOKABLE void removeMouseGesture(int index);
+
     Q_INVOKABLE void applyMatugenColors(const QVariantMap &colors);
 
 signals:
@@ -208,6 +245,7 @@ private:
     QFileSystemWatcher *m_watcher = nullptr;
     QTimer *m_reconnectTimer = nullptr;
     bool m_externalChange = false;
+    bool m_dirty = false;
 
     // General
     int m_gapsInner = 5;
@@ -237,12 +275,17 @@ private:
     int m_decorFontSize = 12;
     bool m_decorButtonsLeft = false;
 
-    // Animation
+    // Animation (full)
     bool m_animEnabled = true;
     int m_animDuration = 200;
     QString m_animWindowOpen = "zoom";
     QString m_animWindowClose = "fade";
+    QString m_animWindowMove = "none";
+    QString m_animWindowResize = "none";
+    QString m_animWorkspaceSwitch = "slide";
     QString m_animCurve = "ease_out";
+    double m_animFadeMin = 0.0;
+    double m_animZoomMin = 0.8;
 
     // Tiling
     double m_masterRatio = 0.55;
@@ -258,6 +301,13 @@ private:
     QVariantList m_keybinds;
     QVariantList m_rules;
     QStringList m_autostart;
+
+    // Gestures
+    QVariantList m_touchpadGestures;
+    QVariantList m_mouseGestures;
+    double m_gestureSwipeThreshold = 0.3;
+    double m_gesturePinchThreshold = 0.15;
+    double m_gestureMouseThreshold = 50.0;
 };
 
 #endif
