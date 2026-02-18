@@ -1,0 +1,10 @@
+-I
+/home/link/Programming/StarShell/StarConfig/build
+-I
+/usr/lib/qt6/qml
+--resource
+/home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc
+--resource
+/home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc
+--module
+StarViewConfig

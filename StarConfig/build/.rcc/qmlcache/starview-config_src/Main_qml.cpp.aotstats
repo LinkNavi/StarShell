@@ -1,0 +1,239 @@
+{
+    "formatRevision": 1,
+    "modules": [
+        {
+            "moduleFiles": [
+                {
+                    "entries": [
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 103,
+                            "functionName": "fill",
+                            "line": 16,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 49,
+                            "functionName": "fill",
+                            "line": 26,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 48,
+                            "functionName": "active",
+                            "line": 43,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 31,
+                            "functionName": "onClicked",
+                            "line": 44,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 29,
+                            "functionName": "active",
+                            "line": 50,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 23,
+                            "functionName": "onClicked",
+                            "line": 51,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 27,
+                            "functionName": "active",
+                            "line": 57,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 22,
+                            "functionName": "onClicked",
+                            "line": 58,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 26,
+                            "functionName": "active",
+                            "line": 64,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 21,
+                            "functionName": "onClicked",
+                            "line": 65,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 25,
+                            "functionName": "active",
+                            "line": 71,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 21,
+                            "functionName": "onClicked",
+                            "line": 72,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 25,
+                            "functionName": "active",
+                            "line": 78,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 21,
+                            "functionName": "onClicked",
+                            "line": 79,
+                            "message": "Cannot retrieve a non-object type by ID: stackView"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 103,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 143,
+                            "functionName": "color",
+                            "line": 90,
+                            "message": "Cannot load property pressed from (component in /home/link/Programming/StarShell/StarConfig/src/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 50,
+                            "functionName": "text",
+                            "line": 95,
+                            "message": "Cannot load property text from (component in /home/link/Programming/StarShell/StarConfig/src/Main.qml)::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 71,
+                            "functionName": "horizontalAlignment",
+                            "line": 97,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 58,
+                            "functionName": "verticalAlignment",
+                            "line": 98,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 119,
+                            "message": "Could not find property \"fill\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 16,
+                            "durationMicroseconds": 302,
+                            "functionName": "color",
+                            "line": 135,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 61,
+                            "functionName": "fill",
+                            "line": 140,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 73,
+                            "functionName": "text",
+                            "line": 145,
+                            "message": "Cannot load property icon from QQuickItem::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 23,
+                            "durationMicroseconds": 62,
+                            "functionName": "text",
+                            "line": 151,
+                            "message": "Cannot load property text from QQuickItem::parent with type QQuickItem."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 43,
+                            "functionName": "color",
+                            "line": 153,
+                            "message": "Cannot access value for name active"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 26,
+                            "durationMicroseconds": 87,
+                            "functionName": "cursorShape",
+                            "line": 162,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 24,
+                            "durationMicroseconds": 134,
+                            "functionName": "onClicked",
+                            "line": 163,
+                            "message": "Type (component in /home/link/Programming/StarShell/StarConfig/src/Main.qml)::parent with type QQuickItem does not have a property clicked for calling"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 27,
+                            "durationMicroseconds": 46,
+                            "functionName": "fill",
+                            "line": 160,
+                            "message": ""
+                        }
+                    ],
+                    "filePath": "/home/link/Programming/StarShell/StarConfig/src/Main.qml"
+                }
+            ],
+            "moduleId": "StarViewConfig(starview-config)"
+        }
+    ]
+}

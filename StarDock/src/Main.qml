@@ -288,10 +288,12 @@ ApplicationWindow {
                             
                             onClicked: (mouse) => {
                                 if (mouse.button === Qt.LeftButton) {
-                                    // Focus/raise window (TODO: implement via IPC)
-                                    console.log("Clicked:", appData.name)
+                                    // Focus/raise window via IPC
+                                    dockController.focusWindow(appData.name)
+                                    console.log("Focusing window:", appData.name)
                                 } else if (mouse.button === Qt.RightButton) {
                                     // Show context menu (TODO)
+                                    console.log("Right-clicked:", appData.name)
                                 }
                             }
                         }

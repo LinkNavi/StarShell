@@ -1,0 +1,13 @@
+--resource
+/home/link/Programming/StarShell/StarConfig/build/.qt/rcc/qmake_StarViewConfig.qrc
+--resource
+/home/link/Programming/StarShell/StarConfig/build/.qt/rcc/starview-config_raw_qml_0.qrc
+/StarViewConfig/src/Main.qml
+/StarViewConfig/src/pages/GeneralPage.qml
+/StarViewConfig/src/pages/DecorationPage.qml
+/StarViewConfig/src/pages/WallpaperPage.qml
+/StarViewConfig/src/pages/MonitorsPage.qml
+/StarViewConfig/src/pages/NetworkPage.qml
+/StarViewConfig/src/pages/KeybindingsPage.qml
+/StarViewConfig/src/components/SettingsGroup.qml
+/StarViewConfig/src/components/SettingsRow.qml

@@ -1,0 +1,129 @@
+{
+    "classes": [
+        {
+            "className": "MonitorManager",
+            "lineNumber": 7,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 13,
+                    "name": "getMonitors",
+                    "returnType": "QVariantList"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "width",
+                            "type": "int"
+                        },
+                        {
+                            "name": "height",
+                            "type": "int"
+                        },
+                        {
+                            "name": "refresh",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 14,
+                    "name": "setMonitorMode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "x",
+                            "type": "int"
+                        },
+                        {
+                            "name": "y",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 15,
+                    "name": "setMonitorPosition",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "scale",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 16,
+                    "name": "setMonitorScale",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "output",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "enabled",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 17,
+                    "name": "setMonitorEnabled",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "MonitorManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 20,
+                    "name": "monitorsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 21,
+                    "name": "error",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MonitorManager.h",
+    "outputRevision": 69
+}

@@ -22,6 +22,7 @@ enum IpcType {
 
 #define IPC_EVENT_MASK 0x80000000
 #define IPC_EVENT_WORKSPACE 0
+#define IPC_EVENT_WINDOW 3
 
 IpcHandler::IpcHandler(QObject *parent)
     : QObject(parent)
@@ -182,6 +183,24 @@ void IpcHandler::onReadyRead() {
                                 emit workspaceChanged(ws);
                             }
                         }
+                    }
+                }
+            } else if (eventType == IPC_EVENT_WINDOW) {
+                // Parse window event
+                QJsonDocument doc = QJsonDocument::fromJson(payload);
+                QJsonObject obj = doc.object();
+                
+                qDebug() << "Window event received:" << doc.toJson(QJsonDocument::Compact);
+                
+                QString change = obj["change"].toString();
+                if (change == "focus") {
+                    QJsonObject container = obj["container"].toObject();
+                    QString title = container["name"].toString();
+                    
+                    if (title != m_focusedWindowTitle) {
+                        m_focusedWindowTitle = title;
+                        emit focusedWindowChanged(title);
+                        qDebug() << "Focused window changed to:" << title;
                     }
                 }
             }

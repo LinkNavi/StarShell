@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/StarViewConfig">/home/link/Programming/StarShell/StarConfig/build/StarViewConfig</file>
+
+  </qresource>
+</RCC>

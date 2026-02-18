@@ -1,0 +1,14 @@
+module StarViewConfig
+typeinfo starview-config.qmltypes
+prefer :/StarViewConfig/
+Main 1.0 src/Main.qml
+GeneralPage 1.0 src/pages/GeneralPage.qml
+DecorationPage 1.0 src/pages/DecorationPage.qml
+WallpaperPage 1.0 src/pages/WallpaperPage.qml
+MonitorsPage 1.0 src/pages/MonitorsPage.qml
+NetworkPage 1.0 src/pages/NetworkPage.qml
+KeybindingsPage 1.0 src/pages/KeybindingsPage.qml
+SettingsGroup 1.0 src/components/SettingsGroup.qml
+SettingsRow 1.0 src/components/SettingsRow.qml
+depends QtQuick
+

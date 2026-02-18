@@ -12,6 +12,7 @@ ApplicationWindow {
     flags: Qt.FramelessWindowHint
     
     property int currentWorkspace: 1
+    property string focusedWindowTitle: ""
     
     // Background
     Rectangle {
@@ -59,7 +60,7 @@ ApplicationWindow {
             }
         }
         
-        // CENTER: Title
+        // CENTER: Title (focused window or "StarView")
         Item {
             Layout.fillWidth: true
             Layout.fillHeight: true
@@ -87,7 +88,7 @@ ApplicationWindow {
                 Text {
                     id: titleText
                     anchors.centerIn: parent
-                    text: "StarView"
+                    text: panel.focusedWindowTitle || "StarView"
                     font.pixelSize: 16
                     font.bold: true
                     color: "#cdd6f4"
@@ -114,14 +115,7 @@ ApplicationWindow {
                 running: true
                 repeat: true
                 onTriggered: clockText.text = Qt.formatTime(new Date(), "hh:mm")
-	}
-
-	Item {
-		Rectangle {
-
-		}
-	}
-
+            }
         }
     }
     
@@ -131,6 +125,9 @@ ApplicationWindow {
         function onWorkspaceChanged(ws) {
             panel.currentWorkspace = ws
             console.log("Workspace changed to:", ws)
+        }
+        function onFocusedWindowChanged(title) {
+            panel.focusedWindowTitle = title
         }
     }
     

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/StarViewConfig">
+    <file alias="qmldir">/home/link/Programming/StarShell/StarConfig/build/StarViewConfig/qmldir</file>
+  </qresource>
+</RCC>
+

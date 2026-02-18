@@ -58,6 +58,29 @@ public:
         qDebug() << "Launched via QProcess:" << cleanCmd;
     }
     
+    // Focus/raise a window by name
+    Q_INVOKABLE void focusWindow(const QString &name) {
+        if (!m_ipc) {
+            qWarning() << "Cannot focus window: IPC not connected";
+            return;
+        }
+        
+        // Try focusing by title first
+        if (starview_ipc_focus_window_by_title(m_ipc, name.toUtf8().constData())) {
+            qDebug() << "Focused window by title:" << name;
+            return;
+        }
+        
+        // Try focusing by app_id
+        QString appId = name.toLower().replace(" ", "-");
+        if (starview_ipc_focus_window_by_app_id(m_ipc, appId.toUtf8().constData())) {
+            qDebug() << "Focused window by app_id:" << appId;
+            return;
+        }
+        
+        qWarning() << "Failed to focus window:" << name;
+    }
+    
     // Get all available applications
     Q_INVOKABLE QVariantList getAllApps() const {
         return m_parser->getAllApps();

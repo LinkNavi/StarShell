@@ -17,6 +17,7 @@ public:
     
 signals:
     void workspaceChanged(int ws);
+    void focusedWindowChanged(QString title);
     void connected();
     void disconnected();
     
@@ -36,6 +37,7 @@ private:
     QTimer *m_reconnectTimer;
     QByteArray m_readBuffer;
     int m_currentWorkspace = 1;
+    QString m_focusedWindowTitle;
 };
 
 #endif // IPCHANDLER_H
