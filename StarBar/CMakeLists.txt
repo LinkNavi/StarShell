@@ -15,6 +15,8 @@ qt_add_executable(starview-panel
     src/main.cpp
     src/ipc_handler.cpp
     src/ipc_handler.h
+    src/panel_config.cpp
+    src/panel_config.h
 )
 
 qt_add_qml_module(starview-panel
@@ -23,6 +25,8 @@ qt_add_qml_module(starview-panel
     QML_FILES
         src/Main.qml
         src/WorkspaceButton.qml
+        src/SystemTray.qml
+        src/ClockWidget.qml
 )
 
 target_link_libraries(starview-panel PRIVATE

@@ -18,6 +18,8 @@ qt_add_executable(starview-config
     src/MonitorManager.h
     src/NetworkManager.cpp
     src/NetworkManager.h
+    src/PanelConfigWriter.h
+    src/PanelConfigWriter.cpp
     include/toml.h
     src/toml.c
 )
@@ -30,6 +32,7 @@ qt_add_qml_module(starview-config
         src/pages/DecorationPage.qml
         src/pages/AnimationPage.qml
         src/pages/TilingPage.qml
+        src/pages/PanelPage.qml
         src/pages/WallpaperPage.qml
         src/pages/MonitorsPage.qml
         src/pages/NetworkPage.qml

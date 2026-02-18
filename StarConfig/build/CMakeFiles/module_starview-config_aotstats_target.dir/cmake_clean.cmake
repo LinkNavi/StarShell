@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   ".rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp"
   ".rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.aotstats"
+  ".rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp"
+  ".rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp"
   ".rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.aotstats"
   ".rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp"

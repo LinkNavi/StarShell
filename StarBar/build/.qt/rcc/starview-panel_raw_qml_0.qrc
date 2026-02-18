@@ -1,7 +1,9 @@
 <RCC>
   <qresource prefix="/StarViewPanel/">
-    <file alias="src/Main.qml">/home/link/Programming/StarShell/Bar/src/Main.qml</file>
-    <file alias="src/WorkspaceButton.qml">/home/link/Programming/StarShell/Bar/src/WorkspaceButton.qml</file>
+    <file alias="src/Main.qml">/home/link/Programming/StarShell/StarBar/src/Main.qml</file>
+    <file alias="src/WorkspaceButton.qml">/home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml</file>
+    <file alias="src/SystemTray.qml">/home/link/Programming/StarShell/StarBar/src/SystemTray.qml</file>
+    <file alias="src/ClockWidget.qml">/home/link/Programming/StarShell/StarBar/src/ClockWidget.qml</file>
   </qresource>
 </RCC>
 

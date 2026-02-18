@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for all_aotstats.
 
@@ -67,12 +67,12 @@ include CMakeFiles/all_aotstats.dir/compiler_depend.make
 include CMakeFiles/all_aotstats.dir/progress.make
 
 CMakeFiles/all_aotstats: .rcc/qmlcache/all_aotstats.txt
-	/usr/bin/cmake -E cat /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/all_aotstats.txt
+	/usr/bin/cmake -E cat /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/all_aotstats.txt
 
 .rcc/qmlcache/all_aotstats.aotstats: .rcc/qmlcache/module_starview-panel.aotstats
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/all_aotstats.aotstats, .rcc/qmlcache/all_aotstats.txt"
-	/usr/lib/qt6/qmlaotstats aggregate /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/all_aotstats.aotstatslist /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/all_aotstats.aotstats
-	/usr/lib/qt6/qmlaotstats format /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/all_aotstats.aotstats /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/all_aotstats.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/all_aotstats.aotstats, .rcc/qmlcache/all_aotstats.txt"
+	/usr/lib/qt6/qmlaotstats aggregate /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/all_aotstats.aotstatslist /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/all_aotstats.aotstats
+	/usr/lib/qt6/qmlaotstats format /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/all_aotstats.aotstats /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/all_aotstats.txt
 
 .rcc/qmlcache/all_aotstats.txt: .rcc/qmlcache/all_aotstats.aotstats
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/all_aotstats.txt
@@ -95,6 +95,6 @@ CMakeFiles/all_aotstats.dir/clean:
 .PHONY : CMakeFiles/all_aotstats.dir/clean
 
 CMakeFiles/all_aotstats.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/all_aotstats.dir/DependInfo.cmake "--color=$(COLOR)" all_aotstats
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/all_aotstats.dir/DependInfo.cmake "--color=$(COLOR)" all_aotstats
 .PHONY : CMakeFiles/all_aotstats.dir/depend
 

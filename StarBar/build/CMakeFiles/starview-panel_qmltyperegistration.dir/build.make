@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for starview-panel_qmltyperegistration.
 
@@ -78,34 +78,34 @@ starview-panel_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6network_metat
 starview-panel_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6gui_metatypes.json
 starview-panel_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6quick_metatypes.json
 starview-panel_qmltyperegistrations.cpp: /usr/lib/qt6/metatypes/qt6opengl_metatypes.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target starview-panel"
-	/usr/lib/qt6/qmltyperegistrar --generate-qmltypes=/home/link/Programming/StarShell/Bar/build/StarViewPanel/starview-panel.qmltypes --import-name=StarViewPanel --major-version=1 --minor-version=0 @/home/link/Programming/StarShell/Bar/build/qmltypes/starview-panel_foreign_types.txt -o /home/link/Programming/StarShell/Bar/build/starview-panel_qmltyperegistrations.cpp /home/link/Programming/StarShell/Bar/build/meta_types/qt6starview-panel_metatypes.json
-	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/Bar/build/.qt/qmltypes
-	/usr/bin/cmake -E touch /home/link/Programming/StarShell/Bar/build/.qt/qmltypes/starview-panel.qmltypes
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target starview-panel"
+	/usr/lib/qt6/qmltyperegistrar --generate-qmltypes=/home/link/Programming/StarShell/StarBar/build/StarViewPanel/starview-panel.qmltypes --import-name=StarViewPanel --major-version=1 --minor-version=0 @/home/link/Programming/StarShell/StarBar/build/qmltypes/starview-panel_foreign_types.txt -o /home/link/Programming/StarShell/StarBar/build/starview-panel_qmltyperegistrations.cpp /home/link/Programming/StarShell/StarBar/build/meta_types/qt6starview-panel_metatypes.json
+	/usr/bin/cmake -E make_directory /home/link/Programming/StarShell/StarBar/build/.qt/qmltypes
+	/usr/bin/cmake -E touch /home/link/Programming/StarShell/StarBar/build/.qt/qmltypes/starview-panel.qmltypes
 
 StarViewPanel/starview-panel.qmltypes: starview-panel_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate StarViewPanel/starview-panel.qmltypes
 
 meta_types/qt6starview-panel_metatypes.json: meta_types/qt6starview-panel_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6starview-panel_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6starview-panel_metatypes.json"
 	/usr/bin/cmake -E true
 
 meta_types/qt6starview-panel_metatypes.json.gen: /usr/lib/qt6/moc
 meta_types/qt6starview-panel_metatypes.json.gen: meta_types/starview-panel_json_file_list.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target starview-panel"
-	/usr/lib/qt6/moc -o /home/link/Programming/StarShell/Bar/build/meta_types/qt6starview-panel_metatypes.json.gen --collect-json @/home/link/Programming/StarShell/Bar/build/meta_types/starview-panel_json_file_list.txt
-	/usr/bin/cmake -E copy_if_different /home/link/Programming/StarShell/Bar/build/meta_types/qt6starview-panel_metatypes.json.gen /home/link/Programming/StarShell/Bar/build/meta_types/qt6starview-panel_metatypes.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running moc --collect-json for target starview-panel"
+	/usr/lib/qt6/moc -o /home/link/Programming/StarShell/StarBar/build/meta_types/qt6starview-panel_metatypes.json.gen --collect-json @/home/link/Programming/StarShell/StarBar/build/meta_types/starview-panel_json_file_list.txt
+	/usr/bin/cmake -E copy_if_different /home/link/Programming/StarShell/StarBar/build/meta_types/qt6starview-panel_metatypes.json.gen /home/link/Programming/StarShell/StarBar/build/meta_types/qt6starview-panel_metatypes.json
 
 meta_types/starview-panel_json_file_list.txt: /usr/lib/qt6/cmake_automoc_parser
 meta_types/starview-panel_json_file_list.txt: starview-panel_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running AUTOMOC file extraction for target starview-panel"
-	/usr/lib/qt6/cmake_automoc_parser --cmake-autogen-cache-file /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen.dir/AutogenInfo.json --output-file-path /home/link/Programming/StarShell/Bar/build/meta_types/starview-panel_json_file_list.txt --timestamp-file-path /home/link/Programming/StarShell/Bar/build/meta_types/starview-panel_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/link/Programming/StarShell/Bar/build/starview-panel_autogen/include
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running AUTOMOC file extraction for target starview-panel"
+	/usr/lib/qt6/cmake_automoc_parser --cmake-autogen-cache-file /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_autogen.dir/ParseCache.txt --cmake-autogen-info-file /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_autogen.dir/AutogenInfo.json --output-file-path /home/link/Programming/StarShell/StarBar/build/meta_types/starview-panel_json_file_list.txt --timestamp-file-path /home/link/Programming/StarShell/StarBar/build/meta_types/starview-panel_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/include
 
 starview-panel_autogen/timestamp: /usr/lib/qt6/moc
 starview-panel_autogen/timestamp: CMakeFiles/starview-panel_qmltyperegistration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target starview-panel"
-	/usr/bin/cmake -E cmake_autogen /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/link/Programming/StarShell/Bar/build/starview-panel_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target starview-panel"
+	/usr/bin/cmake -E cmake_autogen /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/timestamp
 
 CMakeFiles/starview-panel_qmltyperegistration.dir/codegen:
 .PHONY : CMakeFiles/starview-panel_qmltyperegistration.dir/codegen
@@ -129,6 +129,6 @@ CMakeFiles/starview-panel_qmltyperegistration.dir/clean:
 .PHONY : CMakeFiles/starview-panel_qmltyperegistration.dir/clean
 
 CMakeFiles/starview-panel_qmltyperegistration.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_qmltyperegistration
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_qmltyperegistration.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_qmltyperegistration
 .PHONY : CMakeFiles/starview-panel_qmltyperegistration.dir/depend
 

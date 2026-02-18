@@ -1,5 +1,5 @@
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o: \
- /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp \
+ /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtQml/qqmlprivate.h \
  /usr/include/qt6/QtQml/qjsprimitivevalue.h \
  /usr/include/qt6/QtQml/qtqmlglobal.h /usr/include/qt6/QtCore/qglobal.h \

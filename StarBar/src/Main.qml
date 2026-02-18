@@ -4,53 +4,67 @@ import QtQuick.Layouts
 
 ApplicationWindow {
     id: panel
-    
+
     visible: false
     width: 1920
-    height: 40
+    height: panelConfig.height
     color: "transparent"
     flags: Qt.FramelessWindowHint
-    
+
     property int currentWorkspace: 1
     property string focusedWindowTitle: ""
-    
+
+    // Resolved colors: config overrides, then fallbacks
+    readonly property color bgColor: panelConfig.bgColor || "#1e1e2e"
+    readonly property color fgColor: panelConfig.fgColor || "#cdd6f4"
+    readonly property color accentColor: panelConfig.workspaceActiveColor || panelConfig.accentColor || "#89b4fa"
+    readonly property color dimColor: Qt.rgba(fgColor.r, fgColor.g, fgColor.b, 0.5)
+
     // Background
     Rectangle {
+        id: bgRect
         anchors.fill: parent
-        color: "#1e1e2e"
-        opacity: 0.95
-        
+        anchors.margins: panelConfig.floating ? panelConfig.margins : 0
+        radius: panelConfig.floating ? panelConfig.cornerRadius : 0
+        color: panel.bgColor
+        opacity: panelConfig.opacity
+        clip: true
+
+        // Subtle top highlight
         Rectangle {
-            anchors.fill: parent
-            gradient: Gradient {
-                GradientStop { position: 0.0; color: "#20ffffff" }
-                GradientStop { position: 1.0; color: "#00ffffff" }
-            }
+            anchors.left: parent.left; anchors.right: parent.right; anchors.top: parent.top
+            height: 1; color: "#20ffffff"
         }
     }
-    
+
     // Content
     RowLayout {
         anchors.fill: parent
-        anchors.margins: 5
-        spacing: 20
-        
+        anchors.margins: panelConfig.floating ? (panelConfig.margins + 4) : 5
+        spacing: 12
+
         // LEFT: Workspace buttons
         Item {
             Layout.fillHeight: true
             Layout.preferredWidth: workspaceRow.width
-            
+            visible: panelConfig.showWorkspaces
+
             Row {
                 id: workspaceRow
                 anchors.centerIn: parent
-                spacing: 8
-                
+                spacing: 6
+
                 Repeater {
-                    model: 9
-                    
+                    model: panelConfig.workspaceCount
+
                     WorkspaceButton {
                         number: index + 1
                         active: panel.currentWorkspace === (index + 1)
+                        accentColor: panel.accentColor
+                        fgColor: panel.fgColor
+                        bgColor: panel.bgColor
+                        inactiveColor: panelConfig.workspaceInactiveColor || "#94a3b8"
+                        barHeight: panelConfig.height
                         onClicked: {
                             panel.currentWorkspace = number
                             ipcHandler.switchWorkspace(number)
@@ -59,80 +73,76 @@ ApplicationWindow {
                 }
             }
         }
-        
-        // CENTER: Title (focused window or "StarView")
+
+        // Separator
+        Rectangle {
+            visible: panelConfig.showWorkspaces && panelConfig.showTitle
+            Layout.fillHeight: true; Layout.topMargin: 8; Layout.bottomMargin: 8
+            width: 1; color: panel.dimColor; opacity: 0.3
+        }
+
+        // CENTER: Title
         Item {
             Layout.fillWidth: true
             Layout.fillHeight: true
-            
-            Rectangle {
+            visible: panelConfig.showTitle
+
+            Text {
+                id: titleText
                 anchors.centerIn: parent
-                width: titleText.width + 40
-                height: parent.height - 10
-                radius: 12
-                color: "#313244"
-                opacity: 0.6
-                
-                Rectangle {
-                    anchors.fill: parent
-                    radius: parent.radius
-                    gradient: Gradient {
-                        GradientStop { position: 0.0; color: "#20ffffff" }
-                        GradientStop { position: 1.0; color: "#05ffffff" }
-                    }
-                }
-                
-                border.color: "#20ffffff"
-                border.width: 1
-                
-                Text {
-                    id: titleText
-                    anchors.centerIn: parent
-                    text: panel.focusedWindowTitle || "StarView"
-                    font.pixelSize: 16
-                    font.bold: true
-                    color: "#cdd6f4"
-                }
+                width: Math.min(implicitWidth, parent.width - 20)
+                text: panel.focusedWindowTitle || "StarView"
+                font.pixelSize: 13
+                font.weight: panel.focusedWindowTitle ? Font.Normal : Font.Bold
+                color: panel.focusedWindowTitle ? panel.fgColor : panel.accentColor
+                elide: Text.ElideRight
+                horizontalAlignment: Text.AlignHCenter
             }
         }
-        
-        // RIGHT: Clock
-        Item {
+
+        // Separator
+        Rectangle {
+            visible: panelConfig.showSystray && (panelConfig.showTitle || panelConfig.showWorkspaces)
+            Layout.fillHeight: true; Layout.topMargin: 8; Layout.bottomMargin: 8
+            width: 1; color: panel.dimColor; opacity: 0.3
+        }
+
+        // RIGHT: System tray area
+        SystemTray {
+            visible: panelConfig.showSystray
             Layout.fillHeight: true
-            Layout.preferredWidth: clockText.width + 20
-            
-            Text {
-                id: clockText
-                anchors.centerIn: parent
-                text: Qt.formatTime(new Date(), "hh:mm")
-                font.pixelSize: 14
-                font.weight: Font.Medium
-                color: "#cdd6f4"
-            }
-            
-            Timer {
-                interval: 1000
-                running: true
-                repeat: true
-                onTriggered: clockText.text = Qt.formatTime(new Date(), "hh:mm")
-            }
+            fgColor: panel.fgColor
+            dimColor: panel.dimColor
+            accentColor: panel.accentColor
+        }
+
+        // Separator
+        Rectangle {
+            visible: panelConfig.showClock && panelConfig.showSystray
+            Layout.fillHeight: true; Layout.topMargin: 8; Layout.bottomMargin: 8
+            width: 1; color: panel.dimColor; opacity: 0.3
+        }
+
+        // RIGHT: Clock
+        ClockWidget {
+            visible: panelConfig.showClock
+            Layout.fillHeight: true
+            Layout.preferredWidth: implicitWidth
+            fgColor: panel.fgColor
+            dimColor: panel.dimColor
+            clockFormat: panelConfig.clockFormat
+            showDate: panelConfig.showDate
         }
     }
-    
-    // IPC handler connection
+
+    // IPC connections
     Connections {
         target: ipcHandler
-        function onWorkspaceChanged(ws) {
-            panel.currentWorkspace = ws
-            console.log("Workspace changed to:", ws)
-        }
-        function onFocusedWindowChanged(title) {
-            panel.focusedWindowTitle = title
-        }
+        function onWorkspaceChanged(ws) { panel.currentWorkspace = ws }
+        function onFocusedWindowChanged(title) { panel.focusedWindowTitle = title }
     }
-    
+
     Component.onCompleted: {
-        console.log("Panel loaded!")
-        ipcHandler.connect()
+        ipcHandler.connectToCompositor()
     }
 }

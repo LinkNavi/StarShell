@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 176,
+                            "durationMicroseconds": 227,
                             "functionName": "width",
                             "line": 8,
                             "message": ""
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 83,
-                            "durationMicroseconds": 300,
+                            "durationMicroseconds": 372,
                             "functionName": "color",
                             "line": 9,
                             "message": "Cannot access value for name root"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 53,
-                            "durationMicroseconds": 177,
+                            "durationMicroseconds": 244,
                             "functionName": "color",
                             "line": 14,
                             "message": "Cannot access value for name root"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 87,
-                            "durationMicroseconds": 145,
+                            "durationMicroseconds": 182,
                             "functionName": "color",
                             "line": 14,
                             "message": "Cannot access value for name root"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 79,
-                            "durationMicroseconds": 377,
+                            "durationMicroseconds": 453,
                             "functionName": "color",
                             "line": 16,
                             "message": "Cannot access value for name root"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 94,
-                            "durationMicroseconds": 239,
+                            "durationMicroseconds": 386,
                             "functionName": "color",
                             "line": 18,
                             "message": "Cannot access value for name root"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 49,
-                            "durationMicroseconds": 70,
+                            "durationMicroseconds": 121,
                             "functionName": "centerIn",
                             "line": 18,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 0,
                             "column": 99,
-                            "durationMicroseconds": 79,
+                            "durationMicroseconds": 122,
                             "functionName": "cursorShape",
                             "line": 19,
                             "message": ""
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 528,
+                            "durationMicroseconds": 818,
                             "functionName": "onClicked",
                             "line": 20,
                             "message": "Cannot retrieve a non-object type by ID: _nc"
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 60,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 125,
                             "functionName": "fill",
                             "line": 19,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 36,
-                            "durationMicroseconds": 315,
+                            "durationMicroseconds": 473,
                             "functionName": "title",
                             "line": 24,
                             "message": "Cannot access value for name configManager"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 279,
+                            "durationMicroseconds": 322,
                             "functionName": "model",
                             "line": 25,
                             "message": "Cannot access value for name configManager"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 359,
+                            "durationMicroseconds": 470,
                             "functionName": "text",
                             "line": 27,
                             "message": "Cannot access value for name modelData"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 54,
-                            "durationMicroseconds": 258,
+                            "durationMicroseconds": 315,
                             "functionName": "color",
                             "line": 27,
                             "message": "Cannot access value for name root"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 0,
                             "column": 139,
-                            "durationMicroseconds": 86,
+                            "durationMicroseconds": 118,
                             "functionName": "elide",
                             "line": 27,
                             "message": ""
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 48,
-                            "durationMicroseconds": 259,
+                            "durationMicroseconds": 362,
                             "functionName": "color",
                             "line": 28,
                             "message": "Cannot access value for name root"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 0,
                             "column": 94,
-                            "durationMicroseconds": 81,
+                            "durationMicroseconds": 127,
                             "functionName": "cursorShape",
                             "line": 29,
                             "message": ""
@@ -176,7 +176,7 @@
                         {
                             "codegenResult": 2,
                             "column": 127,
-                            "durationMicroseconds": 546,
+                            "durationMicroseconds": 783,
                             "functionName": "onClicked",
                             "line": 29,
                             "message": "Cannot access value for name configManager"
@@ -184,7 +184,7 @@
                         {
                             "codegenResult": 0,
                             "column": 54,
-                            "durationMicroseconds": 58,
+                            "durationMicroseconds": 77,
                             "functionName": "fill",
                             "line": 29,
                             "message": ""

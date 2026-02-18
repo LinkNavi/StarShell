@@ -718,6 +718,30 @@ build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp.s
 
+build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o
+
+build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.i: build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.i
+
+build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.s: build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.s
+
 build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.o: build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.o
 
@@ -885,6 +909,30 @@ src/NetworkManager.s: src/NetworkManager.cpp.s
 src/NetworkManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/NetworkManager.cpp.s
 .PHONY : src/NetworkManager.cpp.s
+
+src/PanelConfigWriter.o: src/PanelConfigWriter.cpp.o
+.PHONY : src/PanelConfigWriter.o
+
+# target to build an object file
+src/PanelConfigWriter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.o
+.PHONY : src/PanelConfigWriter.cpp.o
+
+src/PanelConfigWriter.i: src/PanelConfigWriter.cpp.i
+.PHONY : src/PanelConfigWriter.i
+
+# target to preprocess a source file
+src/PanelConfigWriter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.i
+.PHONY : src/PanelConfigWriter.cpp.i
+
+src/PanelConfigWriter.s: src/PanelConfigWriter.cpp.s
+.PHONY : src/PanelConfigWriter.s
+
+# target to generate assembly for a file
+src/PanelConfigWriter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-config.dir/build.make CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.s
+.PHONY : src/PanelConfigWriter.cpp.s
 
 src/WallpaperManager.o: src/WallpaperManager.cpp.o
 .PHONY : src/WallpaperManager.o
@@ -1077,6 +1125,9 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.s"
@@ -1098,6 +1149,9 @@ help:
 	@echo "... src/NetworkManager.o"
 	@echo "... src/NetworkManager.i"
 	@echo "... src/NetworkManager.s"
+	@echo "... src/PanelConfigWriter.o"
+	@echo "... src/PanelConfigWriter.i"
+	@echo "... src/PanelConfigWriter.s"
 	@echo "... src/WallpaperManager.o"
 	@echo "... src/WallpaperManager.i"
 	@echo "... src/WallpaperManager.s"

@@ -961,6 +961,12 @@
 			null
 		],
 		[
+			"/home/link/Programming/StarShell/StarConfig/src/PanelConfigWriter.h",
+			"MU",
+			"UVLADIE3JM/moc_PanelConfigWriter.cpp",
+			null
+		],
+		[
 			"/home/link/Programming/StarShell/StarConfig/src/WallpaperManager.h",
 			"MU",
 			"UVLADIE3JM/moc_WallpaperManager.cpp",
@@ -1047,6 +1053,7 @@
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp",
@@ -1083,6 +1090,11 @@
 			null
 		],
 		[
+			"/home/link/Programming/StarShell/StarConfig/src/PanelConfigWriter.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/link/Programming/StarShell/StarConfig/src/WallpaperManager.cpp",
 			"MU",
 			null
@@ -1112,6 +1124,7 @@
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/KeybindingsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/MonitorsPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/NetworkPage_qml.cpp",
+		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/RulesPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
 		"/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/WallpaperPage_qml.cpp",

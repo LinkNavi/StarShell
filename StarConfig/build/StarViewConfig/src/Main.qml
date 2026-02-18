@@ -23,7 +23,6 @@ ApplicationWindow {
     readonly property color cOnAccent:   colors.loaded ? colors.onPrimary         : "#1e1e2e"
     readonly property color cSurfaceVar: colors.loaded ? colors.outlineVariant    : "#45475a"
 
-    // Global palette for all Qt Quick Controls (Switch, SpinBox, Slider, TextField, etc.)
     palette.window: cBase
     palette.windowText: cText
     palette.base: cCrust
@@ -44,6 +43,7 @@ ApplicationWindow {
         {name:"Decoration",   page:"pages/DecorationPage.qml"},
         {name:"Animation",    page:"pages/AnimationPage.qml"},
         {name:"Tiling",       page:"pages/TilingPage.qml"},
+        {name:"Panel",        page:"pages/PanelPage.qml"},
         {name:"Wallpaper",    page:"pages/WallpaperPage.qml"},
         {name:"Keybindings",  page:"pages/KeybindingsPage.qml"},
         {name:"Window Rules", page:"pages/RulesPage.qml"},
@@ -114,5 +114,9 @@ ApplicationWindow {
         function onReloadSuccess(){ toast.show("Config reloaded") }
         function onReloadFailed(e){ toast.show("Reload failed: "+e) }
         function onSaved(){ toast.show("Saved") }
+    }
+    Connections { target:panelConfigWriter
+        function onSaved(){ toast.show("Panel config saved") }
+        function onError(e){ toast.show(e) }
     }
 }

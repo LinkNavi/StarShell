@@ -9,23 +9,28 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "starview-panel_autogen/timestamp" "custom" "starview-panel_autogen/deps"
-  "/home/link/Programming/StarShell/Bar/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/src/ipc_handler.cpp" "CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/src/main.cpp" "CMakeFiles/starview-panel.dir/src/main.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/src/main.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/build/starview-panel_autogen/mocs_compilation.cpp" "CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o.d"
-  "/home/link/Programming/StarShell/Bar/build/starview-panel_qmltyperegistrations.cpp" "CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/src/ipc_handler.cpp" "CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/src/main.cpp" "CMakeFiles/starview-panel.dir/src/main.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/src/main.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/src/panel_config.cpp" "CMakeFiles/starview-panel.dir/src/panel_config.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/src/panel_config.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/mocs_compilation.cpp" "CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o.d"
+  "/home/link/Programming/StarShell/StarBar/build/starview-panel_qmltyperegistrations.cpp" "CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o" "gcc" "CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o.d"
   "" "starview-panel" "gcc" "CMakeFiles/starview-panel.dir/link.d"
   )
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.aotstats" "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp"
-  "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.aotstats" "/home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp"
-  "/home/link/Programming/StarShell/Bar/build/StarViewPanel/starview-panel.qmltypes" "/home/link/Programming/StarShell/Bar/build/starview-panel_qmltyperegistrations.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.aotstats" "/home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp"
+  "/home/link/Programming/StarShell/StarBar/build/StarViewPanel/starview-panel.qmltypes" "/home/link/Programming/StarShell/StarBar/build/starview-panel_qmltyperegistrations.cpp"
   )
 
 

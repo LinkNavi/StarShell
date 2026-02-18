@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for starview-panel_qmlimportscan.
 
@@ -71,10 +71,12 @@ CMakeFiles/starview-panel_qmlimportscan: .qt/qml_imports/starview-panel_build.cm
 .qt/qml_imports/starview-panel_build.cmake: /usr/lib/qt6/qmlimportscanner
 .qt/qml_imports/starview-panel_build.cmake: .qt/rcc/qmake_StarViewPanel.qrc
 .qt/qml_imports/starview-panel_build.cmake: .qt/rcc/starview-panel_raw_qml_0.qrc
-.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/Bar/src/Main.qml
-.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/Bar/src/WorkspaceButton.qml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for starview-panel"
-	cd /home/link/Programming/StarShell/Bar && /usr/lib/qt6/qmlimportscanner @/home/link/Programming/StarShell/Bar/build/.qt/qml_imports/starview-panel_build.rsp
+.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/Main.qml
+.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml
+.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/SystemTray.qml
+.qt/qml_imports/starview-panel_build.cmake: /home/link/Programming/StarShell/StarBar/src/ClockWidget.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for starview-panel"
+	cd /home/link/Programming/StarShell/StarBar && /usr/lib/qt6/qmlimportscanner @/home/link/Programming/StarShell/StarBar/build/.qt/qml_imports/starview-panel_build.rsp
 
 CMakeFiles/starview-panel_qmlimportscan.dir/codegen:
 .PHONY : CMakeFiles/starview-panel_qmlimportscan.dir/codegen
@@ -93,6 +95,6 @@ CMakeFiles/starview-panel_qmlimportscan.dir/clean:
 .PHONY : CMakeFiles/starview-panel_qmlimportscan.dir/clean
 
 CMakeFiles/starview-panel_qmlimportscan.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_qmlimportscan.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_qmlimportscan
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_qmlimportscan.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_qmlimportscan
 .PHONY : CMakeFiles/starview-panel_qmlimportscan.dir/depend
 

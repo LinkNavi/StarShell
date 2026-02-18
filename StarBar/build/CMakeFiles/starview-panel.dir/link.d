@@ -5,11 +5,14 @@ starview-panel: \
   CMakeFiles/starview-panel.dir/starview-panel_autogen/mocs_compilation.cpp.o \
   CMakeFiles/starview-panel.dir/src/main.cpp.o \
   CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o \
+  CMakeFiles/starview-panel.dir/src/panel_config.cpp.o \
   CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o \
   CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o \
   CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.o \
   CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o \
   CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o \
+  CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o \
+  CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o \
   CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o \
   /usr/lib/libQt6Quick.so.6.10.1 \
   /usr/lib/libLayerShellQtInterface.so.6.5.5 \
@@ -126,6 +129,8 @@ CMakeFiles/starview-panel.dir/src/main.cpp.o:
 
 CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o:
 
+CMakeFiles/starview-panel.dir/src/panel_config.cpp.o:
+
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o:
 
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_qmake_StarViewPanel.cpp.o:
@@ -135,6 +140,10 @@ CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o:
 
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o:
+
+CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o:
+
+CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o:
 
 CMakeFiles/starview-panel.dir/build/.qt/rcc/qrc_starview-panel_raw_qml_0.cpp.o:
 

@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 167,
+                            "durationMicroseconds": 175,
                             "functionName": "cBase",
                             "line": 13,
                             "message": "Cannot access value for name colors"
@@ -24,7 +24,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 110,
+                            "durationMicroseconds": 121,
                             "functionName": "cMantle",
                             "line": 14,
                             "message": "Cannot access value for name colors"
@@ -32,7 +32,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 108,
+                            "durationMicroseconds": 136,
                             "functionName": "cCrust",
                             "line": 15,
                             "message": "Cannot access value for name colors"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 102,
+                            "durationMicroseconds": 187,
                             "functionName": "cText",
                             "line": 16,
                             "message": "Cannot access value for name colors"
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 121,
+                            "durationMicroseconds": 141,
                             "functionName": "cSubtext",
                             "line": 17,
                             "message": "Cannot access value for name colors"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 100,
+                            "durationMicroseconds": 125,
                             "functionName": "cOverlay",
                             "line": 18,
                             "message": "Cannot access value for name colors"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 123,
                             "functionName": "cAccent",
                             "line": 19,
                             "message": "Cannot access value for name colors"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 125,
                             "functionName": "cSecondary",
                             "line": 20,
                             "message": "Cannot access value for name colors"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 126,
                             "functionName": "cTertiary",
                             "line": 21,
                             "message": "Cannot access value for name colors"
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 98,
+                            "durationMicroseconds": 184,
                             "functionName": "cError",
                             "line": 22,
                             "message": "Cannot access value for name colors"
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 97,
+                            "durationMicroseconds": 142,
                             "functionName": "cOnAccent",
                             "line": 23,
                             "message": "Cannot access value for name colors"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 2,
                             "column": 42,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 153,
                             "functionName": "cSurfaceVar",
                             "line": 24,
                             "message": "Cannot access value for name colors"
@@ -112,9 +112,9 @@
                         {
                             "codegenResult": 2,
                             "column": 29,
-                            "durationMicroseconds": 1050,
+                            "durationMicroseconds": 1521,
                             "functionName": "pageModel",
-                            "line": 42,
+                            "line": 41,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -122,7 +122,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "window",
-                            "line": 27,
+                            "line": 26,
                             "message": "Could not find property \"window\"."
                         },
                         {
@@ -130,7 +130,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "windowText",
-                            "line": 28,
+                            "line": 27,
                             "message": "Could not find property \"windowText\"."
                         },
                         {
@@ -138,7 +138,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "base",
-                            "line": 29,
+                            "line": 28,
                             "message": "Could not find property \"base\"."
                         },
                         {
@@ -146,7 +146,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "alternateBase",
-                            "line": 30,
+                            "line": 29,
                             "message": "Could not find property \"alternateBase\"."
                         },
                         {
@@ -154,7 +154,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 31,
+                            "line": 30,
                             "message": "Could not find property \"text\"."
                         },
                         {
@@ -162,7 +162,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "button",
-                            "line": 32,
+                            "line": 31,
                             "message": "Could not find property \"button\"."
                         },
                         {
@@ -170,7 +170,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "buttonText",
-                            "line": 33,
+                            "line": 32,
                             "message": "Could not find property \"buttonText\"."
                         },
                         {
@@ -178,7 +178,7 @@
                             "column": 24,
                             "durationMicroseconds": 0,
                             "functionName": "highlight",
-                            "line": 34,
+                            "line": 33,
                             "message": "Could not find property \"highlight\"."
                         },
                         {
@@ -186,7 +186,7 @@
                             "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "highlightedText",
-                            "line": 35,
+                            "line": 34,
                             "message": "Could not find property \"highlightedText\"."
                         },
                         {
@@ -194,7 +194,7 @@
                             "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "placeholderText",
-                            "line": 36,
+                            "line": 35,
                             "message": "Could not find property \"placeholderText\"."
                         },
                         {
@@ -202,7 +202,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "mid",
-                            "line": 37,
+                            "line": 36,
                             "message": "Could not find property \"mid\"."
                         },
                         {
@@ -210,7 +210,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "dark",
-                            "line": 38,
+                            "line": 37,
                             "message": "Could not find property \"dark\"."
                         },
                         {
@@ -218,13 +218,13 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "light",
-                            "line": 39,
+                            "line": 38,
                             "message": "Could not find property \"light\"."
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 93,
                             "functionName": "fill",
                             "line": 56,
                             "message": ""
@@ -232,7 +232,7 @@
                         {
                             "codegenResult": 2,
                             "column": 73,
-                            "durationMicroseconds": 31,
+                            "durationMicroseconds": 42,
                             "functionName": "color",
                             "line": 60,
                             "message": "Cannot access value for name cMantle"
@@ -240,7 +240,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 67,
                             "functionName": "fill",
                             "line": 62,
                             "message": ""
@@ -248,7 +248,7 @@
                         {
                             "codegenResult": 2,
                             "column": 82,
-                            "durationMicroseconds": 30,
+                            "durationMicroseconds": 38,
                             "functionName": "color",
                             "line": 63,
                             "message": "Cannot access value for name cAccent"
@@ -256,7 +256,7 @@
                         {
                             "codegenResult": 2,
                             "column": 66,
-                            "durationMicroseconds": 27,
+                            "durationMicroseconds": 35,
                             "functionName": "color",
                             "line": 64,
                             "message": "Cannot access value for name cSubtext"
@@ -264,7 +264,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 25,
+                            "durationMicroseconds": 33,
                             "functionName": "model",
                             "line": 67,
                             "message": "Cannot access value for name pageModel"
@@ -272,7 +272,7 @@
                         {
                             "codegenResult": 2,
                             "column": 32,
-                            "durationMicroseconds": 237,
+                            "durationMicroseconds": 384,
                             "functionName": "color",
                             "line": 70,
                             "message": "Cannot access value for name currentPage"
@@ -280,7 +280,7 @@
                         {
                             "codegenResult": 2,
                             "column": 37,
-                            "durationMicroseconds": 385,
+                            "durationMicroseconds": 524,
                             "functionName": "text",
                             "line": 73,
                             "message": "Cannot access value for name modelData"
@@ -288,7 +288,7 @@
                         {
                             "codegenResult": 2,
                             "column": 79,
-                            "durationMicroseconds": 348,
+                            "durationMicroseconds": 530,
                             "functionName": "color",
                             "line": 73,
                             "message": "Cannot access value for name currentPage"
@@ -296,7 +296,7 @@
                         {
                             "codegenResult": 0,
                             "column": 55,
-                            "durationMicroseconds": 154,
+                            "durationMicroseconds": 166,
                             "functionName": "verticalCenter",
                             "line": 72,
                             "message": ""
@@ -304,7 +304,7 @@
                         {
                             "codegenResult": 0,
                             "column": 91,
-                            "durationMicroseconds": 101,
+                            "durationMicroseconds": 125,
                             "functionName": "left",
                             "line": 72,
                             "message": ""
@@ -312,7 +312,7 @@
                         {
                             "codegenResult": 0,
                             "column": 98,
-                            "durationMicroseconds": 103,
+                            "durationMicroseconds": 125,
                             "functionName": "cursorShape",
                             "line": 74,
                             "message": ""
@@ -320,7 +320,7 @@
                         {
                             "codegenResult": 2,
                             "column": 47,
-                            "durationMicroseconds": 712,
+                            "durationMicroseconds": 713,
                             "functionName": "onClicked",
                             "line": 75,
                             "message": "Cannot access value for name index"
@@ -328,7 +328,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 94,
+                            "durationMicroseconds": 82,
                             "functionName": "fill",
                             "line": 74,
                             "message": ""
@@ -336,7 +336,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 349,
+                            "durationMicroseconds": 523,
                             "functionName": "color",
                             "line": 81,
                             "message": "Cannot access value for name configManager"
@@ -344,7 +344,7 @@
                         {
                             "codegenResult": 2,
                             "column": 34,
-                            "durationMicroseconds": 426,
+                            "durationMicroseconds": 598,
                             "functionName": "text",
                             "line": 83,
                             "message": "Cannot access value for name configManager"
@@ -352,7 +352,7 @@
                         {
                             "codegenResult": 2,
                             "column": 35,
-                            "durationMicroseconds": 494,
+                            "durationMicroseconds": 537,
                             "functionName": "color",
                             "line": 84,
                             "message": "Cannot access value for name configManager"
@@ -360,7 +360,7 @@
                         {
                             "codegenResult": 0,
                             "column": 45,
-                            "durationMicroseconds": 65,
+                            "durationMicroseconds": 79,
                             "functionName": "centerIn",
                             "line": 82,
                             "message": ""
@@ -368,7 +368,7 @@
                         {
                             "codegenResult": 0,
                             "column": 66,
-                            "durationMicroseconds": 69,
+                            "durationMicroseconds": 124,
                             "functionName": "cursorShape",
                             "line": 85,
                             "message": ""
@@ -376,7 +376,7 @@
                         {
                             "codegenResult": 2,
                             "column": 100,
-                            "durationMicroseconds": 638,
+                            "durationMicroseconds": 680,
                             "functionName": "onClicked",
                             "line": 85,
                             "message": "Cannot access value for name configManager"
@@ -384,7 +384,7 @@
                         {
                             "codegenResult": 0,
                             "column": 46,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 66,
                             "functionName": "fill",
                             "line": 85,
                             "message": ""
@@ -392,7 +392,7 @@
                         {
                             "codegenResult": 2,
                             "column": 83,
-                            "durationMicroseconds": 52,
+                            "durationMicroseconds": 63,
                             "functionName": "color",
                             "line": 89,
                             "message": "Cannot retrieve a non-object type by ID: root"
@@ -400,7 +400,7 @@
                         {
                             "codegenResult": 2,
                             "column": 142,
-                            "durationMicroseconds": 16,
+                            "durationMicroseconds": 23,
                             "functionName": "color",
                             "line": 89,
                             "message": "Cannot retrieve a non-object type by ID: root"
@@ -408,7 +408,7 @@
                         {
                             "codegenResult": 2,
                             "column": 95,
-                            "durationMicroseconds": 15,
+                            "durationMicroseconds": 20,
                             "functionName": "color",
                             "line": 90,
                             "message": "Cannot retrieve a non-object type by ID: root"
@@ -416,7 +416,7 @@
                         {
                             "codegenResult": 0,
                             "column": 49,
-                            "durationMicroseconds": 73,
+                            "durationMicroseconds": 91,
                             "functionName": "centerIn",
                             "line": 90,
                             "message": ""
@@ -424,7 +424,7 @@
                         {
                             "codegenResult": 0,
                             "column": 98,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 87,
                             "functionName": "cursorShape",
                             "line": 91,
                             "message": ""
@@ -432,7 +432,7 @@
                         {
                             "codegenResult": 2,
                             "column": 131,
-                            "durationMicroseconds": 261,
+                            "durationMicroseconds": 364,
                             "functionName": "onClicked",
                             "line": 91,
                             "message": "Cannot access value for name configManager"
@@ -440,7 +440,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 55,
+                            "durationMicroseconds": 64,
                             "functionName": "fill",
                             "line": 91,
                             "message": ""
@@ -448,7 +448,7 @@
                         {
                             "codegenResult": 2,
                             "column": 83,
-                            "durationMicroseconds": 94,
+                            "durationMicroseconds": 155,
                             "functionName": "color",
                             "line": 92,
                             "message": "Cannot retrieve a non-object type by ID: root"
@@ -456,7 +456,7 @@
                         {
                             "codegenResult": 2,
                             "column": 112,
-                            "durationMicroseconds": 16,
+                            "durationMicroseconds": 24,
                             "functionName": "color",
                             "line": 93,
                             "message": "Cannot retrieve a non-object type by ID: root"
@@ -464,7 +464,7 @@
                         {
                             "codegenResult": 0,
                             "column": 49,
-                            "durationMicroseconds": 42,
+                            "durationMicroseconds": 65,
                             "functionName": "centerIn",
                             "line": 93,
                             "message": ""
@@ -472,7 +472,7 @@
                         {
                             "codegenResult": 0,
                             "column": 98,
-                            "durationMicroseconds": 54,
+                            "durationMicroseconds": 81,
                             "functionName": "cursorShape",
                             "line": 94,
                             "message": ""
@@ -480,7 +480,7 @@
                         {
                             "codegenResult": 2,
                             "column": 131,
-                            "durationMicroseconds": 260,
+                            "durationMicroseconds": 356,
                             "functionName": "onClicked",
                             "line": 94,
                             "message": "Cannot access value for name configManager"
@@ -488,7 +488,7 @@
                         {
                             "codegenResult": 0,
                             "column": 59,
-                            "durationMicroseconds": 45,
+                            "durationMicroseconds": 64,
                             "functionName": "fill",
                             "line": 94,
                             "message": ""
@@ -496,7 +496,7 @@
                         {
                             "codegenResult": 2,
                             "column": 74,
-                            "durationMicroseconds": 24,
+                            "durationMicroseconds": 34,
                             "functionName": "color",
                             "line": 100,
                             "message": "Cannot access value for name cBase"
@@ -504,7 +504,7 @@
                         {
                             "codegenResult": 0,
                             "column": 50,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 65,
                             "functionName": "fill",
                             "line": 101,
                             "message": ""
@@ -512,7 +512,7 @@
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 120,
+                            "durationMicroseconds": 160,
                             "functionName": "width",
                             "line": 107,
                             "message": ""
@@ -520,7 +520,7 @@
                         {
                             "codegenResult": 2,
                             "column": 57,
-                            "durationMicroseconds": 22,
+                            "durationMicroseconds": 31,
                             "functionName": "color",
                             "line": 107,
                             "message": "Cannot access value for name cSecondary"
@@ -536,7 +536,7 @@
                         {
                             "codegenResult": 0,
                             "column": 52,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 122,
                             "functionName": "horizontalCenter",
                             "line": 106,
                             "message": ""
@@ -544,7 +544,7 @@
                         {
                             "codegenResult": 0,
                             "column": 92,
-                            "durationMicroseconds": 66,
+                            "durationMicroseconds": 108,
                             "functionName": "bottom",
                             "line": 106,
                             "message": ""
@@ -552,7 +552,7 @@
                         {
                             "codegenResult": 2,
                             "column": 55,
-                            "durationMicroseconds": 16,
+                            "durationMicroseconds": 23,
                             "functionName": "color",
                             "line": 110,
                             "message": "Cannot retrieve a non-object type by ID: root"
@@ -560,7 +560,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 41,
+                            "durationMicroseconds": 63,
                             "functionName": "centerIn",
                             "line": 110,
                             "message": ""
@@ -568,7 +568,7 @@
                         {
                             "codegenResult": 0,
                             "column": 54,
-                            "durationMicroseconds": 90,
+                            "durationMicroseconds": 154,
                             "functionName": "onTriggered",
                             "line": 111,
                             "message": ""
@@ -576,7 +576,7 @@
                         {
                             "codegenResult": 2,
                             "column": 26,
-                            "durationMicroseconds": 62,
+                            "durationMicroseconds": 76,
                             "functionName": "target",
                             "line": 113,
                             "message": "Cannot access value for name configManager"
@@ -584,7 +584,7 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 98,
+                            "durationMicroseconds": 139,
                             "functionName": "onReloadSuccess",
                             "line": 114,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
@@ -600,10 +600,34 @@
                         {
                             "codegenResult": 2,
                             "column": 9,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 121,
                             "functionName": "onSaved",
                             "line": 116,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 77,
+                            "functionName": "target",
+                            "line": 118,
+                            "message": "Cannot access value for name panelConfigWriter"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 138,
+                            "functionName": "onSaved",
+                            "line": 119,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onError",
+                            "line": 120,
+                            "message": "Functions without type annotations won't be compiled"
                         }
                     ],
                     "filePath": "/home/link/Programming/StarShell/StarConfig/src/Main.qml"

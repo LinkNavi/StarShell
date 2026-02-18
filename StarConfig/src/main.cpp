@@ -7,6 +7,7 @@
 #include "MonitorManager.h"
 #include "NetworkManager.h"
 #include "ColorProvider.h"
+#include "PanelConfigWriter.h"
 
 int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
@@ -18,6 +19,7 @@ int main(int argc, char *argv[]) {
     MonitorManager monitorManager;
     NetworkManager networkManager;
     ColorProvider colorProvider;
+    PanelConfigWriter panelConfigWriter;
 
     QQmlApplicationEngine engine;
     auto *ctx = engine.rootContext();
@@ -26,8 +28,8 @@ int main(int argc, char *argv[]) {
     ctx->setContextProperty("monitorManager", &monitorManager);
     ctx->setContextProperty("networkManager", &networkManager);
     ctx->setContextProperty("colors", &colorProvider);
+    ctx->setContextProperty("panelConfigWriter", &panelConfigWriter);
 
-    // Wire matugen color generation to config
     QObject::connect(&colorProvider, &ColorProvider::colorsChanged, [&]() {
         if (!colorProvider.loaded()) return;
         QVariantMap c;
@@ -42,7 +44,6 @@ int main(int argc, char *argv[]) {
         c["surface_variant"] = colorProvider.surfaceVariant();
         c["on_surface_variant"] = colorProvider.onSurfaceVariant();
         c["outline"] = colorProvider.outline();
-        // Don't auto-apply, let user choose via UI
     });
 
     engine.load(QUrl(QStringLiteral("qrc:/StarViewConfig/src/Main.qml")));

@@ -3,5 +3,7 @@ typeinfo starview-panel.qmltypes
 prefer :/StarViewPanel/
 Main 1.0 src/Main.qml
 WorkspaceButton 1.0 src/WorkspaceButton.qml
+SystemTray 1.0 src/SystemTray.qml
+ClockWidget 1.0 src/ClockWidget.qml
 depends QtQuick
 

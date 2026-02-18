@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for starview-panel_qmllint.
 
@@ -67,10 +67,12 @@ include CMakeFiles/starview-panel_qmllint.dir/compiler_depend.make
 include CMakeFiles/starview-panel_qmllint.dir/progress.make
 
 CMakeFiles/starview-panel_qmllint: /usr/lib/qt6/bin/qmllint
-CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/Bar/src/Main.qml
-CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/Bar/src/WorkspaceButton.qml
+CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/Main.qml
+CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml
+CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/SystemTray.qml
+CMakeFiles/starview-panel_qmllint: /home/link/Programming/StarShell/StarBar/src/ClockWidget.qml
 CMakeFiles/starview-panel_qmllint: .rcc/qmllint/starview-panel.rsp
-	cd /home/link/Programming/StarShell/Bar && /usr/lib/qt6/bin/qmllint @/home/link/Programming/StarShell/Bar/build/.rcc/qmllint/starview-panel.rsp
+	cd /home/link/Programming/StarShell/StarBar && /usr/lib/qt6/bin/qmllint @/home/link/Programming/StarShell/StarBar/build/.rcc/qmllint/starview-panel.rsp
 
 CMakeFiles/starview-panel_qmllint.dir/codegen:
 .PHONY : CMakeFiles/starview-panel_qmllint.dir/codegen
@@ -88,6 +90,6 @@ CMakeFiles/starview-panel_qmllint.dir/clean:
 .PHONY : CMakeFiles/starview-panel_qmllint.dir/clean
 
 CMakeFiles/starview-panel_qmllint.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_qmllint.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_qmllint
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_qmllint.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_qmllint
 .PHONY : CMakeFiles/starview-panel_qmllint.dir/depend
 

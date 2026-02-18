@@ -1,5 +1,5 @@
-/home/link/Programming/StarShell/Bar/build/starview-panel_autogen/UVLADIE3JM/moc_ipc_handler.cpp: /home/link/Programming/StarShell/Bar/src/ipc_handler.h \
-  /home/link/Programming/StarShell/Bar/build/starview-panel_autogen/moc_predefs.h \
+/home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/UVLADIE3JM/moc_ipc_handler.cpp: /home/link/Programming/StarShell/StarBar/src/ipc_handler.h \
+  /home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \

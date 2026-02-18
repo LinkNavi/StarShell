@@ -8,7 +8,7 @@
                         {
                             "codegenResult": 2,
                             "column": 31,
-                            "durationMicroseconds": 114,
+                            "durationMicroseconds": 194,
                             "functionName": "monitorList",
                             "line": 8,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -16,7 +16,7 @@
                         {
                             "codegenResult": 2,
                             "column": 28,
-                            "durationMicroseconds": 325,
+                            "durationMicroseconds": 492,
                             "functionName": "onCompleted",
                             "line": 9,
                             "message": "Cannot access value for name monitorManager"
@@ -40,7 +40,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 187,
+                            "durationMicroseconds": 271,
                             "functionName": "width",
                             "line": 12,
                             "message": ""
@@ -48,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 82,
-                            "durationMicroseconds": 340,
+                            "durationMicroseconds": 432,
                             "functionName": "color",
                             "line": 13,
                             "message": "Cannot access value for name root"
@@ -56,7 +56,7 @@
                         {
                             "codegenResult": 2,
                             "column": 63,
-                            "durationMicroseconds": 343,
+                            "durationMicroseconds": 582,
                             "functionName": "color",
                             "line": 15,
                             "message": "Cannot access value for name root"
@@ -64,7 +64,7 @@
                         {
                             "codegenResult": 2,
                             "column": 122,
-                            "durationMicroseconds": 159,
+                            "durationMicroseconds": 257,
                             "functionName": "color",
                             "line": 15,
                             "message": "Cannot access value for name root"
@@ -72,7 +72,7 @@
                         {
                             "codegenResult": 2,
                             "column": 90,
-                            "durationMicroseconds": 252,
+                            "durationMicroseconds": 401,
                             "functionName": "color",
                             "line": 16,
                             "message": "Cannot access value for name root"
@@ -80,7 +80,7 @@
                         {
                             "codegenResult": 0,
                             "column": 41,
-                            "durationMicroseconds": 79,
+                            "durationMicroseconds": 140,
                             "functionName": "centerIn",
                             "line": 16,
                             "message": ""
@@ -88,7 +88,7 @@
                         {
                             "codegenResult": 0,
                             "column": 91,
-                            "durationMicroseconds": 96,
+                            "durationMicroseconds": 133,
                             "functionName": "cursorShape",
                             "line": 17,
                             "message": ""
@@ -96,7 +96,7 @@
                         {
                             "codegenResult": 2,
                             "column": 125,
-                            "durationMicroseconds": 396,
+                            "durationMicroseconds": 610,
                             "functionName": "onClicked",
                             "line": 17,
                             "message": "Cannot access value for name monitorManager"
@@ -104,7 +104,7 @@
                         {
                             "codegenResult": 0,
                             "column": 52,
-                            "durationMicroseconds": 75,
+                            "durationMicroseconds": 117,
                             "functionName": "fill",
                             "line": 17,
                             "message": ""
@@ -112,7 +112,7 @@
                         {
                             "codegenResult": 0,
                             "column": 31,
-                            "durationMicroseconds": 102,
+                            "durationMicroseconds": 160,
                             "functionName": "model",
                             "line": 19,
                             "message": ""
@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 2,
                             "column": 40,
-                            "durationMicroseconds": 277,
+                            "durationMicroseconds": 384,
                             "functionName": "title",
                             "line": 20,
                             "message": "Cannot access value for name modelData"
@@ -128,7 +128,7 @@
                         {
                             "codegenResult": 2,
                             "column": 67,
-                            "durationMicroseconds": 751,
+                            "durationMicroseconds": 1182,
                             "functionName": "text",
                             "line": 21,
                             "message": "Cannot access value for name modelData"
@@ -136,7 +136,7 @@
                         {
                             "codegenResult": 2,
                             "column": 125,
-                            "durationMicroseconds": 278,
+                            "durationMicroseconds": 444,
                             "functionName": "color",
                             "line": 21,
                             "message": "Cannot access value for name root"
@@ -144,7 +144,7 @@
                         {
                             "codegenResult": 2,
                             "column": 64,
-                            "durationMicroseconds": 383,
+                            "durationMicroseconds": 632,
                             "functionName": "text",
                             "line": 22,
                             "message": "Cannot access value for name modelData"
@@ -152,7 +152,7 @@
                         {
                             "codegenResult": 2,
                             "column": 102,
-                            "durationMicroseconds": 269,
+                            "durationMicroseconds": 382,
                             "functionName": "color",
                             "line": 22,
                             "message": "Cannot access value for name root"
@@ -160,7 +160,7 @@
                         {
                             "codegenResult": 2,
                             "column": 62,
-                            "durationMicroseconds": 433,
+                            "durationMicroseconds": 604,
                             "functionName": "text",
                             "line": 23,
                             "message": "Cannot access value for name modelData"
@@ -168,7 +168,7 @@
                         {
                             "codegenResult": 2,
                             "column": 107,
-                            "durationMicroseconds": 271,
+                            "durationMicroseconds": 395,
                             "functionName": "color",
                             "line": 23,
                             "message": "Cannot access value for name root"
@@ -192,7 +192,7 @@
                         {
                             "codegenResult": 2,
                             "column": 55,
-                            "durationMicroseconds": 273,
+                            "durationMicroseconds": 405,
                             "functionName": "color",
                             "line": 28,
                             "message": "Cannot access value for name root"
@@ -200,7 +200,7 @@
                         {
                             "codegenResult": 2,
                             "column": 97,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 43,
                             "functionName": "visible",
                             "line": 28,
                             "message": "Cannot load property length from (component in /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml)::monitorList with type QVariant."
@@ -208,7 +208,7 @@
                         {
                             "codegenResult": 0,
                             "column": 144,
-                            "durationMicroseconds": 86,
+                            "durationMicroseconds": 144,
                             "functionName": "alignment",
                             "line": 28,
                             "message": ""

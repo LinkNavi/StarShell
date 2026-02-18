@@ -76,6 +76,7 @@ CMakeFiles/starview-config_qmlimportscan: .qt/qml_imports/starview-config_build.
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
+.qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/PanelPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 .qt/qml_imports/starview-config_build.cmake: /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml

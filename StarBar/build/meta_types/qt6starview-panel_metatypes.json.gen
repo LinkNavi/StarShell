@@ -7,9 +7,9 @@
                 "methods": [
                     {
                         "access": "public",
-                        "index": 8,
+                        "index": 9,
                         "lineNumber": 15,
-                        "name": "connect",
+                        "name": "connectToCompositor",
                         "returnType": "void"
                     },
                     {
@@ -20,7 +20,7 @@
                                 "type": "int"
                             }
                         ],
-                        "index": 9,
+                        "index": 10,
                         "lineNumber": 16,
                         "name": "switchWorkspace",
                         "returnType": "void"
@@ -44,38 +44,51 @@
                     },
                     {
                         "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            }
+                        ],
                         "index": 1,
                         "lineNumber": 20,
-                        "name": "connected",
+                        "name": "focusedWindowChanged",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
                         "index": 2,
                         "lineNumber": 21,
-                        "name": "disconnected",
+                        "name": "ipcConnected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 22,
+                        "name": "ipcDisconnected",
                         "returnType": "void"
                     }
                 ],
                 "slots": [
                     {
                         "access": "private",
-                        "index": 3,
-                        "lineNumber": 24,
-                        "name": "onConnected",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
                         "index": 4,
                         "lineNumber": 25,
-                        "name": "onDisconnected",
+                        "name": "onConnected",
                         "returnType": "void"
                     },
                     {
                         "access": "private",
                         "index": 5,
                         "lineNumber": 26,
+                        "name": "onDisconnected",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 6,
+                        "lineNumber": 27,
                         "name": "onReadyRead",
                         "returnType": "void"
                     },
@@ -87,15 +100,15 @@
                                 "type": "QLocalSocket::LocalSocketError"
                             }
                         ],
-                        "index": 6,
-                        "lineNumber": 27,
+                        "index": 7,
+                        "lineNumber": 28,
                         "name": "onError",
                         "returnType": "void"
                     },
                     {
                         "access": "private",
-                        "index": 7,
-                        "lineNumber": 28,
+                        "index": 8,
+                        "lineNumber": 29,
                         "name": "tryReconnect",
                         "returnType": "void"
                     }
@@ -109,6 +122,314 @@
             }
         ],
         "inputFile": "ipc_handler.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PanelConfig",
+                "lineNumber": 15,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 118,
+                        "name": "reload",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 18,
+                        "name": "height",
+                        "notify": "configChanged",
+                        "read": "height",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 19,
+                        "name": "position",
+                        "notify": "configChanged",
+                        "read": "position",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 20,
+                        "name": "showWorkspaces",
+                        "notify": "configChanged",
+                        "read": "showWorkspaces",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 21,
+                        "name": "showTitle",
+                        "notify": "configChanged",
+                        "read": "showTitle",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 22,
+                        "name": "showClock",
+                        "notify": "configChanged",
+                        "read": "showClock",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 23,
+                        "name": "showSystray",
+                        "notify": "configChanged",
+                        "read": "showSystray",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 24,
+                        "name": "workspaceCount",
+                        "notify": "configChanged",
+                        "read": "workspaceCount",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 25,
+                        "name": "clockFormat",
+                        "notify": "configChanged",
+                        "read": "clockFormat",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 26,
+                        "name": "showDate",
+                        "notify": "configChanged",
+                        "read": "showDate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 27,
+                        "name": "opacity",
+                        "notify": "configChanged",
+                        "read": "opacity",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "double",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "lineNumber": 28,
+                        "name": "cornerRadius",
+                        "notify": "configChanged",
+                        "read": "cornerRadius",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "lineNumber": 29,
+                        "name": "margins",
+                        "notify": "configChanged",
+                        "read": "margins",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 12,
+                        "lineNumber": 30,
+                        "name": "floating",
+                        "notify": "configChanged",
+                        "read": "floating",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 13,
+                        "lineNumber": 31,
+                        "name": "bgColor",
+                        "notify": "configChanged",
+                        "read": "bgColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 14,
+                        "lineNumber": 32,
+                        "name": "fgColor",
+                        "notify": "configChanged",
+                        "read": "fgColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 15,
+                        "lineNumber": 33,
+                        "name": "accentColor",
+                        "notify": "configChanged",
+                        "read": "accentColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 16,
+                        "lineNumber": 34,
+                        "name": "workspaceActiveColor",
+                        "notify": "configChanged",
+                        "read": "workspaceActiveColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 17,
+                        "lineNumber": 35,
+                        "name": "workspaceInactiveColor",
+                        "notify": "configChanged",
+                        "read": "workspaceInactiveColor",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "PanelConfig",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 121,
+                        "name": "configChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "panel_config.h",
         "outputRevision": 69
     }
 ]

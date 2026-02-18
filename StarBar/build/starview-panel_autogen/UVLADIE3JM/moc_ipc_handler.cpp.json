@@ -6,9 +6,9 @@
             "methods": [
                 {
                     "access": "public",
-                    "index": 8,
+                    "index": 9,
                     "lineNumber": 15,
-                    "name": "connect",
+                    "name": "connectToCompositor",
                     "returnType": "void"
                 },
                 {
@@ -19,7 +19,7 @@
                             "type": "int"
                         }
                     ],
-                    "index": 9,
+                    "index": 10,
                     "lineNumber": 16,
                     "name": "switchWorkspace",
                     "returnType": "void"
@@ -43,38 +43,51 @@
                 },
                 {
                     "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        }
+                    ],
                     "index": 1,
                     "lineNumber": 20,
-                    "name": "connected",
+                    "name": "focusedWindowChanged",
                     "returnType": "void"
                 },
                 {
                     "access": "public",
                     "index": 2,
                     "lineNumber": 21,
-                    "name": "disconnected",
+                    "name": "ipcConnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 22,
+                    "name": "ipcDisconnected",
                     "returnType": "void"
                 }
             ],
             "slots": [
                 {
                     "access": "private",
-                    "index": 3,
-                    "lineNumber": 24,
-                    "name": "onConnected",
-                    "returnType": "void"
-                },
-                {
-                    "access": "private",
                     "index": 4,
                     "lineNumber": 25,
-                    "name": "onDisconnected",
+                    "name": "onConnected",
                     "returnType": "void"
                 },
                 {
                     "access": "private",
                     "index": 5,
                     "lineNumber": 26,
+                    "name": "onDisconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "lineNumber": 27,
                     "name": "onReadyRead",
                     "returnType": "void"
                 },
@@ -86,15 +99,15 @@
                             "type": "QLocalSocket::LocalSocketError"
                         }
                     ],
-                    "index": 6,
-                    "lineNumber": 27,
+                    "index": 7,
+                    "lineNumber": 28,
                     "name": "onError",
                     "returnType": "void"
                 },
                 {
                     "access": "private",
-                    "index": 7,
-                    "lineNumber": 28,
+                    "index": 8,
+                    "lineNumber": 29,
                     "name": "tryReconnect",
                     "returnType": "void"
                 }

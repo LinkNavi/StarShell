@@ -1,5 +1,5 @@
 CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o: \
- /home/link/Programming/StarShell/Bar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp \
+ /home/link/Programming/StarShell/StarBar/build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtQml/qqmlprivate.h \
  /usr/include/qt6/QtQml/qjsprimitivevalue.h \
  /usr/include/qt6/QtQml/qtqmlglobal.h /usr/include/qt6/QtCore/qglobal.h \
@@ -333,6 +333,10 @@ CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/WorkspaceBu
  /usr/include/qt6/QtCore/qversionnumber.h /usr/include/qt6/QtCore/qspan.h \
  /usr/include/c++/15.2.1/cassert /usr/include/qt6/QtCore/q20iterator.h \
  /usr/include/qt6/QtCore/qtyperevision.h \
+ /usr/include/qt6/QtCore/qrandom.h /usr/include/c++/15.2.1/random \
+ /usr/include/c++/15.2.1/bits/random.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/15.2.1/bits/random.tcc \
  /usr/include/qt6/QtCore/qtimezone.h /usr/include/qt6/QtQml/qjsengine.h \
  /usr/include/qt6/QtQml/qjsmanagedvalue.h \
  /usr/include/qt6/QtQml/qqmldebug.h \

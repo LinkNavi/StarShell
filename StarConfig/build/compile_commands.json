@@ -43,6 +43,12 @@
 },
 {
   "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.o -c /home/link/Programming/StarShell/StarConfig/src/PanelConfigWriter.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/src/PanelConfigWriter.cpp",
+  "output": "CMakeFiles/starview-config.dir/src/PanelConfigWriter.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
   "command": "/usr/bin/cc -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -mno-direct-extern-access -o CMakeFiles/starview-config.dir/src/toml.c.o -c /home/link/Programming/StarShell/StarConfig/src/toml.c",
   "file": "/home/link/Programming/StarShell/StarConfig/src/toml.c",
   "output": "CMakeFiles/starview-config.dir/src/toml.c.o"
@@ -94,6 +100,12 @@
   "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
   "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp",
   "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/TilingPage_qml.cpp.o"
+},
+{
+  "directory": "/home/link/Programming/StarShell/StarConfig/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include -I/home/link/Programming/StarShell/StarConfig -I/home/link/Programming/StarShell/StarConfig/include -isystem /usr/include/qt6/QtQml -isystem /usr/include/qt6 -isystem /usr/include/qt6/QtCore -isystem /usr/lib/qt6/mkspecs/linux-g++ -isystem /usr/include/qt6/QtQmlIntegration -isystem /usr/include/qt6/QtNetwork -isystem /usr/include/qt6/QtGui -isystem /usr/include/qt6/QtQuick -isystem /usr/include/qt6/QtOpenGL -O3 -DNDEBUG -std=gnu++17 -mno-direct-extern-access -o CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o -c /home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp",
+  "file": "/home/link/Programming/StarShell/StarConfig/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp",
+  "output": "CMakeFiles/starview-config.dir/build/.rcc/qmlcache/starview-config_src/pages/PanelPage_qml.cpp.o"
 },
 {
   "directory": "/home/link/Programming/StarShell/StarConfig/build",

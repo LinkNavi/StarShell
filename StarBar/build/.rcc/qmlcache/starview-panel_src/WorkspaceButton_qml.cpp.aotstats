@@ -7,286 +7,198 @@
                     "entries": [
                         {
                             "codegenResult": 0,
-                            "column": 22,
-                            "durationMicroseconds": 248,
-                            "functionName": "onActiveChanged",
-                            "line": 95,
+                            "column": 12,
+                            "durationMicroseconds": 162,
+                            "functionName": "width",
+                            "line": 5,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 13,
+                            "durationMicroseconds": 33,
+                            "functionName": "height",
+                            "line": 6,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 16,
+                            "durationMicroseconds": 33,
+                            "functionName": "width",
+                            "line": 24,
+                            "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 0,
                             "column": 16,
-                            "durationMicroseconds": 84,
-                            "functionName": "width",
-                            "line": 17,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 17,
-                            "durationMicroseconds": 70,
-                            "functionName": "height",
-                            "line": 18,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 17,
-                            "durationMicroseconds": 56,
-                            "functionName": "radius",
-                            "line": 19,
+                            "durationMicroseconds": 66,
+                            "functionName": "color",
+                            "line": 27,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 18,
-                            "durationMicroseconds": 29,
-                            "functionName": "opacity",
-                            "line": 20,
-                            "message": "Cannot access value for name active"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 18,
-                            "durationMicroseconds": 12,
+                            "durationMicroseconds": 14,
                             "functionName": "visible",
-                            "line": 21,
+                            "line": 28,
                             "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 27,
-                            "durationMicroseconds": 37,
-                            "functionName": "centerIn",
-                            "line": 16,
+                            "column": 35,
+                            "durationMicroseconds": 55,
+                            "functionName": "horizontalCenter",
+                            "line": 21,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 43,
+                            "column": 25,
+                            "durationMicroseconds": 50,
+                            "functionName": "bottom",
+                            "line": 22,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 75,
+                            "durationMicroseconds": 40,
                             "functionName": "type",
                             "line": 29,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 16,
-                            "functionName": "running",
-                            "line": 33,
-                            "message": "Cannot access value for name active"
-                        },
-                        {
                             "codegenResult": 0,
-                            "column": 20,
-                            "durationMicroseconds": 36,
-                            "functionName": "loops",
-                            "line": 34,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 82,
-                            "durationMicroseconds": 34,
-                            "functionName": "type",
+                            "column": 16,
+                            "durationMicroseconds": 72,
+                            "functionName": "width",
                             "line": 35,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 82,
-                            "durationMicroseconds": 32,
-                            "functionName": "type",
+                            "column": 17,
+                            "durationMicroseconds": 28,
+                            "functionName": "height",
                             "line": 36,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 16,
-                            "durationMicroseconds": 51,
-                            "functionName": "width",
-                            "line": 43,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 17,
-                            "durationMicroseconds": 41,
-                            "functionName": "height",
-                            "line": 44,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 17,
-                            "durationMicroseconds": 51,
-                            "functionName": "radius",
-                            "line": 45,
-                            "message": ""
-                        },
-                        {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 26,
+                            "durationMicroseconds": 132,
                             "functionName": "color",
-                            "line": 46,
-                            "message": "Cannot access value for name active"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 19,
-                            "durationMicroseconds": 23,
-                            "functionName": "gradient",
-                            "line": 60,
+                            "line": 38,
                             "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 32,
+                            "durationMicroseconds": 33,
                             "functionName": "centerIn",
-                            "line": 42,
+                            "line": 34,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 21,
-                            "functionName": "color",
-                            "line": 47,
-                            "message": "Cannot access value for name active"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 23,
-                            "durationMicroseconds": 15,
-                            "functionName": "width",
-                            "line": 48,
-                            "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 0,
                             "column": 75,
-                            "durationMicroseconds": 78,
+                            "durationMicroseconds": 37,
                             "functionName": "type",
-                            "line": 52,
+                            "line": 41,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 15,
-                            "durationMicroseconds": 51,
+                            "durationMicroseconds": 45,
                             "functionName": "text",
-                            "line": 65,
+                            "line": 46,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 16,
-                            "durationMicroseconds": 23,
+                            "durationMicroseconds": 32,
                             "functionName": "color",
-                            "line": 68,
+                            "line": 49,
                             "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 0,
                             "column": 27,
-                            "durationMicroseconds": 118,
+                            "durationMicroseconds": 34,
                             "functionName": "centerIn",
-                            "line": 64,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 22,
-                            "durationMicroseconds": 80,
-                            "functionName": "cursorShape",
-                            "line": 76,
+                            "line": 45,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 20,
-                            "durationMicroseconds": 56,
+                            "durationMicroseconds": 14,
+                            "functionName": "bold",
+                            "line": 48,
+                            "message": "Cannot access value for name active"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 22,
+                            "durationMicroseconds": 43,
+                            "functionName": "cursorShape",
+                            "line": 56,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 64,
                             "functionName": "onEntered",
-                            "line": 78,
+                            "line": 58,
                             "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 2,
                             "column": 19,
-                            "durationMicroseconds": 50,
+                            "durationMicroseconds": 32,
                             "functionName": "onExited",
-                            "line": 85,
+                            "line": 61,
                             "message": "Cannot access value for name active"
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 91,
+                            "durationMicroseconds": 71,
                             "functionName": "onPressed",
-                            "line": 90,
+                            "line": 64,
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
+                            "codegenResult": 0,
                             "column": 21,
-                            "durationMicroseconds": 33,
+                            "durationMicroseconds": 61,
                             "functionName": "onReleased",
-                            "line": 91,
-                            "message": "Cannot access value for name active"
+                            "line": 65,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 20,
-                            "durationMicroseconds": 72,
+                            "durationMicroseconds": 57,
                             "functionName": "onClicked",
-                            "line": 92,
+                            "line": 66,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 23,
-                            "durationMicroseconds": 53,
+                            "durationMicroseconds": 34,
                             "functionName": "fill",
-                            "line": 74,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 63,
-                            "functionName": "target",
-                            "line": 106,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 100,
-                            "durationMicroseconds": 59,
-                            "functionName": "type",
-                            "line": 106,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 35,
-                            "durationMicroseconds": 43,
-                            "functionName": "target",
-                            "line": 107,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 100,
-                            "durationMicroseconds": 43,
-                            "functionName": "type",
-                            "line": 107,
+                            "line": 54,
                             "message": ""
                         }
                     ],
-                    "filePath": "/home/link/Programming/StarShell/Bar/src/WorkspaceButton.qml"
+                    "filePath": "/home/link/Programming/StarShell/StarBar/src/WorkspaceButton.qml"
                 }
             ],
             "moduleId": "StarViewPanel(starview-panel)"

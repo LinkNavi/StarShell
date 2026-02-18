@@ -42,8 +42,10 @@ template <> constexpr inline auto IpcHandler::qt_create_metaobjectdata<qt_meta_t
         "workspaceChanged",
         "",
         "ws",
-        "connected",
-        "disconnected",
+        "focusedWindowChanged",
+        "title",
+        "ipcConnected",
+        "ipcDisconnected",
         "onConnected",
         "onDisconnected",
         "onReadyRead",
@@ -51,7 +53,7 @@ template <> constexpr inline auto IpcHandler::qt_create_metaobjectdata<qt_meta_t
         "QLocalSocket::LocalSocketError",
         "error",
         "tryReconnect",
-        "connect",
+        "connectToCompositor",
         "switchWorkspace"
     };
 
@@ -60,26 +62,30 @@ template <> constexpr inline auto IpcHandler::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SignalData<void(int)>(1, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::Int, 3 },
         }}),
-        // Signal 'connected'
-        QtMocHelpers::SignalData<void()>(4, 2, QMC::AccessPublic, QMetaType::Void),
-        // Signal 'disconnected'
-        QtMocHelpers::SignalData<void()>(5, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'focusedWindowChanged'
+        QtMocHelpers::SignalData<void(QString)>(4, 2, QMC::AccessPublic, QMetaType::Void, {{
+            { QMetaType::QString, 5 },
+        }}),
+        // Signal 'ipcConnected'
+        QtMocHelpers::SignalData<void()>(6, 2, QMC::AccessPublic, QMetaType::Void),
+        // Signal 'ipcDisconnected'
+        QtMocHelpers::SignalData<void()>(7, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'onConnected'
-        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onDisconnected'
-        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'onReadyRead'
         QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onDisconnected'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onReadyRead'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'onError'
-        QtMocHelpers::SlotData<void(QLocalSocket::LocalSocketError)>(9, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { 0x80000000 | 10, 11 },
+        QtMocHelpers::SlotData<void(QLocalSocket::LocalSocketError)>(11, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 12, 13 },
         }}),
         // Slot 'tryReconnect'
-        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Method 'connect'
-        QtMocHelpers::MethodData<void()>(13, 2, QMC::AccessPublic, QMetaType::Void),
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Method 'connectToCompositor'
+        QtMocHelpers::MethodData<void()>(15, 2, QMC::AccessPublic, QMetaType::Void),
         // Method 'switchWorkspace'
-        QtMocHelpers::MethodData<void(int)>(14, 2, QMC::AccessPublic, QMetaType::Void, {{
+        QtMocHelpers::MethodData<void(int)>(16, 2, QMC::AccessPublic, QMetaType::Void, {{
             { QMetaType::Int, 3 },
         }}),
     };
@@ -106,24 +112,27 @@ void IpcHandler::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->workspaceChanged((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
-        case 1: _t->connected(); break;
-        case 2: _t->disconnected(); break;
-        case 3: _t->onConnected(); break;
-        case 4: _t->onDisconnected(); break;
-        case 5: _t->onReadyRead(); break;
-        case 6: _t->onError((*reinterpret_cast<std::add_pointer_t<QLocalSocket::LocalSocketError>>(_a[1]))); break;
-        case 7: _t->tryReconnect(); break;
-        case 8: _t->connect(); break;
-        case 9: _t->switchWorkspace((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
+        case 1: _t->focusedWindowChanged((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1]))); break;
+        case 2: _t->ipcConnected(); break;
+        case 3: _t->ipcDisconnected(); break;
+        case 4: _t->onConnected(); break;
+        case 5: _t->onDisconnected(); break;
+        case 6: _t->onReadyRead(); break;
+        case 7: _t->onError((*reinterpret_cast<std::add_pointer_t<QLocalSocket::LocalSocketError>>(_a[1]))); break;
+        case 8: _t->tryReconnect(); break;
+        case 9: _t->connectToCompositor(); break;
+        case 10: _t->switchWorkspace((*reinterpret_cast<std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }
     if (_c == QMetaObject::IndexOfMethod) {
         if (QtMocHelpers::indexOfMethod<void (IpcHandler::*)(int )>(_a, &IpcHandler::workspaceChanged, 0))
             return;
-        if (QtMocHelpers::indexOfMethod<void (IpcHandler::*)()>(_a, &IpcHandler::connected, 1))
+        if (QtMocHelpers::indexOfMethod<void (IpcHandler::*)(QString )>(_a, &IpcHandler::focusedWindowChanged, 1))
             return;
-        if (QtMocHelpers::indexOfMethod<void (IpcHandler::*)()>(_a, &IpcHandler::disconnected, 2))
+        if (QtMocHelpers::indexOfMethod<void (IpcHandler::*)()>(_a, &IpcHandler::ipcConnected, 2))
+            return;
+        if (QtMocHelpers::indexOfMethod<void (IpcHandler::*)()>(_a, &IpcHandler::ipcDisconnected, 3))
             return;
     }
 }
@@ -147,14 +156,14 @@ int IpcHandler::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 10)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 10;
+        _id -= 11;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 10)
+        if (_id < 11)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 10;
+        _id -= 11;
     }
     return _id;
 }
@@ -166,14 +175,20 @@ void IpcHandler::workspaceChanged(int _t1)
 }
 
 // SIGNAL 1
-void IpcHandler::connected()
+void IpcHandler::focusedWindowChanged(QString _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+    QMetaObject::activate<void>(this, &staticMetaObject, 1, nullptr, _t1);
 }
 
 // SIGNAL 2
-void IpcHandler::disconnected()
+void IpcHandler::ipcConnected()
 {
     QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+
+// SIGNAL 3
+void IpcHandler::ipcDisconnected()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
 }
 QT_WARNING_POP

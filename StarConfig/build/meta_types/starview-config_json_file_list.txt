@@ -2,4 +2,5 @@
 /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include/../UVLADIE3JM/moc_ConfigManager.cpp.json
 /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include/../UVLADIE3JM/moc_MonitorManager.cpp.json
 /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include/../UVLADIE3JM/moc_NetworkManager.cpp.json
+/home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include/../UVLADIE3JM/moc_PanelConfigWriter.cpp.json
 /home/link/Programming/StarShell/StarConfig/build/starview-config_autogen/include/../UVLADIE3JM/moc_WallpaperManager.cpp.json

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/link/Programming/StarShell/Bar/build/CMakeFiles /home/link/Programming/StarShell/Bar/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/link/Programming/StarShell/StarBar/build/CMakeFiles /home/link/Programming/StarShell/StarBar/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/link/Programming/StarShell/Bar/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/link/Programming/StarShell/StarBar/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -454,6 +454,30 @@ build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-panel_qmlcache_loader.cpp.s
 
+build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.o: build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.o
+
+build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.i: build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.i
+
+build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.s: build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.cpp.s
+
 build/.rcc/qmlcache/starview-panel_src/Main_qml.o: build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-panel_src/Main_qml.o
 
@@ -477,6 +501,30 @@ build/.rcc/qmlcache/starview-panel_src/Main_qml.s: build/.rcc/qmlcache/starview-
 build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.s
 .PHONY : build/.rcc/qmlcache/starview-panel_src/Main_qml.cpp.s
+
+build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.o: build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.o
+
+build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.i: build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.i
+
+build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.s: build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.cpp.s
 
 build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.o: build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.cpp.o
 .PHONY : build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.o
@@ -549,6 +597,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/panel_config.o: src/panel_config.cpp.o
+.PHONY : src/panel_config.o
+
+# target to build an object file
+src/panel_config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/panel_config.cpp.o
+.PHONY : src/panel_config.cpp.o
+
+src/panel_config.i: src/panel_config.cpp.i
+.PHONY : src/panel_config.i
+
+# target to preprocess a source file
+src/panel_config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/panel_config.cpp.i
+.PHONY : src/panel_config.cpp.i
+
+src/panel_config.s: src/panel_config.cpp.s
+.PHONY : src/panel_config.s
+
+# target to generate assembly for a file
+src/panel_config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/starview-panel.dir/build.make CMakeFiles/starview-panel.dir/src/panel_config.cpp.s
+.PHONY : src/panel_config.cpp.s
 
 starview-panel_autogen/mocs_compilation.o: starview-panel_autogen/mocs_compilation.cpp.o
 .PHONY : starview-panel_autogen/mocs_compilation.o
@@ -636,9 +708,15 @@ help:
 	@echo "... build/.rcc/qmlcache/starview-panel_qmlcache_loader.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_qmlcache_loader.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_qmlcache_loader.s"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/ClockWidget_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/Main_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/Main_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/Main_qml.s"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.o"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.i"
+	@echo "... build/.rcc/qmlcache/starview-panel_src/SystemTray_qml.s"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.o"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.i"
 	@echo "... build/.rcc/qmlcache/starview-panel_src/WorkspaceButton_qml.s"
@@ -648,6 +726,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/panel_config.o"
+	@echo "... src/panel_config.i"
+	@echo "... src/panel_config.s"
 	@echo "... starview-panel_autogen/mocs_compilation.o"
 	@echo "... starview-panel_autogen/mocs_compilation.i"
 	@echo "... starview-panel_autogen/mocs_compilation.s"

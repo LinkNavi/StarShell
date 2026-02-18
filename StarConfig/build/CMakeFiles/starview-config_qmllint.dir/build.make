@@ -72,6 +72,7 @@ CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/
 CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml
 CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml
 CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml
+CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/PanelPage.qml
 CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml
 CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml
 CMakeFiles/starview-config_qmllint: /home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml

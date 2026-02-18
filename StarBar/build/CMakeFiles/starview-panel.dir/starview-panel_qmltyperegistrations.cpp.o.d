@@ -1,5 +1,5 @@
 CMakeFiles/starview-panel.dir/starview-panel_qmltyperegistrations.cpp.o: \
- /home/link/Programming/StarShell/Bar/build/starview-panel_qmltyperegistrations.cpp \
+ /home/link/Programming/StarShell/StarBar/build/starview-panel_qmltyperegistrations.cpp \
  /usr/include/stdc-predef.h /usr/include/qt6/QtQml/qqml.h \
  /usr/include/qt6/QtQml/qqmlprivate.h \
  /usr/include/qt6/QtQml/qjsprimitivevalue.h \

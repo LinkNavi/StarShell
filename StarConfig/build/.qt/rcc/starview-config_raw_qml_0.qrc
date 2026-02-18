@@ -5,6 +5,7 @@
     <file alias="src/pages/DecorationPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/DecorationPage.qml</file>
     <file alias="src/pages/AnimationPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/AnimationPage.qml</file>
     <file alias="src/pages/TilingPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/TilingPage.qml</file>
+    <file alias="src/pages/PanelPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/PanelPage.qml</file>
     <file alias="src/pages/WallpaperPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/WallpaperPage.qml</file>
     <file alias="src/pages/MonitorsPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/MonitorsPage.qml</file>
     <file alias="src/pages/NetworkPage.qml">/home/link/Programming/StarShell/StarConfig/src/pages/NetworkPage.qml</file>

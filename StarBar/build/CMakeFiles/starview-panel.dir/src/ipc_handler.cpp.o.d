@@ -1,7 +1,7 @@
 CMakeFiles/starview-panel.dir/src/ipc_handler.cpp.o: \
- /home/link/Programming/StarShell/Bar/src/ipc_handler.cpp \
+ /home/link/Programming/StarShell/StarBar/src/ipc_handler.cpp \
  /usr/include/stdc-predef.h \
- /home/link/Programming/StarShell/Bar/src/ipc_handler.h \
+ /home/link/Programming/StarShell/StarBar/src/ipc_handler.h \
  /usr/include/qt6/QtCore/QObject /usr/include/qt6/QtCore/qobject.h \
  /usr/include/qt6/QtCore/qobjectdefs.h \
  /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qglobal.h \

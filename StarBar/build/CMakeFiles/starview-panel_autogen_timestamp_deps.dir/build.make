@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for starview-panel_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/starview-panel_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/starview-panel_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/starview-panel_autogen_timestamp_deps.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_autogen_timestamp_deps
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_autogen_timestamp_deps
 .PHONY : CMakeFiles/starview-panel_autogen_timestamp_deps.dir/depend
 

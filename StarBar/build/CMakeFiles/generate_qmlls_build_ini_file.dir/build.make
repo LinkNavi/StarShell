@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for generate_qmlls_build_ini_file.
 
@@ -69,12 +69,12 @@ include CMakeFiles/generate_qmlls_build_ini_file.dir/progress.make
 CMakeFiles/generate_qmlls_build_ini_file: .qt/.qmlls.build.ini
 
 .qt/.qmlls.build.ini:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Populating .qmlls.ini file at /home/link/Programming/StarShell/Bar/build/.qt/.qmlls.build.ini"
-	/usr/bin/cmake -E echo [General] > /home/link/Programming/StarShell/Bar/build/.qt/.qmlls.build.ini
-	/usr/bin/cmake -E echo_append docDir= >> /home/link/Programming/StarShell/Bar/build/.qt/.qmlls.build.ini
-	/usr/lib/qt6/bin/qtpaths --query QT_INSTALL_DOCS >> /home/link/Programming/StarShell/Bar/build/.qt/.qmlls.build.ini
-	/usr/bin/cmake -E echo "[<SLASH>home<SLASH>link<SLASH>Programming<SLASH>StarShell<SLASH>Bar]" >> /home/link/Programming/StarShell/Bar/build/.qt/.qmlls.build.ini
-	/usr/bin/cmake -E echo importPaths=\"/usr/lib/qt6/qml\" >> /home/link/Programming/StarShell/Bar/build/.qt/.qmlls.build.ini
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Populating .qmlls.ini file at /home/link/Programming/StarShell/StarBar/build/.qt/.qmlls.build.ini"
+	/usr/bin/cmake -E echo [General] > /home/link/Programming/StarShell/StarBar/build/.qt/.qmlls.build.ini
+	/usr/bin/cmake -E echo_append docDir= >> /home/link/Programming/StarShell/StarBar/build/.qt/.qmlls.build.ini
+	/usr/lib/qt6/bin/qtpaths --query QT_INSTALL_DOCS >> /home/link/Programming/StarShell/StarBar/build/.qt/.qmlls.build.ini
+	/usr/bin/cmake -E echo "[<SLASH>home<SLASH>link<SLASH>Programming<SLASH>StarShell<SLASH>StarBar]" >> /home/link/Programming/StarShell/StarBar/build/.qt/.qmlls.build.ini
+	/usr/bin/cmake -E echo importPaths=\"/usr/lib/qt6/qml\" >> /home/link/Programming/StarShell/StarBar/build/.qt/.qmlls.build.ini
 
 CMakeFiles/generate_qmlls_build_ini_file.dir/codegen:
 .PHONY : CMakeFiles/generate_qmlls_build_ini_file.dir/codegen
@@ -93,6 +93,6 @@ CMakeFiles/generate_qmlls_build_ini_file.dir/clean:
 .PHONY : CMakeFiles/generate_qmlls_build_ini_file.dir/clean
 
 CMakeFiles/generate_qmlls_build_ini_file.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/generate_qmlls_build_ini_file.dir/DependInfo.cmake "--color=$(COLOR)" generate_qmlls_build_ini_file
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/generate_qmlls_build_ini_file.dir/DependInfo.cmake "--color=$(COLOR)" generate_qmlls_build_ini_file
 .PHONY : CMakeFiles/generate_qmlls_build_ini_file.dir/depend
 

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/link/Programming/StarShell/Bar/build/cmake_install.cmake"
+		"/home/link/Programming/StarShell/StarBar/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

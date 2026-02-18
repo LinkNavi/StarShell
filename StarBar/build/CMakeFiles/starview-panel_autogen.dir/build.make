@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for starview-panel_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/starview-panel_autogen: starview-panel_autogen/timestamp
 
 starview-panel_autogen/timestamp: /usr/lib/qt6/moc
 starview-panel_autogen/timestamp: CMakeFiles/starview-panel_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target starview-panel"
-	/usr/bin/cmake -E cmake_autogen /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/link/Programming/StarShell/Bar/build/starview-panel_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target starview-panel"
+	/usr/bin/cmake -E cmake_autogen /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/link/Programming/StarShell/StarBar/build/starview-panel_autogen/timestamp
 
 CMakeFiles/starview-panel_autogen.dir/codegen:
 .PHONY : CMakeFiles/starview-panel_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/starview-panel_autogen.dir/clean:
 .PHONY : CMakeFiles/starview-panel_autogen.dir/clean
 
 CMakeFiles/starview-panel_autogen.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_autogen.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_autogen
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_autogen.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_autogen
 .PHONY : CMakeFiles/starview-panel_autogen.dir/depend
 

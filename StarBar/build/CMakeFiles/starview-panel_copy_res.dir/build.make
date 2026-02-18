@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/Bar
+CMAKE_SOURCE_DIR = /home/link/Programming/StarShell/StarBar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/link/Programming/StarShell/Bar/build
+CMAKE_BINARY_DIR = /home/link/Programming/StarShell/StarBar/build
 
 # Utility rule file for starview-panel_copy_res.
 
@@ -69,8 +69,8 @@ include CMakeFiles/starview-panel_copy_res.dir/progress.make
 CMakeFiles/starview-panel_copy_res: .qt/starview-panel_res.txt
 
 .qt/starview-panel_res.txt: /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/Bar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying starview-panel qml resources into build dir"
-	/usr/bin/cmake -DFILES_INFO_PATH=/home/link/Programming/StarShell/Bar/build/.qt/starview-panel_res.cmake -P /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/link/Programming/StarShell/StarBar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying starview-panel qml resources into build dir"
+	/usr/bin/cmake -DFILES_INFO_PATH=/home/link/Programming/StarShell/StarBar/build/.qt/starview-panel_res.cmake -P /usr/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 
 CMakeFiles/starview-panel_copy_res.dir/codegen:
 .PHONY : CMakeFiles/starview-panel_copy_res.dir/codegen
@@ -89,6 +89,6 @@ CMakeFiles/starview-panel_copy_res.dir/clean:
 .PHONY : CMakeFiles/starview-panel_copy_res.dir/clean
 
 CMakeFiles/starview-panel_copy_res.dir/depend:
-	cd /home/link/Programming/StarShell/Bar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build /home/link/Programming/StarShell/Bar/build/CMakeFiles/starview-panel_copy_res.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_copy_res
+	cd /home/link/Programming/StarShell/StarBar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build /home/link/Programming/StarShell/StarBar/build/CMakeFiles/starview-panel_copy_res.dir/DependInfo.cmake "--color=$(COLOR)" starview-panel_copy_res
 .PHONY : CMakeFiles/starview-panel_copy_res.dir/depend
 

@@ -1,6 +1,8 @@
 --resource
-/home/link/Programming/StarShell/Bar/build/.qt/rcc/qmake_StarViewPanel.qrc
+/home/link/Programming/StarShell/StarBar/build/.qt/rcc/qmake_StarViewPanel.qrc
 --resource
-/home/link/Programming/StarShell/Bar/build/.qt/rcc/starview-panel_raw_qml_0.qrc
+/home/link/Programming/StarShell/StarBar/build/.qt/rcc/starview-panel_raw_qml_0.qrc
 /StarViewPanel/src/Main.qml
 /StarViewPanel/src/WorkspaceButton.qml
+/StarViewPanel/src/SystemTray.qml
+/StarViewPanel/src/ClockWidget.qml
