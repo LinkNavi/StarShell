@@ -17,6 +17,8 @@ qt_add_executable(starview-config
     src/WallpaperManager.cpp
     src/WallpaperManager.h
     src/MonitorManager.cpp
+    src/ColorProvider.cpp
+    src/ColorProvider.h
     src/MonitorManager.h
     src/NetworkManager.cpp
     src/NetworkManager.h

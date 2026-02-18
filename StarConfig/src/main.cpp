@@ -6,34 +6,47 @@
 #include "WallpaperManager.h"
 #include "MonitorManager.h"
 #include "NetworkManager.h"
+#include "ColorProvider.h"
 
 int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
-    
-    QGuiApplication::setApplicationName("StarView Config");
+    QGuiApplication::setApplicationName("StarView Settings");
     QGuiApplication::setOrganizationName("StarView");
-    
-    // Create managers
+
     ConfigManager configManager;
     WallpaperManager wallpaperManager;
     MonitorManager monitorManager;
     NetworkManager networkManager;
-    
+    ColorProvider colorProvider;
+
     QQmlApplicationEngine engine;
-    
-    // Expose to QML
-    engine.rootContext()->setContextProperty("configManager", &configManager);
-    engine.rootContext()->setContextProperty("wallpaperManager", &wallpaperManager);
-    engine.rootContext()->setContextProperty("monitorManager", &monitorManager);
-    engine.rootContext()->setContextProperty("networkManager", &networkManager);
-    
-    // Load main window
+    auto *ctx = engine.rootContext();
+    ctx->setContextProperty("configManager", &configManager);
+    ctx->setContextProperty("wallpaperManager", &wallpaperManager);
+    ctx->setContextProperty("monitorManager", &monitorManager);
+    ctx->setContextProperty("networkManager", &networkManager);
+    ctx->setContextProperty("colors", &colorProvider);
+
+    // Wire matugen color generation to config
+    QObject::connect(&colorProvider, &ColorProvider::colorsChanged, [&]() {
+        if (!colorProvider.loaded()) return;
+        QVariantMap c;
+        c["primary"] = colorProvider.primary();
+        c["secondary"] = colorProvider.secondary();
+        c["tertiary"] = colorProvider.tertiary();
+        c["error"] = colorProvider.error();
+        c["background"] = colorProvider.background();
+        c["on_background"] = colorProvider.onBackground();
+        c["surface"] = colorProvider.surface();
+        c["on_surface"] = colorProvider.onSurface();
+        c["surface_variant"] = colorProvider.surfaceVariant();
+        c["on_surface_variant"] = colorProvider.onSurfaceVariant();
+        c["outline"] = colorProvider.outline();
+        // Don't auto-apply, let user choose via UI
+    });
+
     engine.load(QUrl(QStringLiteral("qrc:/StarViewConfig/src/Main.qml")));
-    
-    if (engine.rootObjects().isEmpty()) {
-        qCritical() << "Failed to load Main.qml";
-        return -1;
-    }
-    
+    if (engine.rootObjects().isEmpty()) return -1;
+
     return app.exec();
 }
